@@ -1,0 +1,39 @@
+{
+  "tabla": "DatosProduccionLecheEnEstablecimiento",
+  "origen": "C:\\Users\\Martin\\Desktop\\proyecto_bases_docker_modelo_final\\data\\processed\\SNIG\\DatosProduccionLecheEnEstablecimiento.csv",
+  "salida": "C:\\Users\\Martin\\Desktop\\proyecto_bases_docker_modelo_final\\PAA\\data\\DatosProduccionLecheEnEstablecimiento.csv",
+  "filas": 4789,
+  "filas_entrenamiento": 1699,
+  "filas_imputadas": 3090,
+  "columnas_confianza": {
+    "EspecializacionMGAPCodigo": "EspecializacionMGAPConfianza",
+    "TipoProduccionMGAPCodigo": "TipoProduccionMGAPConfianza"
+  },
+  "modelos": {
+    "EspecializacionMGAPCodigo": {
+      "modelo": "RF_suavizado",
+      "exponente_pesos": 0.5,
+      "f1_macro_validacion_aleatoria": 1.0,
+      "max_iter": 0
+    },
+    "TipoProduccionMGAPCodigo": {
+      "modelo": "RF_suavizado",
+      "exponente_pesos": 0.5,
+      "f1_macro_validacion_aleatoria": 0.9523809523809524,
+      "max_iter": 0
+    }
+  },
+  "confianza": {
+    "EspecializacionMGAPCodigo": {
+      "media": 0.9118500879138303,
+      "minima": 0.39483299588793913,
+      "maxima": 0.9979421790238256
+    },
+    "TipoProduccionMGAPCodigo": {
+      "media": 0.9019500248740482,
+      "minima": 0.3100183444620945,
+      "maxima": 0.9975506689486278
+    }
+  },
+  "nota_confianza": "Máxima probabilidad estimada por el modelo; no es una probabilidad calibrada."
+}

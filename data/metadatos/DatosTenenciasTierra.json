@@ -1,0 +1,39 @@
+{
+  "tabla": "DatosTenenciasTierra",
+  "origen": "C:\\Users\\Martin\\Desktop\\proyecto_bases_docker_modelo_final\\data\\processed\\SNIG\\DatosTenenciasTierra.csv",
+  "salida": "C:\\Users\\Martin\\Desktop\\proyecto_bases_docker_modelo_final\\PAA\\data\\DatosTenenciasTierra.csv",
+  "filas": 404566,
+  "filas_entrenamiento": 181863,
+  "filas_imputadas": 222703,
+  "columnas_confianza": {
+    "EspecializacionMGAPCodigo": "EspecializacionMGAPConfianza",
+    "TipoProduccionMGAPCodigo": "TipoProduccionMGAPConfianza"
+  },
+  "modelos": {
+    "EspecializacionMGAPCodigo": {
+      "modelo": "ExtraTrees_suavizado",
+      "exponente_pesos": 0.5,
+      "f1_macro_validacion_aleatoria": 0.7007057353420529,
+      "max_iter": 0
+    },
+    "TipoProduccionMGAPCodigo": {
+      "modelo": "HistBoost_suavizado",
+      "exponente_pesos": 0.5,
+      "f1_macro_validacion_aleatoria": 0.4668143522777897,
+      "max_iter": 250
+    }
+  },
+  "confianza": {
+    "EspecializacionMGAPCodigo": {
+      "media": 0.6976377807600843,
+      "minima": 0.2773171853998357,
+      "maxima": 0.9983936148103224
+    },
+    "TipoProduccionMGAPCodigo": {
+      "media": 0.5049434449664911,
+      "minima": 0.15979873636926128,
+      "maxima": 0.9999770076041172
+    }
+  },
+  "nota_confianza": "Máxima probabilidad estimada por el modelo; no es una probabilidad calibrada."
+}

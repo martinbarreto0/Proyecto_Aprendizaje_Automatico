@@ -1,0 +1,48 @@
+{
+  "tabla": "DatosGenerales",
+  "origen": "C:\\Users\\Martin\\Desktop\\proyecto_bases_docker_modelo_final\\data\\processed\\SNIG\\DatosGenerales.csv",
+  "salida": "C:\\Users\\Martin\\Desktop\\proyecto_bases_docker_modelo_final\\PAA\\data\\DatosGenerales.csv",
+  "filas": 315536,
+  "filas_entrenamiento": 147357,
+  "filas_imputadas": 168179,
+  "columnas_confianza": {
+    "EspecializacionMGAPCodigo": "EspecializacionMGAPConfianza",
+    "TipoProduccionMGAPCodigo": "TipoProduccionMGAPConfianza"
+  },
+  "modelos": {
+    "EspecializacionMGAPCodigo": {
+      "modelo": "HistBoost_leve",
+      "exponente_pesos": 0.25,
+      "f1_macro_validacion_aleatoria": 0.9501246050448199,
+      "max_iter": 250
+    },
+    "TipoProduccionMGAPCodigo": {
+      "modelo": "HistBoost_suavizado",
+      "exponente_pesos": 0.5,
+      "f1_macro_validacion_aleatoria": 0.6425794134762564,
+      "max_iter": 250
+    }
+  },
+  "confianza": {
+    "EspecializacionMGAPCodigo": {
+      "media": 0.9754054155503766,
+      "minima": 0.3464516814341088,
+      "maxima": 0.9999998640362581
+    },
+    "TipoProduccionMGAPCodigo": {
+      "media": 0.7106692657214702,
+      "minima": 0.18027986347613892,
+      "maxima": 0.9999995195036817
+    }
+  },
+  "nota_confianza": "Máxima probabilidad estimada por el modelo; no es una probabilidad calibrada.",
+  "marcadores_numericos_sin_dato": [
+    "",
+    "********",
+    "-",
+    "NULL",
+    "NaN",
+    "nan",
+    "null"
+  ]
+}
