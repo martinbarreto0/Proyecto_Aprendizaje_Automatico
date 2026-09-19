@@ -1,0 +1,14 @@
+{
+  "EspecializacionMGAPCodigo": {
+    "modelo": "ExtraTrees_suavizado",
+    "exponente_pesos": 0.5,
+    "f1_macro_validacion_aleatoria": 0.7007057353420529,
+    "max_iter": 0
+  },
+  "TipoProduccionMGAPCodigo": {
+    "modelo": "HistBoost_suavizado",
+    "exponente_pesos": 0.5,
+    "f1_macro_validacion_aleatoria": 0.4668143522777897,
+    "max_iter": 250
+  }
+}
