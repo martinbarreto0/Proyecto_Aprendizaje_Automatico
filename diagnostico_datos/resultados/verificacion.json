@@ -1,0 +1,219 @@
+{
+  "resultado": "OK",
+  "departamentos_incluidos": [
+    "2",
+    "4",
+    "15",
+    "18",
+    "19"
+  ],
+  "marcadores_nulos": [
+    "<na>",
+    "n/a",
+    "na",
+    "nan",
+    "none",
+    "null"
+  ],
+  "filtro": "Solo DepartamentoCodigo en SNIG",
+  "sin_imputacion": true,
+  "sin_agregacion_a_unidad_estudio": true,
+  "area_cero_conservada": true,
+  "entradas_sin_cambios": true,
+  "sha256_entradas": {
+    "data/processed/INIA/EstacionAgr.csv": "a8fd0c044cd1352f7bff8dfaae197926516d772e4245688ee0c9e12beb732598",
+    "data/processed/INIA/INIA.csv": "e1ca445bf808603a1a7d2c756f7fb22c9a955ff14cb8f1f485ce26e2785d2add",
+    "data/processed/PAD/PAD.csv": "4550f37f9565d28d1862a88a96e4b48601c5783bb2980f0a4c13233420368a60",
+    "data/processed/PAD/Ubicacion.csv": "754a3672d9d2db991114cd7b2472227ddb74d5eca1b1f75b2cd69db4695a2c86",
+    "data/processed/SNIG/Catalogos/Actividades.csv": "59fb4d5d4c7b2be5cf499a68594ccb763e7e0f80e95982c08f3be98fcda0ac45",
+    "data/processed/SNIG/Catalogos/Categorias.csv": "0dc67c86d530ab82c6d71c21b38a0c1e35bbca7ef4b19b87f21f43f416f53c25",
+    "data/processed/SNIG/Catalogos/Departamentos.csv": "d4b0ae659d4bd33e34ced7becf0ef2050b8158d5799078cb20429905d25d2ec4",
+    "data/processed/SNIG/Catalogos/EspecializacionesMGAP.csv": "3e2f85f3c29ad6af24ac7a594b8b63fe48d90355092a3ce38726cec04a865536",
+    "data/processed/SNIG/Catalogos/Especies.csv": "e022a7cd6f39696a21c88f9dfb18b9629237837df8b40427673d999147f01537",
+    "data/processed/SNIG/Catalogos/Estratos.csv": "88d7c158c37eef49b38aa38eee170903096734b7639a8f43964c02356b6f2112",
+    "data/processed/SNIG/Catalogos/Giros.csv": "27b0d1f44843d19e4c769b882e1c7409d2041b65df61a97f81a2c08edf9bf652",
+    "data/processed/SNIG/Catalogos/NaturalezasJuridicas.csv": "ae2b09b149bfd06cba9c63752b45ab79e755fd8605c97f661a4743584d63242d",
+    "data/processed/SNIG/Catalogos/TiposProduccionMGAP.csv": "57a39da241e4ac9673e0d767de8cd95b2763f79eaf82bbd317a324ee851a4517",
+    "data/processed/SNIG/DatosAnimales.csv": "0c9516e65c3fa3712cc910ad4aaea792bacc2fd9dbbc2d2a9c253c1369f23d7f",
+    "data/processed/SNIG/DatosAnimalesDetallados.csv": "56f781ae0258f5741af9cad514594d4abee5f92f330b27c7507b32f4fd17fe16",
+    "data/processed/SNIG/DatosGenerales.csv": "d9ca3c4218d750a3bdf54a82f4421bcbdfa204e766fb8fc3d64aa34c1f1f9b65",
+    "data/raw/inia/INIA La Estanzuela.csv": "0421b5f349323ec13019869768106107b458876eab50e47c29c341bbe04523b8",
+    "data/raw/inia/INIA Las Brujas.csv": "957658fac1de23b172a0f94191305c7d86de6aa6bf1d20da15860c1d9e0b691b",
+    "data/raw/inia/INIA Salto Grande.csv": "20b2b35fe45fbbf452f2bc7da872a49047cda1aa8523042678239da00db8e621",
+    "data/raw/inia/INIA Tacuarembó - La Magnolia.csv": "cce98c9652650fdffbb08b312f98b287a1a08c2e439cf7728fc5b52cb51bf3f3",
+    "data/raw/inia/INIA Tacuaremnó - Glencore.csv": "253a8ca16bb0ef0a81306462175c1edfe0054bbb75119227b8b0dc1836b6551c",
+    "data/raw/inia/INIA Treinta y Tres - Paso de la Laguna.csv": "7d4de81b7ceb15e9923877b2091750cafc434e50084f87678094267297d9ba47",
+    "data/raw/SNIG/2025/metadatos/Metadatos/actividades.csv": "caa0c5c806aba5a0a3362564c9ea25556add1e9143c60f40c565942e8575869e",
+    "data/raw/SNIG/2025/metadatos/Metadatos/categorias.csv": "09e93778145be44501507695568f65274f219c9c137cb8b22e7739b883e6c801",
+    "data/raw/SNIG/2025/metadatos/Metadatos/datosanimales.csv": "9d0d396e1708d757476b0a629e1d85b51249368de566520520e67391aa0f71aa",
+    "data/raw/SNIG/2025/metadatos/Metadatos/datosanimalesdetallados.csv": "ee340f7b286849338255c296d5900fc249e4bbe4672d2c00257e347df934b327",
+    "data/raw/SNIG/2025/metadatos/Metadatos/datosgenerales.csv": "50744b2274f1f8023babdc608fa906732084d4cb2c86f0b5c8e5c11e6f6f43a8",
+    "data/raw/SNIG/2025/metadatos/Metadatos/departamentos.csv": "97bbd127188f5f5bf3128dcec9f590e09d82c532f15bf4973f2acc5d30a3ba96",
+    "data/raw/SNIG/2025/metadatos/Metadatos/especializacionesMGAP.csv": "4a511126bce8fed57c01bbb8e7f6f9fb263fe752f5f63dc11b645ea02edf505a",
+    "data/raw/SNIG/2025/metadatos/Metadatos/especies.csv": "f3085154e2670263ad66e6f8f9153da893e4cecd57f78cf2cc621163f2cbb374",
+    "data/raw/SNIG/2025/metadatos/Metadatos/estratos.csv": "2b22538dc2907eed64549035a9799f85d52279c40653340e0e8c96801623e82d",
+    "data/raw/SNIG/2025/metadatos/Metadatos/giros.csv": "ec8758183c8a4ce83050c6cf4a98ff39dede20fa0d618075fd5a45a2247dbd40",
+    "data/raw/SNIG/2025/metadatos/Metadatos/naturalezasjuridicas.csv": "360ed46c3518665fbe620539dfddf874d46287586a42c3015b2998dd8c20ec45",
+    "data/raw/SNIG/2025/metadatos/Metadatos/tiposproduccionesMGAP.csv": "390246b7f2074cee73a101f941abedc41dc4b151afd9fdc0be9786c40f840afd",
+    "scripts/etl_inia.py": "ade872ea194463ab3af80c99c2fcc47fa7ebf4730fbed92eb2dcb360f7d7ea81",
+    "scripts/etl_pad.py": "b5f56d95ffe5d7067dded17ab019917d4aae37d43449a56782209eccb0b792ae",
+    "scripts/etl_snig_datos.py": "3351a6d68ac21f8f1ac629509a8fe197b493f949a7d302f2ed4c689be1a8c2ea"
+  },
+  "resumen_conteos": {
+    "snig": {
+      "DatosGenerales": {
+        "originales": 315536,
+        "retenidos": 103543,
+        "excluidos": 211993,
+        "area_0_conservada": 11246,
+        "ejercicios": [
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024",
+          "2025"
+        ]
+      },
+      "DatosAnimales": {
+        "originales": 677035,
+        "retenidos": 215612,
+        "excluidos": 461423,
+        "area_0_conservada": 15958,
+        "ejercicios": [
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024",
+          "2025"
+        ]
+      },
+      "DatosAnimalesDetallados": {
+        "originales": 2557190,
+        "retenidos": 794445,
+        "excluidos": 1762745,
+        "area_0_conservada": 64977,
+        "ejercicios": [
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020",
+          "2021",
+          "2022",
+          "2023",
+          "2024",
+          "2025"
+        ]
+      }
+    },
+    "inia_estaciones": [
+      {
+        "estacion": "La Estanzuela",
+        "departamento": "COLONIA",
+        "registros": 3729,
+        "fecha_inicial": "2016-01-01",
+        "fecha_final": "2026-03-17"
+      },
+      {
+        "estacion": "Las Brujas",
+        "departamento": "CANELONES",
+        "registros": 3728,
+        "fecha_inicial": "2016-01-01",
+        "fecha_final": "2026-03-16"
+      },
+      {
+        "estacion": "Salto Grande",
+        "departamento": "SALTO",
+        "registros": 3729,
+        "fecha_inicial": "2016-01-01",
+        "fecha_final": "2026-03-17"
+      },
+      {
+        "estacion": "Tacuarembó La Magnolia",
+        "departamento": "TACUAREMBO",
+        "registros": 3729,
+        "fecha_inicial": "2016-01-01",
+        "fecha_final": "2026-03-17"
+      },
+      {
+        "estacion": "Tacuaremnó Glencore",
+        "departamento": "TACUAREMBO",
+        "registros": 2765,
+        "fecha_inicial": "2016-11-01",
+        "fecha_final": "2026-03-17"
+      },
+      {
+        "estacion": "Treinta y Tres Paso de la Laguna",
+        "departamento": "TREINTA Y TRES",
+        "registros": 3722,
+        "fecha_inicial": "2016-01-01",
+        "fecha_final": "2026-03-10"
+      }
+    ],
+    "inia_anios": [
+      {
+        "Anio": "2016",
+        "n_registros": 1891
+      },
+      {
+        "Anio": "2017",
+        "n_registros": 2186
+      },
+      {
+        "Anio": "2018",
+        "n_registros": 2117
+      },
+      {
+        "Anio": "2019",
+        "n_registros": 1825
+      },
+      {
+        "Anio": "2020",
+        "n_registros": 1996
+      },
+      {
+        "Anio": "2021",
+        "n_registros": 2189
+      },
+      {
+        "Anio": "2022",
+        "n_registros": 2190
+      },
+      {
+        "Anio": "2023",
+        "n_registros": 2190
+      },
+      {
+        "Anio": "2024",
+        "n_registros": 2196
+      },
+      {
+        "Anio": "2025",
+        "n_registros": 2190
+      },
+      {
+        "Anio": "2026",
+        "n_registros": 432
+      }
+    ]
+  },
+  "columnas_diagnostico_snig": 51,
+  "columnas_diagnostico_inia": 51,
+  "filas_diccionario": 132,
+  "tablas_diccionario": 16,
+  "definiciones_por_pie_inia": 53,
+  "pies_inia_concordantes": 6,
+  "version_pandas": "3.0.1",
+  "python": "3.12.13 (main, Aug  7 2026, 02:26:41) [MSC v.1944 64 bit (AMD64)]",
+  "csv_reabiertos_y_verificados": true
+}

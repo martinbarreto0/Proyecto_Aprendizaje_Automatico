@@ -1,0 +1,16 @@
+﻿tabla;DepartamentoCodigo;departamento;n_registros;porcentaje_registros_tabla;area_0_conservada
+DatosAnimales;15;SALTO;35569;16,4968;3406
+DatosAnimales;18;TACUAREMBO;45889;21,2831;4284
+DatosAnimales;19;TREINTA Y TRES;29498;13,6811;2299
+DatosAnimales;2;CANELONES;62186;28,8416;3520
+DatosAnimales;4;COLONIA;42470;19,6974;2449
+DatosAnimalesDetallados;15;SALTO;151467;19,0658;14556
+DatosAnimalesDetallados;18;TACUAREMBO;195136;24,5626;19029
+DatosAnimalesDetallados;19;TREINTA Y TRES;116794;14,7013;9905
+DatosAnimalesDetallados;2;CANELONES;186237;23,4424;12320
+DatosAnimalesDetallados;4;COLONIA;144811;18,2279;9167
+DatosGenerales;15;SALTO;16481;15,9171;2470
+DatosGenerales;18;TACUAREMBO;20747;20,0371;2590
+DatosGenerales;19;TREINTA Y TRES;13614;13,1482;1668
+DatosGenerales;2;CANELONES;31382;30,3082;2510
+DatosGenerales;4;COLONIA;21319;20,5895;2008

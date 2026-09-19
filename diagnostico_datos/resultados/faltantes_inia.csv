@@ -1,0 +1,52 @@
+﻿fuente;tabla;columna;n_registros;n_vacios;n_marcadores_nulo;n_ceros;n_guiones;n_faltantes_csv;n_presentes;porcentaje_faltantes;interpretacion
+INIA;INIA;Anio;21402;0;0;0;0;0;21402;0,0;"Vacíos y marcadores explícitos contabilizados; no se asigna una causa no documentada."
+INIA;INIA;Mes;21402;0;0;0;0;0;21402;0,0;"Vacíos y marcadores explícitos contabilizados; no se asigna una causa no documentada."
+INIA;INIA;Dia;21402;0;0;0;0;0;21402;0,0;"Vacíos y marcadores explícitos contabilizados; no se asigna una causa no documentada."
+INIA;INIA;EstacionAgr;21402;0;0;0;0;0;21402;0,0;"Vacíos y marcadores explícitos contabilizados; no se asigna una causa no documentada."
+INIA;INIA;Heliofania(hrs);21402;14;0;2130;0;14;21388;0,0654;"Vacíos y marcadores explícitos contabilizados; no se asigna una causa no documentada."
+INIA;INIA;TempSC05cm(max);21402;7964;0;0;0;7964;13438;37,2115;"Vacíos y marcadores explícitos contabilizados; no se asigna una causa no documentada."
+INIA;INIA;TempSC10cm(max);21402;7834;0;0;0;7834;13568;36,6041;"Vacíos y marcadores explícitos contabilizados; no se asigna una causa no documentada."
+INIA;INIA;TempSC05cm(min);21402;7972;0;0;0;7972;13430;37,2489;"Vacíos y marcadores explícitos contabilizados; no se asigna una causa no documentada."
+INIA;INIA;TempSC10cm(min);21402;7842;0;0;0;7842;13560;36,6414;"Vacíos y marcadores explícitos contabilizados; no se asigna una causa no documentada."
+INIA;INIA;TempSD05cm(min);21402;7935;0;1;0;7935;13467;37,076;"Vacíos y marcadores explícitos contabilizados; no se asigna una causa no documentada."
+INIA;INIA;TempSD10cm(min);21402;7936;0;0;0;7936;13466;37,0806;"Vacíos y marcadores explícitos contabilizados; no se asigna una causa no documentada."
+INIA;INIA;TempSD05cm(max);21402;7929;0;0;0;7929;13473;37,0479;"Vacíos y marcadores explícitos contabilizados; no se asigna una causa no documentada."
+INIA;INIA;TempSD10cm(max);21402;7929;0;0;0;7929;13473;37,0479;"Vacíos y marcadores explícitos contabilizados; no se asigna una causa no documentada."
+INIA;INIA;PrecipAcum;21402;3;0;15785;0;3;21399;0,014;"Vacíos y marcadores explícitos contabilizados; no se asigna una causa no documentada."
+INIA;INIA;TempSD05cm(med);21402;7948;0;0;0;7948;13454;37,1367;"Vacíos y marcadores explícitos contabilizados; no se asigna una causa no documentada."
+INIA;INIA;TempSD10cm(med);21402;7949;0;0;0;7949;13453;37,1414;"Vacíos y marcadores explícitos contabilizados; no se asigna una causa no documentada."
+INIA;INIA;TempSC05cm(med);21402;7985;0;0;0;7985;13417;37,3096;"Vacíos y marcadores explícitos contabilizados; no se asigna una causa no documentada."
+INIA;INIA;TempSC10cm(med);21402;7855;0;0;0;7855;13547;36,7022;"Vacíos y marcadores explícitos contabilizados; no se asigna una causa no documentada."
+INIA;INIA;TempAireMax;21402;252;0;0;0;252;21150;1,1775;"Vacíos y marcadores explícitos contabilizados; no se asigna una causa no documentada."
+INIA;INIA;TempAireMin;21402;244;0;26;0;244;21158;1,1401;"Vacíos y marcadores explícitos contabilizados; no se asigna una causa no documentada."
+INIA;INIA;TMedia;21402;0;0;227;0;0;21402;0,0;"Vacíos y marcadores explícitos contabilizados; no se asigna una causa no documentada."
+INIA;INIA;EvapPiche;21402;2219;0;20;0;2219;19183;10,3682;"Vacíos y marcadores explícitos contabilizados; no se asigna una causa no documentada."
+INIA;INIA;EvapTanque;21402;920;0;97;0;920;20482;4,2987;"Vacíos y marcadores explícitos contabilizados; no se asigna una causa no documentada."
+INIA;INIA;TMinSCesped;21402;240;0;69;0;240;21162;1,1214;"Vacíos y marcadores explícitos contabilizados; no se asigna una causa no documentada."
+INIA;INIA;RecorridoViento;21402;921;0;28;0;921;20481;4,3033;"Vacíos y marcadores explícitos contabilizados; no se asigna una causa no documentada."
+INIA;INIA;HRMax;21402;0;0;227;0;0;21402;0,0;"Vacíos y marcadores explícitos contabilizados; no se asigna una causa no documentada."
+INIA;INIA;TempAireMedia;21402;0;0;227;0;0;21402;0,0;"Vacíos y marcadores explícitos contabilizados; no se asigna una causa no documentada."
+INIA;INIA;HeladaAgromet;21402;0;0;19608;0;0;21402;0,0;"Indicador 1=sí, 0=no; el cero es un dato presente, no un nulo."
+INIA;INIA;HeladaMeteo;21402;0;0;20846;0;0;21402;0,0;"Indicador 1=sí, 0=no; el cero es un dato presente, no un nulo."
+INIA;INIA;AmplitudTermica;21402;0;0;227;0;0;21402;0,0;"Vacíos y marcadores explícitos contabilizados; no se asigna una causa no documentada."
+INIA;INIA;HeliofaniaRelativa;21402;9;0;2135;0;9;21393;0,0421;"Vacíos y marcadores explícitos contabilizados; no se asigna una causa no documentada."
+INIA;INIA;EvapotranspPenman;21402;1;0;7;0;1;21401;0,0047;"Vacíos y marcadores explícitos contabilizados; no se asigna una causa no documentada."
+INIA;INIA;RadSolar;21402;9;0;0;0;9;21393;0,0421;"Vacíos y marcadores explícitos contabilizados; no se asigna una causa no documentada."
+INIA;INIA;PrecipEfectiva;21402;0;0;15788;0;0;21402;0,0;"Vacíos y marcadores explícitos contabilizados; no se asigna una causa no documentada."
+INIA;INIA;UnTermicasArroz;21402;253;0;2093;0;253;21149;1,1821;"Vacíos y marcadores explícitos contabilizados; no se asigna una causa no documentada."
+INIA;INIA;UnidadFrio;21402;0;0;750;0;0;21402;0,0;"Vacíos y marcadores explícitos contabilizados; no se asigna una causa no documentada."
+INIA;INIA;TempMin7p2;21402;0;0;16204;0;0;21402;0,0;"Vacíos y marcadores explícitos contabilizados; no se asigna una causa no documentada."
+INIA;INIA;Llovio;21402;0;0;15788;0;0;21402;0,0;"Indicador 1=sí, 0=no; el cero es un dato presente, no un nulo."
+INIA;INIA;HR90y99;21402;0;0;4613;0;0;21402;0,0;"Vacíos y marcadores explícitos contabilizados; no se asigna una causa no documentada."
+INIA;INIA;HR100;21402;0;0;17638;0;0;21402;0,0;"Vacíos y marcadores explícitos contabilizados; no se asigna una causa no documentada."
+INIA;INIA;TMin15;21402;0;0;7419;0;0;21402;0,0;"Indicador 1=sí, 0=no; el cero es un dato presente, no un nulo."
+INIA;INIA;GradosMenos6;21402;472;0;22;0;472;20930;2,2054;Vacío potencialmente estructural: el metadato indica que no se calcula si la media diaria es inferior a la base. El CSV no permite atribuir cada vacío a esa causa. No imputado.
+INIA;INIA;GradosMenos4p5;21402;286;0;4;0;286;21116;1,3363;Vacío potencialmente estructural: el metadato indica que no se calcula si la media diaria es inferior a la base. El CSV no permite atribuir cada vacío a esa causa. No imputado.
+INIA;INIA;GradosMenos7;21402;749;0;34;0;749;20653;3,4997;Vacío potencialmente estructural: el metadato indica que no se calcula si la media diaria es inferior a la base. El CSV no permite atribuir cada vacío a esa causa. No imputado.
+INIA;INIA;GradosMenos8;21402;1190;0;51;0;1190;20212;5,5602;Vacío potencialmente estructural: el metadato indica que no se calcula si la media diaria es inferior a la base. El CSV no permite atribuir cada vacío a esa causa. No imputado.
+INIA;INIA;GradosMenos9;21402;1754;0;71;0;1754;19648;8,1955;Vacío potencialmente estructural: el metadato indica que no se calcula si la media diaria es inferior a la base. El CSV no permite atribuir cada vacío a esa causa. No imputado.
+INIA;INIA;GradosMenos10;21402;2424;0;118;0;2424;18978;11,326;Vacío potencialmente estructural: el metadato indica que no se calcula si la media diaria es inferior a la base. El CSV no permite atribuir cada vacío a esa causa. No imputado.
+INIA;INIA;GradosMenos10p5;21402;2786;0;156;0;2786;18616;13,0175;Vacío potencialmente estructural: el metadato indica que no se calcula si la media diaria es inferior a la base. El CSV no permite atribuir cada vacío a esa causa. No imputado.
+INIA;INIA;GradosMenos12p8;21402;4881;0;224;0;4881;16521;22,8063;Vacío potencialmente estructural: el metadato indica que no se calcula si la media diaria es inferior a la base. El CSV no permite atribuir cada vacío a esa causa. No imputado.
+INIA;INIA;HRMin;21402;0;0;371;0;0;21402;0,0;"Vacíos y marcadores explícitos contabilizados; no se asigna una causa no documentada."
+INIA;INIA;HRMed;21402;0;0;227;0;0;21402;0,0;"Vacíos y marcadores explícitos contabilizados; no se asigna una causa no documentada."
