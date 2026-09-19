@@ -1,0 +1,14 @@
+{
+  "EspecializacionMGAPCodigo": {
+    "modelo": "RF_suavizado",
+    "exponente_pesos": 0.5,
+    "f1_macro_validacion_aleatoria": 0.8268247723373852,
+    "max_iter": 0
+  },
+  "TipoProduccionMGAPCodigo": {
+    "modelo": "ExtraTrees_suavizado",
+    "exponente_pesos": 0.5,
+    "f1_macro_validacion_aleatoria": 0.7245278517889245,
+    "max_iter": 0
+  }
+}
