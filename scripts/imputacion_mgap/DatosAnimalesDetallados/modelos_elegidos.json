@@ -1,0 +1,14 @@
+{
+  "EspecializacionMGAPCodigo": {
+    "modelo": "HistBoost_suavizado",
+    "exponente_pesos": 0.5,
+    "f1_macro_validacion_aleatoria": 0.8165827918200761,
+    "max_iter": 100
+  },
+  "TipoProduccionMGAPCodigo": {
+    "modelo": "HistBoost_suavizado",
+    "exponente_pesos": 0.5,
+    "f1_macro_validacion_aleatoria": 0.5779232182334995,
+    "max_iter": 100
+  }
+}
