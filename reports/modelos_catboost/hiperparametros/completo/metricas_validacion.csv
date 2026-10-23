@@ -1,0 +1,2 @@
+﻿modelo,particion,filas,mae_litros,rmse_litros,r2,wape_porcentaje
+CatBoost_completo_ajustado,validacion,2431,251686.35152612056,701932.9158808995,0.9640816636679655,22.101666985610358

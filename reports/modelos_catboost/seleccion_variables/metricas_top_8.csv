@@ -1,0 +1,2 @@
+﻿modelo,particion,filas,mae_litros,rmse_litros,r2,wape_porcentaje,numero_variables,segundos_entrenamiento
+CatBoost_top_8,validacion,2431,258595.3482885143,608478.9717820645,0.9730091759269889,22.70837587038371,8,2.3951423999969848

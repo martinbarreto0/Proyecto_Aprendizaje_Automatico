@@ -1,0 +1,64 @@
+{
+  "tabla": "DatosTenenciasTierra",
+  "origen": "C:\\Users\\Martin\\Desktop\\proyecto_bases_docker_modelo_final\\data\\processed\\SNIG\\DatosTenenciasTierra.csv",
+  "salida": "C:\\Users\\Martin\\Desktop\\proyecto_bases_docker_modelo_final\\PAA\\data\\DatosTenenciasTierra.csv",
+  "filas": 404566,
+  "filas_entrenamiento": 181863,
+  "filas_imputadas": {
+    "EspecializacionMGAPCodigo": 222703,
+    "TipoProduccionMGAPCodigo": 222703
+  },
+  "columnas_confianza": {
+    "EspecializacionMGAPCodigo": "EspecializacionMGAPConfianza",
+    "TipoProduccionMGAPCodigo": "TipoProduccionMGAPConfianza"
+  },
+  "modelos": {
+    "EspecializacionMGAPCodigo": {
+      "ensamble": {
+        "ensamble": "E4_stacking",
+        "miembros": [
+          "KNN",
+          "RF_suavizado",
+          "ExtraTrees_suavizado",
+          "HistBoost"
+        ],
+        "histboost": [
+          "HistBoost_suavizado",
+          0.5,
+          250
+        ],
+        "f1_macro_validacion": 0.7924910504073469
+      }
+    },
+    "TipoProduccionMGAPCodigo": {
+      "ensamble": {
+        "ensamble": "E4_stacking",
+        "miembros": [
+          "KNN",
+          "RF_suavizado",
+          "ExtraTrees_suavizado",
+          "HistBoost"
+        ],
+        "histboost": [
+          "HistBoost_suavizado",
+          0.5,
+          250
+        ],
+        "f1_macro_validacion": 0.5779987729805103
+      }
+    }
+  },
+  "confianza": {
+    "EspecializacionMGAPCodigo": {
+      "media": 0.8100493632051066,
+      "minima": 0.2887716802591654,
+      "maxima": 0.9945093527922418
+    },
+    "TipoProduccionMGAPCodigo": {
+      "media": 0.6383877971128391,
+      "minima": 0.16887923273518696,
+      "maxima": 0.994759525359455
+    }
+  },
+  "nota_confianza": "Máxima probabilidad del método; en E1 equivale a la fracción de votos de la clase elegida. No son probabilidades calibradas."
+}

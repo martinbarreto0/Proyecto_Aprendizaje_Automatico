@@ -1,0 +1,21 @@
+{
+  "modelo": "CatBoost_top_12",
+  "fecha_evaluacion": "2026-10-22T10:07:38",
+  "versiones": {
+    "catboost": "1.2.10",
+    "numpy": "1.26.4",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.5.2"
+  },
+  "huellas_sha256": {
+    "modelo_top_12.cbm": "5396CFF3131864D90119D4487B222FD039FF15E599B355DCF2B19611CC0D5B92",
+    "variables_top_12.csv": "30524109D0E50F3426EE6EE91E1E66DED8481C70C1171EBCC02E949D377827C7",
+    "DatosProduccionLeche.csv": "CB11E624A60E19673CF0310BCC487E96041603C5D25B4CBA02AF021CD6B0ACF9",
+    "DatosAnimales.csv": "ECF15FFE24B9B5A925DA78D56BBFA1811CCD85BA4527B95774DC05060B8F1EC7",
+    "DatosAnimalesDetallados.csv": "C6E36C5C45B4104F00C74507287A6F8F18B13A8E42483E7BA13CEBB9028605A3",
+    "DatosGenerales.csv": "6958A73A5D8F27804A9B35F05793597795D61CEB100B0063A4313D3C3F42DA7B"
+  },
+  "filas_test": 2431,
+  "particion": "test",
+  "incidencias": []
+}

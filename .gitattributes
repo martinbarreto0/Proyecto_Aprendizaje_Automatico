@@ -1,1 +1,4 @@
 data/DatosAnimalesDetallados.csv filter=lfs diff=lfs merge=lfs -text
+reports/modelos_basicos/modelo_random_forest.joblib filter=lfs diff=lfs merge=lfs -text
+reports/modelos_seleccion_variables/modelo_random_forest_seleccion.joblib filter=lfs diff=lfs merge=lfs -text
+reports/hiperparametros_modelos_basicos/random_forest_por_bloques/modelo_random_forest.joblib filter=lfs diff=lfs merge=lfs -text

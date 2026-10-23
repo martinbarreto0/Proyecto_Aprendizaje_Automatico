@@ -1,0 +1,64 @@
+{
+  "variante": "completo",
+  "grid": {
+    "iterations": [
+      500,
+      1000,
+      1500
+    ],
+    "depth": [
+      4,
+      6,
+      8
+    ],
+    "learning_rate": [
+      0.03,
+      0.08,
+      0.15
+    ],
+    "l2_leaf_reg": [
+      3,
+      10
+    ],
+    "random_strength": [
+      0,
+      1
+    ]
+  },
+  "pliegues": 5,
+  "total_bloques": 6,
+  "configuraciones_por_bloque": 18,
+  "semilla": 42,
+  "version_catboost": "1.2.10",
+  "version_sklearn": "1.5.2",
+  "variables": [
+    "DepartamentoCodigo",
+    "GiroCodigo",
+    "NaturalezaJuridicaCodigo",
+    "EstratoCodigo",
+    "total_bovinos_leche",
+    "toros",
+    "vacas_ordene",
+    "vacas_secas",
+    "vaquillonas_mas_2",
+    "vaquillonas_1_2",
+    "terneros_menos_1",
+    "terneras_menos_1",
+    "Superficie",
+    "UnidadesGanaderas",
+    "SuperficieGanadera",
+    "carga_ganadera"
+  ],
+  "filas_train": 11342,
+  "filas_validacion": 2431,
+  "filas_test_reservado": 2431,
+  "huella_train": "d570cce9fb89d04d716b686a9c934156c421e5ad3d32e0fe59e6245de2a74271",
+  "huella_validacion": "67ce9d61d89cb7d82ad584cf3a145b9ee0c5451585933e4fb3e0a1a9bac68045",
+  "huella_test": "06768ffd6e31ae0a87c31b94c415c65a8409b219cbd210d851badd19f106cb76",
+  "huellas_codigo": {
+    "datos_lecheria.py": "e9d859a137d3f100e6fcaa416cedf87368227ab650bff4da91e8b6f82d9136ea",
+    "modelo_catboost_basico.py": "3c9b895543ca6dc973c7708f5c1970347e6f3d182ba5334f3602176780b4c3ed",
+    "funciones_busqueda_catboost.py": "c7f39e267981614b8840c2d179282cf1dc015243862883e6c3ebffddcce8d725"
+  },
+  "test_evaluado": false
+}

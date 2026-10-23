@@ -1,0 +1,19 @@
+{
+  "creado_utc": "2026-10-11T01:47:55.876112+00:00",
+  "total_bloques": 8,
+  "configuraciones_por_bloque": 48,
+  "total_configuraciones": 384,
+  "pliegues": 5,
+  "ajustes_totales": 1920,
+  "sha256_grid": "00115e71485750a8dd8ab67cba446091b50ea8291bdaff59abd9c10a7d3666ee",
+  "filas_entrenamiento": 11342,
+  "filas_validacion": 2431,
+  "filas_test": 2431,
+  "sha256_entrenamiento": "8363a6d41aaa5fd5000d53cb3c7679e6e843830d272af4dc2714e588d6e6f040",
+  "sha256_validacion": "7ed66500cc8c31b3474641384afa60d1322f3d784a5113bd526013abccc7c3ba",
+  "sha256_test": "5b174812a44fb36ecec233d480dfb3edb3d019845072238682fee319ff1259d9",
+  "sha256_funciones_busqueda": "cc04a246b8d13e48f600bf6488a9e9413c7329769deb862ccc313ebcdff245ee",
+  "sha256_busqueda_monolitica": "6552d4b30acdc8fd023defea345153549be90fa6c8fef3fbf37dd5174bc9b709",
+  "version_sklearn": "1.5.2",
+  "test_evaluado": false
+}

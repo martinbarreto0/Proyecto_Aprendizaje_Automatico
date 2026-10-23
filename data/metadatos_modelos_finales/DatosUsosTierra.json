@@ -1,0 +1,58 @@
+{
+  "tabla": "DatosUsosTierra",
+  "origen": "C:\\Users\\Martin\\Desktop\\proyecto_bases_docker_modelo_final\\data\\processed\\SNIG\\DatosUsosTierra.csv",
+  "salida": "C:\\Users\\Martin\\Desktop\\proyecto_bases_docker_modelo_final\\PAA\\data\\DatosUsosTierra.csv",
+  "filas": 602486,
+  "filas_entrenamiento": 273614,
+  "filas_imputadas": {
+    "EspecializacionMGAPCodigo": 328872,
+    "TipoProduccionMGAPCodigo": 328872
+  },
+  "columnas_confianza": {
+    "EspecializacionMGAPCodigo": "EspecializacionMGAPConfianza",
+    "TipoProduccionMGAPCodigo": "TipoProduccionMGAPConfianza"
+  },
+  "modelos": {
+    "EspecializacionMGAPCodigo": {
+      "familia": "RF",
+      "parametros": {
+        "exponente_pesos": 0.25,
+        "max_depth": null,
+        "max_features": "sqrt",
+        "min_samples_leaf": 1,
+        "min_samples_split": 10,
+        "n_estimators": 200
+      }
+    },
+    "TipoProduccionMGAPCodigo": {
+      "ensamble": {
+        "ensamble": "E4_stacking",
+        "miembros": [
+          "KNN",
+          "RF_suavizado",
+          "ExtraTrees_suavizado",
+          "HistBoost"
+        ],
+        "histboost": [
+          "HistBoost_suavizado",
+          0.5,
+          250
+        ],
+        "f1_macro_validacion": 0.5225213058953042
+      }
+    }
+  },
+  "confianza": {
+    "EspecializacionMGAPCodigo": {
+      "media": 0.8070617194219598,
+      "minima": 0.26814655858696596,
+      "maxima": 1.0
+    },
+    "TipoProduccionMGAPCodigo": {
+      "media": 0.5930771144623009,
+      "minima": 0.15698593563499103,
+      "maxima": 0.9998247161988247
+    }
+  },
+  "nota_confianza": "Máxima probabilidad del método; en E1 equivale a la fracción de votos de la clase elegida. No son probabilidades calibradas."
+}

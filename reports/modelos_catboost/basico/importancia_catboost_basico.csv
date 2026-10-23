@@ -1,0 +1,17 @@
+﻿posicion,variable,tipo,importancia
+1,vacas_secas,numerica,42.38808177700632
+2,carga_ganadera,numerica,22.59118399844943
+3,terneras_menos_1,numerica,10.7343959822694
+4,vacas_ordene,numerica,7.613244940911645
+5,total_bovinos_leche,numerica,4.131260053293856
+6,UnidadesGanaderas,numerica,3.2057907972943998
+7,vaquillonas_1_2,numerica,3.05949147819446
+8,toros,numerica,2.9676244787881347
+9,terneros_menos_1,numerica,0.9365691217388357
+10,vaquillonas_mas_2,numerica,0.5983565153348687
+11,Superficie,numerica,0.5611329570345609
+12,SuperficieGanadera,numerica,0.49710370384015184
+13,EstratoCodigo,categorica,0.2996420660344035
+14,DepartamentoCodigo,categorica,0.22014181091303717
+15,NaturalezaJuridicaCodigo,categorica,0.14743993797271238
+16,GiroCodigo,categorica,0.04854038092374487
