@@ -35,8 +35,17 @@ from datos_lecheria import (
 )
 
 
+def variable_original(nombre):
+    """Recupera la variable antes del one-hot encoding."""
+    nombre = nombre.split("__", maxsplit=1)[-1]
+    for variable in VARIABLES_CATEGORICAS:
+        if nombre == variable or nombre.startswith(f"{variable}_"):
+            return variable
+    return nombre
+
+
 def guardar_coeficientes(modelo):
-    """Guarda los coeficientes de Ridge ordenados por su magnitud absoluta."""
+    """Guarda coeficientes e importancia absoluta por variable transformada y original."""
 
     # Se obtiene el preprocesamiento ya aprendido con los datos de entrenamiento.
     preprocesamiento = modelo.named_steps["preprocesamiento"]
@@ -63,6 +72,9 @@ def guardar_coeficientes(modelo):
     # El valor absoluto permite ordenar sin perder el signo original.
     tabla["coeficiente_absoluto"] = tabla["coeficiente"].abs()
 
+    # Se identifica la variable de origen de cada categoría creada por one-hot encoding.
+    tabla["variable_original"] = tabla["variable"].map(variable_original)
+
     # Las variables con coeficientes de mayor magnitud aparecen primero.
     tabla = tabla.sort_values(
         "coeficiente_absoluto",
@@ -78,8 +90,19 @@ def guardar_coeficientes(modelo):
     # Se guarda la tabla para poder revisarla sin cargar el modelo.
     tabla.to_csv(ruta_coeficientes, index=False, encoding="utf-8-sig")
 
+    # Para una variable categórica se suman las magnitudes de todas sus categorías.
+    resumen = (
+        tabla.groupby("variable_original", as_index=False)["coeficiente_absoluto"]
+        .sum()
+        .rename(columns={"coeficiente_absoluto": "importancia_absoluta"})
+        .sort_values("importancia_absoluta", ascending=False)
+        .reset_index(drop=True)
+    )
+    ruta_importancia = CARPETA_RESULTADOS / "importancia_ridge_por_variable.csv"
+    resumen.to_csv(ruta_importancia, index=False, encoding="utf-8-sig")
+
     # Se devuelve la ruta para mostrarla al finalizar.
-    return ruta_coeficientes
+    return ruta_coeficientes, ruta_importancia
 
 
 def main():
@@ -158,7 +181,7 @@ def main():
     )
 
     # Se guardan los coeficientes para interpretar el modelo lineal.
-    ruta_coeficientes = guardar_coeficientes(modelo)
+    ruta_coeficientes, ruta_importancia = guardar_coeficientes(modelo)
 
     # Se define el archivo que contendrá el pipeline completo.
     ruta_modelo = CARPETA_RESULTADOS / "modelo_ridge.joblib"
@@ -181,6 +204,9 @@ def main():
 
     # Se informa la ubicación de la tabla explicativa.
     print(f"Coeficientes guardados en: {ruta_coeficientes}")
+
+    # Se informa el resumen de importancia agrupado por variable original.
+    print(f"Importancias por variable guardadas en: {ruta_importancia}")
 
     # Se informa la ubicación del pipeline serializado.
     print(f"Modelo guardado en: {ruta_modelo}")

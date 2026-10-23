@@ -3,6 +3,9 @@
 # Joblib permite guardar el pipeline completo después del entrenamiento.
 from joblib import dump
 
+# Pandas se utiliza para guardar las importancias de las variables.
+import pandas as pd
+
 # ColumnTransformer aplica una transformación distinta a categorías y números.
 from sklearn.compose import ColumnTransformer
 
@@ -31,6 +34,43 @@ from datos_lecheria import (
     dividir_dataset,
     guardar_resultados,
 )
+
+
+def variable_original(nombre):
+    """Recupera la variable antes del one-hot encoding."""
+    nombre = nombre.split("__", maxsplit=1)[-1]
+    for variable in VARIABLES_CATEGORICAS:
+        if nombre == variable or nombre.startswith(f"{variable}_"):
+            return variable
+    return nombre
+
+
+def guardar_importancias(modelo):
+    """Guarda la importancia de Random Forest por columna y por variable original."""
+    preprocesamiento = modelo.named_steps["preprocesamiento"]
+    bosque = modelo.named_steps["modelo"]
+    tabla = pd.DataFrame(
+        {
+            "variable": preprocesamiento.get_feature_names_out(),
+            "importancia": bosque.feature_importances_,
+        }
+    )
+    tabla["variable_original"] = tabla["variable"].map(variable_original)
+    tabla = tabla.sort_values("importancia", ascending=False).reset_index(drop=True)
+
+    CARPETA_RESULTADOS.mkdir(parents=True, exist_ok=True)
+    ruta_detalle = CARPETA_RESULTADOS / "importancia_random_forest.csv"
+    tabla.to_csv(ruta_detalle, index=False, encoding="utf-8-sig")
+
+    resumen = (
+        tabla.groupby("variable_original", as_index=False)["importancia"]
+        .sum()
+        .sort_values("importancia", ascending=False)
+        .reset_index(drop=True)
+    )
+    ruta_resumen = CARPETA_RESULTADOS / "importancia_random_forest_por_variable.csv"
+    resumen.to_csv(ruta_resumen, index=False, encoding="utf-8-sig")
+    return ruta_detalle, ruta_resumen
 
 
 def main():
@@ -102,6 +142,9 @@ def main():
         metricas,
     )
 
+    # Se calculan las importancias después de ajustar el bosque y el preprocesamiento.
+    ruta_importancia, ruta_importancia_resumen = guardar_importancias(modelo)
+
     # Se crea la carpeta de resultados si todavía no existe.
     CARPETA_RESULTADOS.mkdir(parents=True, exist_ok=True)
 
@@ -123,6 +166,10 @@ def main():
 
     # Se informa la ubicación del CSV de predicciones.
     print(f"Predicciones guardadas en: {ruta_predicciones}")
+
+    # Se informa dónde revisar las importancias detalladas y agrupadas.
+    print(f"Importancias guardadas en: {ruta_importancia}")
+    print(f"Importancias por variable guardadas en: {ruta_importancia_resumen}")
 
     # Se informa la ubicación del pipeline serializado.
     print(f"Modelo guardado en: {ruta_modelo}")
