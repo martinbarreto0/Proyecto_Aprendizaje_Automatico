@@ -1,0 +1,3 @@
+etapa,modelo,objetivo,accuracy,f1_macro,f1_weighted
+aleatorio,v7,EspecializacionMGAPCodigo,0.8768387248374716,0.8275436978856543,0.8786746308117174
+aleatorio,v7,TipoProduccionMGAPCodigo,0.6260828698989582,0.5997148522249364,0.6303410285059121

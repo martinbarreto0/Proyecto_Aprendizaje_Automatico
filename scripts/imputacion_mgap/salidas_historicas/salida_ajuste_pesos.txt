@@ -1,0 +1,8 @@
+Entrenando HistBoost_sin_pesos: TipoProduccionMGAPCodigo
+{'etapa': 'validacion_2023', 'modelo': 'HistBoost_sin_pesos', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.6524127450736155, 'f1_macro': 0.5612436068586912, 'f1_weighted': 0.6039363776204719, 'segundos': 116.13098219998938}
+Entrenando HistBoost_pesos_leves: TipoProduccionMGAPCodigo
+{'etapa': 'validacion_2023', 'modelo': 'HistBoost_pesos_leves', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.6455868065070626, 'f1_macro': 0.5897909587901481, 'f1_weighted': 0.6222331256017939, 'segundos': 96.45466560000204}
+
+Ganadores por F1 macro (sin usar 2022):
+          etapa                modelo                 objetivo  accuracy  f1_macro  f1_weighted  segundos
+validacion_2023 HistBoost_pesos_leves TipoProduccionMGAPCodigo  0.645587  0.589791     0.622233 96.454666

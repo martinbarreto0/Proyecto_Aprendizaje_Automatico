@@ -1,0 +1,59 @@
+{
+  "tabla": "DatosAnimales",
+  "objetivos": {
+    "EspecializacionMGAPCodigo": {
+      "modelo_actual": "HistBoost_suavizado",
+      "parametros_actuales": {
+        "exponente_pesos": 0.5,
+        "max_iter": 250,
+        "learning_rate": 0.1,
+        "max_leaf_nodes": 31,
+        "min_samples_leaf": 20,
+        "l2_regularization": 1.0
+      },
+      "f1_macro_base_media": 0.8265641387562571,
+      "id_configuracion_elegida": "39622af6c2e7facb",
+      "familia_elegida": "HistBoost",
+      "parametros_elegidos": {
+        "exponente_pesos": 0.5,
+        "l2_regularization": 1.0,
+        "learning_rate": 0.1,
+        "max_iter": 250,
+        "max_leaf_nodes": 31,
+        "min_samples_leaf": 20
+      },
+      "f1_macro_elegido_media": 0.8265641387562571,
+      "f1_macro_elegido_desvio": 0.0018535185814732903,
+      "mejora_sobre_base": 0.0009832723806137977,
+      "recomienda_reemplazo": false,
+      "umbral_mejora": 0.005
+    },
+    "TipoProduccionMGAPCodigo": {
+      "modelo_actual": "HistBoost_suavizado",
+      "parametros_actuales": {
+        "exponente_pesos": 0.5,
+        "max_iter": 250,
+        "learning_rate": 0.1,
+        "max_leaf_nodes": 31,
+        "min_samples_leaf": 20,
+        "l2_regularization": 1.0
+      },
+      "f1_macro_base_media": 0.5989311800074102,
+      "id_configuracion_elegida": "39622af6c2e7facb",
+      "familia_elegida": "HistBoost",
+      "parametros_elegidos": {
+        "exponente_pesos": 0.5,
+        "l2_regularization": 1.0,
+        "learning_rate": 0.1,
+        "max_iter": 250,
+        "max_leaf_nodes": 31,
+        "min_samples_leaf": 20
+      },
+      "f1_macro_elegido_media": 0.5989311800074102,
+      "f1_macro_elegido_desvio": 0.000901173596793118,
+      "mejora_sobre_base": 0.002269923806666463,
+      "recomienda_reemplazo": false,
+      "umbral_mejora": 0.005
+    }
+  }
+}

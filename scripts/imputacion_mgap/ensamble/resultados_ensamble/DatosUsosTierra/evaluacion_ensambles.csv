@@ -1,0 +1,11 @@
+tabla,etapa,modelo,objetivo,accuracy,f1_macro,f1_weighted,filas_train,filas_prueba,segundos,clases_prueba,clases_sin_entrenamiento,rol,miembros,histboost
+DatosUsosTierra,prueba_ensamble,KNN,EspecializacionMGAPCodigo,0.7624947462675657,0.7192667232066433,0.7700171566654984,218891,54723,17.91324510006234,1 2 3 4,,Base,KNN,HistBoost_suavizado
+DatosUsosTierra,prueba_ensamble,RF_suavizado,EspecializacionMGAPCodigo,0.7799097271713905,0.7187474233539182,0.7763358085818617,218891,54723,5.2785152001306415,1 2 3 4,,Base,RF_suavizado,HistBoost_suavizado
+DatosUsosTierra,prueba_ensamble,ExtraTrees_suavizado,EspecializacionMGAPCodigo,0.7719057800193703,0.7151604927726595,0.7703324541185425,218891,54723,8.783372799865901,1 2 3 4,,Base,ExtraTrees_suavizado,HistBoost_suavizado
+DatosUsosTierra,prueba_ensamble,HistBoost,EspecializacionMGAPCodigo,0.7721067923907681,0.7191563873798599,0.772580106118994,218891,54723,24.992008100030944,1 2 3 4,,Base,HistBoost,HistBoost_suavizado
+DatosUsosTierra,prueba_ensamble,E4_stacking,EspecializacionMGAPCodigo,0.7843502731940866,0.7437368365378987,0.7900286810636207,218891,54723,195.9697865000926,1 2 3 4,,Ensamble,KNN + RF_suavizado + ExtraTrees_suavizado + HistBoost,HistBoost_suavizado
+DatosUsosTierra,prueba_ensamble,KNN,TipoProduccionMGAPCodigo,0.5777095553971822,0.49218263938589984,0.5616976160555157,218891,54723,17.87760329991579,1 2 3 4 5 6 7 8 9,,Base,KNN,HistBoost_suavizado
+DatosUsosTierra,prueba_ensamble,RF_suavizado,TipoProduccionMGAPCodigo,0.534619812510279,0.4294861259864808,0.49353253684016185,218891,54723,5.536989999935031,1 2 3 4 5 6 7 8 9,,Base,RF_suavizado,HistBoost_suavizado
+DatosUsosTierra,prueba_ensamble,ExtraTrees_suavizado,TipoProduccionMGAPCodigo,0.5366847577800925,0.4442842841279427,0.5061103675092176,218891,54723,8.606520100031048,1 2 3 4 5 6 7 8 9,,Base,ExtraTrees_suavizado,HistBoost_suavizado
+DatosUsosTierra,prueba_ensamble,HistBoost,TipoProduccionMGAPCodigo,0.5115216636514811,0.35784203145533866,0.49814733265169314,218891,54723,54.04860700014979,1 2 3 4 5 6 7 8 9,,Base,HistBoost,HistBoost_suavizado
+DatosUsosTierra,prueba_ensamble,E4_stacking,TipoProduccionMGAPCodigo,0.5882170202657018,0.5135146688052904,0.5782786395893196,218891,54723,285.1479913000949,1 2 3 4 5 6 7 8 9,,Ensamble,KNN + RF_suavizado + ExtraTrees_suavizado + HistBoost,HistBoost_suavizado

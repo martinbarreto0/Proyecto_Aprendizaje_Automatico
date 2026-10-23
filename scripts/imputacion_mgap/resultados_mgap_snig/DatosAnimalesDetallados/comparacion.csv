@@ -1,0 +1,13 @@
+tabla,etapa,modelo,objetivo,accuracy,f1_macro,f1_weighted,filas_train,filas_prueba,segundos,clases_prueba,clases_sin_entrenamiento,exponente_pesos,iteraciones,max_iter
+DatosAnimalesDetallados,validacion_aleatoria,Mayoritaria,EspecializacionMGAPCodigo,0.7139827171051151,0.2082817726164178,0.594838343744559,710992,177748,0.05181350000202656,1 2 3 4,,0.0,0,0
+DatosAnimalesDetallados,validacion_aleatoria,RF_balanceado,EspecializacionMGAPCodigo,0.8122004185701105,0.7877774998116709,0.8330205707571113,710992,177748,53.1256269000005,1 2 3 4,,1.0,100,0
+DatosAnimalesDetallados,validacion_aleatoria,RF_suavizado,EspecializacionMGAPCodigo,0.8868679253775007,0.8091248852841745,0.87987696551046,710992,177748,60.85407689999556,1 2 3 4,,0.5,100,0
+DatosAnimalesDetallados,validacion_aleatoria,ExtraTrees_suavizado,EspecializacionMGAPCodigo,0.8850057384611922,0.812627948806655,0.8808373707709078,710992,177748,120.35355870000785,1 2 3 4,,0.5,100,0
+DatosAnimalesDetallados,validacion_aleatoria,HistBoost_suavizado,EspecializacionMGAPCodigo,0.8751434615298063,0.8165827918200761,0.8767421812582534,710992,177748,135.78033200000937,1 2 3 4,,0.5,100,100
+DatosAnimalesDetallados,validacion_aleatoria,HistBoost_leve,EspecializacionMGAPCodigo,0.8927020275896212,0.8158286636545263,0.8850485724597432,710992,177748,91.32981860000291,1 2 3 4,,0.25,100,100
+DatosAnimalesDetallados,validacion_aleatoria,HistBoost_sin_pesos,EspecializacionMGAPCodigo,0.895897562841776,0.7993909624061585,0.8805268398961852,710992,177748,51.85109650000231,1 2 3 4,,0.0,100,100
+DatosAnimalesDetallados,validacion_aleatoria,Mayoritaria,TipoProduccionMGAPCodigo,0.4738506199788465,0.07144559723059879,0.30469086488230374,710992,177748,0.0474339000065811,1 2 3 4 5 6 7 8 9,,0.0,0,0
+DatosAnimalesDetallados,validacion_aleatoria,RF_balanceado,TipoProduccionMGAPCodigo,0.47925152463037557,0.5295962631904445,0.5071328181180024,710992,177748,55.385331500001485,1 2 3 4 5 6 7 8 9,,1.0,100,0
+DatosAnimalesDetallados,validacion_aleatoria,RF_suavizado,TipoProduccionMGAPCodigo,0.659073519814569,0.5500472582036827,0.616110974648352,710992,177748,60.19728710000345,1 2 3 4 5 6 7 8 9,,0.5,100,0
+DatosAnimalesDetallados,validacion_aleatoria,ExtraTrees_suavizado,TipoProduccionMGAPCodigo,0.6405922992101177,0.539135817562438,0.6049968638723385,710992,177748,95.03511140000774,1 2 3 4 5 6 7 8 9,,0.5,100,0
+DatosAnimalesDetallados,validacion_aleatoria,HistBoost_suavizado,TipoProduccionMGAPCodigo,0.6411323896752706,0.5779232182334995,0.6322391612119374,710992,177748,110.67416699999012,1 2 3 4 5 6 7 8 9,,0.5,100,100

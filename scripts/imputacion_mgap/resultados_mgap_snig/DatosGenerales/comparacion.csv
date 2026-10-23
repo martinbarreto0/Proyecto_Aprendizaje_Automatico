@@ -1,0 +1,15 @@
+tabla,etapa,modelo,objetivo,accuracy,f1_macro,f1_weighted,filas_train,filas_prueba,segundos,clases_prueba,clases_sin_entrenamiento,exponente_pesos,iteraciones,max_iter
+DatosGenerales,validacion_aleatoria,Mayoritaria,EspecializacionMGAPCodigo,0.6066081350468677,0.1887853428020803,0.4580748988854142,94308,23577,0.005826800013892353,1 2 3 4,,0.0,0,0
+DatosGenerales,validacion_aleatoria,RF_balanceado,EspecializacionMGAPCodigo,0.9590278661407303,0.9298776464427534,0.9606740776861112,94308,23577,4.254979399993317,1 2 3 4,,1.0,100,0
+DatosGenerales,validacion_aleatoria,RF_suavizado,EspecializacionMGAPCodigo,0.9642448148619417,0.9351816638944906,0.9651393788074634,94308,23577,5.001541499994346,1 2 3 4,,0.5,100,0
+DatosGenerales,validacion_aleatoria,ExtraTrees_suavizado,EspecializacionMGAPCodigo,0.8962548246172117,0.8675585755932052,0.8945680068718087,94308,23577,4.771417600000859,1 2 3 4,,0.5,100,0
+DatosGenerales,validacion_aleatoria,HistBoost_suavizado,EspecializacionMGAPCodigo,0.972939729397294,0.9490301677699766,0.9733196178485096,94308,23577,16.090350900005433,1 2 3 4,,0.5,239,250
+DatosGenerales,validacion_aleatoria,HistBoost_leve,EspecializacionMGAPCodigo,0.9742969843491538,0.9501246050448199,0.9744489141924321,94308,23577,19.487885999988066,1 2 3 4,,0.25,244,250
+DatosGenerales,validacion_aleatoria,HistBoost_sin_pesos,EspecializacionMGAPCodigo,0.9747635407388556,0.9495538783905371,0.9747395284957814,94308,23577,42.67269980000856,1 2 3 4,,0.0,250,250
+DatosGenerales,validacion_aleatoria,Mayoritaria,TipoProduccionMGAPCodigo,0.3412647919582644,0.056541125130443036,0.17365945774254155,94308,23577,0.01973339999676682,1 2 3 4 5 6 7 8 9,,0.0,0,0
+DatosGenerales,validacion_aleatoria,RF_balanceado,TipoProduccionMGAPCodigo,0.6132247529371846,0.6119914478889864,0.6278311274876762,94308,23577,7.913498099995195,1 2 3 4 5 6 7 8 9,,1.0,100,0
+DatosGenerales,validacion_aleatoria,RF_suavizado,TipoProduccionMGAPCodigo,0.6954659201764432,0.6222542174759106,0.6804869433012727,94308,23577,8.736916000008932,1 2 3 4 5 6 7 8 9,,0.5,100,0
+DatosGenerales,validacion_aleatoria,ExtraTrees_suavizado,TipoProduccionMGAPCodigo,0.6569113967001738,0.5377771678924055,0.6261736554525412,94308,23577,13.15957289999642,1 2 3 4 5 6 7 8 9,,0.5,100,0
+DatosGenerales,validacion_aleatoria,HistBoost_suavizado,TipoProduccionMGAPCodigo,0.6861347923824066,0.6425794134762564,0.6838964412812204,94308,23577,61.11750920000486,1 2 3 4 5 6 7 8 9,,0.5,250,250
+DatosGenerales,validacion_aleatoria,HistBoost_leve,TipoProduccionMGAPCodigo,0.6992407855113034,0.6300285818255463,0.679367779995837,94308,23577,67.93668859999161,1 2 3 4 5 6 7 8 9,,0.25,250,250
+DatosGenerales,validacion_aleatoria,HistBoost_sin_pesos,TipoProduccionMGAPCodigo,0.7042880773635323,0.611666559389366,0.6646398748953205,94308,23577,78.53075910000189,1 2 3 4 5 6 7 8 9,,0.0,250,250

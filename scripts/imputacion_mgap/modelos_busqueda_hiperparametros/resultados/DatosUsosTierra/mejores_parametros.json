@@ -1,0 +1,59 @@
+{
+  "tabla": "DatosUsosTierra",
+  "objetivos": {
+    "EspecializacionMGAPCodigo": {
+      "modelo_actual": "HistBoost_suavizado",
+      "parametros_actuales": {
+        "exponente_pesos": 0.5,
+        "max_iter": 250,
+        "learning_rate": 0.1,
+        "max_leaf_nodes": 31,
+        "min_samples_leaf": 20,
+        "l2_regularization": 1.0
+      },
+      "f1_macro_base_media": 0.7139574355476075,
+      "id_configuracion_elegida": "46abe87695d726dd",
+      "familia_elegida": "RF",
+      "parametros_elegidos": {
+        "exponente_pesos": 0.25,
+        "max_depth": null,
+        "max_features": "sqrt",
+        "min_samples_leaf": 1,
+        "min_samples_split": 10,
+        "n_estimators": 200
+      },
+      "f1_macro_elegido_media": 0.7324895126995377,
+      "f1_macro_elegido_desvio": 0.001547301180340214,
+      "mejora_sobre_base": 0.01853207715193017,
+      "recomienda_reemplazo": true,
+      "umbral_mejora": 0.005
+    },
+    "TipoProduccionMGAPCodigo": {
+      "modelo_actual": "ExtraTrees_suavizado",
+      "parametros_actuales": {
+        "exponente_pesos": 0.5,
+        "n_estimators": 100,
+        "max_depth": 25,
+        "min_samples_split": 2,
+        "min_samples_leaf": 3,
+        "max_features": "sqrt"
+      },
+      "f1_macro_base_media": 0.44763117882186765,
+      "id_configuracion_elegida": "8295146798071dd5",
+      "familia_elegida": "RF",
+      "parametros_elegidos": {
+        "exponente_pesos": 0.8,
+        "max_depth": null,
+        "max_features": 1.0,
+        "min_samples_leaf": 1,
+        "min_samples_split": 10,
+        "n_estimators": 400
+      },
+      "f1_macro_elegido_media": 0.5075006737619739,
+      "f1_macro_elegido_desvio": 0.012192192194624836,
+      "mejora_sobre_base": 0.059869494940106294,
+      "recomienda_reemplazo": true,
+      "umbral_mejora": 0.005
+    }
+  }
+}

@@ -1,0 +1,5 @@
+objetivo,modelo,familia,parametros,accuracy,f1_macro,filas_entrenamiento,filas_prueba,segundos,rol
+EspecializacionMGAPCodigo,RF_suavizado,RF,"{""exponente_pesos"": 0.5, ""max_depth"": 20, ""max_features"": ""sqrt"", ""min_samples_leaf"": 3, ""min_samples_split"": 2, ""n_estimators"": 100}",0.9911764705882353,0.9261206535400084,1359,340,0.1905519000138156,actual
+EspecializacionMGAPCodigo,Busqueda_RF,RF,"{""exponente_pesos"": 0.65, ""max_depth"": null, ""max_features"": ""sqrt"", ""min_samples_leaf"": 1, ""min_samples_split"": 2, ""n_estimators"": 400}",0.9823529411764705,0.8726851851851851,1359,340,0.6820786999887787,busqueda
+TipoProduccionMGAPCodigo,RF_suavizado,RF,"{""exponente_pesos"": 0.5, ""max_depth"": 20, ""max_features"": ""sqrt"", ""min_samples_leaf"": 3, ""min_samples_split"": 2, ""n_estimators"": 100}",0.9882352941176471,0.8570497602755668,1359,340,0.19090579997282475,actual
+TipoProduccionMGAPCodigo,Busqueda_RF,RF,"{""exponente_pesos"": 0.4, ""max_depth"": 16, ""max_features"": ""sqrt"", ""min_samples_leaf"": 2, ""min_samples_split"": 5, ""n_estimators"": 200}",0.9882352941176471,0.8570497602755668,1359,340,0.3571366000105627,busqueda

@@ -1,0 +1,17 @@
+{
+  "tabla": "DatosGenerales",
+  "objetivos": {
+    "EspecializacionMGAPCodigo": {
+      "f1_macro_actual_test": 0.9537265685009567,
+      "f1_macro_busqueda_test": 0.9537265685009567,
+      "delta_f1_macro_test": 0.0,
+      "recomienda_reemplazo": false
+    },
+    "TipoProduccionMGAPCodigo": {
+      "f1_macro_actual_test": 0.6445104190132467,
+      "f1_macro_busqueda_test": 0.6445104190132467,
+      "delta_f1_macro_test": 0.0,
+      "recomienda_reemplazo": false
+    }
+  }
+}

@@ -1,0 +1,14 @@
+Acierto: 0.9877
+F1 macro (clases con soporte en prueba): 0.9349
+Clases sin ejemplos en entrenamiento: []
+
+              precision    recall  f1-score   support
+
+           1     1.0000    0.8000    0.8889        15
+           2     0.9871    1.0000    0.9935       382
+           3     1.0000    1.0000    1.0000         3
+           4     1.0000    0.7500    0.8571         8
+
+    accuracy                         0.9877       408
+   macro avg     0.9968    0.8875    0.9349       408
+weighted avg     0.9879    0.9877    0.9870       408

@@ -1,0 +1,3 @@
+tabla,etapa,modelo,rol,objetivo,accuracy,f1_macro,f1_weighted,filas_train,filas_prueba,segundos,clases_prueba,clases_sin_entrenamiento
+DatosTenenciasTierra,historico_2022,HistBoost_suavizado,Elegido,EspecializacionMGAPCodigo,0.7831605991987458,0.7087659170700724,0.783405729219542,135935,45928,37.04160560001037,1 2 3 4,
+DatosTenenciasTierra,historico_2022,HistBoost_suavizado,Elegido,TipoProduccionMGAPCodigo,0.5288495035708065,0.4922160215767193,0.5216387771095026,135935,45928,86.97352270000556,1 2 3 4 5 6 7 8 9,

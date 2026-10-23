@@ -1,0 +1,17 @@
+{
+  "tabla": "DatosAnimalesDetallados",
+  "objetivos": {
+    "EspecializacionMGAPCodigo": {
+      "f1_macro_actual_test": 0.8168528495798685,
+      "f1_macro_busqueda_test": 0.8168528495798685,
+      "delta_f1_macro_test": 0.0,
+      "recomienda_reemplazo": false
+    },
+    "TipoProduccionMGAPCodigo": {
+      "f1_macro_actual_test": 0.5777595698295456,
+      "f1_macro_busqueda_test": 0.5848797105273913,
+      "delta_f1_macro_test": 0.007120140697845723,
+      "recomienda_reemplazo": true
+    }
+  }
+}

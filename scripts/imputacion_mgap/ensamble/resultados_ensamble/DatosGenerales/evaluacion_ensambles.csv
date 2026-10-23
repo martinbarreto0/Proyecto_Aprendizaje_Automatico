@@ -1,0 +1,11 @@
+tabla,etapa,modelo,objetivo,accuracy,f1_macro,f1_weighted,filas_train,filas_prueba,segundos,clases_prueba,clases_sin_entrenamiento,rol,miembros,histboost
+DatosGenerales,prueba_ensamble,KNN,EspecializacionMGAPCodigo,0.9367874592833876,0.9119324496808752,0.9365968825542674,117885,29472,8.928732799831778,1 2 3 4,,Base,KNN,HistBoost_leve
+DatosGenerales,prueba_ensamble,RF_suavizado,EspecializacionMGAPCodigo,0.9694286102062974,0.9418787013372305,0.969915053616345,117885,29472,4.654146200045943,1 2 3 4,,Base,RF_suavizado,HistBoost_leve
+DatosGenerales,prueba_ensamble,ExtraTrees_suavizado,EspecializacionMGAPCodigo,0.8978691639522258,0.8720414786415694,0.8959997012622488,117885,29472,5.0857260001357645,1 2 3 4,,Base,ExtraTrees_suavizado,HistBoost_leve
+DatosGenerales,prueba_ensamble,HistBoost,EspecializacionMGAPCodigo,0.977164766558089,0.954606302183338,0.9772482696374187,117885,29472,25.49062649998814,1 2 3 4,,Base,HistBoost,HistBoost_leve
+DatosGenerales,prueba_ensamble,E4_stacking,EspecializacionMGAPCodigo,0.9777755157437568,0.9569593667419617,0.97800197649811,117885,29472,139.16273520002142,1 2 3 4,,Ensamble,KNN + RF_suavizado + ExtraTrees_suavizado + HistBoost,HistBoost_leve
+DatosGenerales,prueba_ensamble,KNN,TipoProduccionMGAPCodigo,0.6922163409337676,0.6273304099719728,0.6845846508990637,117885,29472,7.592291499953717,1 2 3 4 5 6 7 8 9,,Base,KNN,HistBoost_suavizado
+DatosGenerales,prueba_ensamble,RF_suavizado,TipoProduccionMGAPCodigo,0.6927252985884907,0.6190967762203645,0.674658025162058,117885,29472,4.755986799951643,1 2 3 4 5 6 7 8 9,,Base,RF_suavizado,HistBoost_suavizado
+DatosGenerales,prueba_ensamble,ExtraTrees_suavizado,TipoProduccionMGAPCodigo,0.6460029858849077,0.5366562457890872,0.6160016894780643,117885,29472,5.676554099889472,1 2 3 4 5 6 7 8 9,,Base,ExtraTrees_suavizado,HistBoost_suavizado
+DatosGenerales,prueba_ensamble,HistBoost,TipoProduccionMGAPCodigo,0.6808496199782845,0.636778041107941,0.6781102757568326,117885,29472,57.95014650002122,1 2 3 4 5 6 7 8 9,,Base,HistBoost,HistBoost_suavizado
+DatosGenerales,prueba_ensamble,E4_stacking,TipoProduccionMGAPCodigo,0.7254343105320304,0.6866099052413176,0.7262231351439993,117885,29472,274.9809425997082,1 2 3 4 5 6 7 8 9,,Ensamble,KNN + RF_suavizado + ExtraTrees_suavizado + HistBoost,HistBoost_suavizado

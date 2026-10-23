@@ -1,0 +1,3 @@
+etapa,modelo,objetivo,accuracy,f1_macro,f1_weighted
+historico_2022,v7,EspecializacionMGAPCodigo,0.87532055649847,0.8271484506134928,0.8771967252655748
+historico_2022,v7,TipoProduccionMGAPCodigo,0.6289349471623781,0.603518958164651,0.6355939198097068

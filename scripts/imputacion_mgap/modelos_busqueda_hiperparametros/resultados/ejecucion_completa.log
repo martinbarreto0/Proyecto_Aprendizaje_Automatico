@@ -1,0 +1,934 @@
+
+=== DatosAnimales / EspecializacionMGAPCodigo ===
+Repetición semilla 44: HistBoost e0da0fecbbd30161
+Repetición semilla 45: HistBoost e0da0fecbbd30161
+{
+  "modelo_actual": "HistBoost_suavizado",
+  "parametros_actuales": {
+    "exponente_pesos": 0.5,
+    "max_iter": 250,
+    "learning_rate": 0.1,
+    "max_leaf_nodes": 31,
+    "min_samples_leaf": 20,
+    "l2_regularization": 1.0
+  },
+  "f1_macro_base_media": 0.8265641387562571,
+  "id_configuracion_elegida": "39622af6c2e7facb",
+  "familia_elegida": "HistBoost",
+  "parametros_elegidos": {
+    "exponente_pesos": 0.5,
+    "l2_regularization": 1.0,
+    "learning_rate": 0.1,
+    "max_iter": 250,
+    "max_leaf_nodes": 31,
+    "min_samples_leaf": 20
+  },
+  "f1_macro_elegido_media": 0.8265641387562571,
+  "f1_macro_elegido_desvio": 0.0018535185814732903,
+  "mejora_sobre_base": 0.0009832723806137977,
+  "recomienda_reemplazo": false,
+  "umbral_mejora": 0.005
+}
+
+=== DatosAnimales / TipoProduccionMGAPCodigo ===
+Inicial: HistBoost 39622af6c2e7facb
+Inicial: HistBoost e0da0fecbbd30161
+Inicial: HistBoost 16a44680464114b1
+Inicial: HistBoost caa6de9c06da90be
+Inicial: HistBoost 6478608c9581cf5a
+Inicial: HistBoost 4605aaa2b0f088cf
+Inicial: HistBoost 5d7da965c6b971ce
+Inicial: HistBoost ae39c88066580293
+Inicial: HistBoost 5929d60ed3128383
+Inicial: HistBoost 5fafdae3947ada19
+Inicial: HistBoost d0d3c00c3bcf0799
+Inicial: HistBoost 1040e6585994ab18
+Inicial: HistBoost 56f05043f32a9d88
+Inicial: HistBoost 4405cb9aaf738e64
+Inicial: HistBoost ee215b8283661c88
+Inicial: HistBoost 3c6ec3a1f9886bea
+Inicial: HistBoost 0a3eb62a7420f5e4
+Inicial: HistBoost 5e4b2f60710cd397
+Inicial: HistBoost f8115672dc549ece
+Inicial: HistBoost 6cf812d464c33b78
+Inicial: HistBoost 396e25fb919dc9af
+Inicial: HistBoost 006a8373c632919f
+Inicial: HistBoost 03b3fba7a7a5bcab
+Inicial: HistBoost d0142bd640db2043
+Repetición semilla 44: HistBoost 6cf812d464c33b78
+Repetición semilla 45: HistBoost 6cf812d464c33b78
+Repetición semilla 44: HistBoost 3c6ec3a1f9886bea
+Repetición semilla 45: HistBoost 3c6ec3a1f9886bea
+Repetición semilla 44: HistBoost 39622af6c2e7facb
+Repetición semilla 45: HistBoost 39622af6c2e7facb
+Repetición semilla 44: HistBoost e0da0fecbbd30161
+Repetición semilla 45: HistBoost e0da0fecbbd30161
+Repetición semilla 44: HistBoost 5929d60ed3128383
+Repetición semilla 45: HistBoost 5929d60ed3128383
+{
+  "modelo_actual": "HistBoost_suavizado",
+  "parametros_actuales": {
+    "exponente_pesos": 0.5,
+    "max_iter": 250,
+    "learning_rate": 0.1,
+    "max_leaf_nodes": 31,
+    "min_samples_leaf": 20,
+    "l2_regularization": 1.0
+  },
+  "f1_macro_base_media": 0.5989311800074102,
+  "id_configuracion_elegida": "39622af6c2e7facb",
+  "familia_elegida": "HistBoost",
+  "parametros_elegidos": {
+    "exponente_pesos": 0.5,
+    "l2_regularization": 1.0,
+    "learning_rate": 0.1,
+    "max_iter": 250,
+    "max_leaf_nodes": 31,
+    "min_samples_leaf": 20
+  },
+  "f1_macro_elegido_media": 0.5989311800074102,
+  "f1_macro_elegido_desvio": 0.000901173596793118,
+  "mejora_sobre_base": 0.002269923806666463,
+  "recomienda_reemplazo": false,
+  "umbral_mejora": 0.005
+}
+
+=== DatosGenerales / EspecializacionMGAPCodigo ===
+Inicial: HistBoost 16a44680464114b1
+Inicial: HistBoost caa6de9c06da90be
+Inicial: HistBoost 6478608c9581cf5a
+Inicial: HistBoost 4605aaa2b0f088cf
+Inicial: HistBoost 5d7da965c6b971ce
+Inicial: HistBoost ae39c88066580293
+Inicial: HistBoost 5929d60ed3128383
+Inicial: HistBoost 5fafdae3947ada19
+Inicial: HistBoost d0d3c00c3bcf0799
+Inicial: HistBoost 1040e6585994ab18
+Inicial: HistBoost 56f05043f32a9d88
+Inicial: HistBoost 4405cb9aaf738e64
+Inicial: HistBoost ee215b8283661c88
+Inicial: HistBoost 3c6ec3a1f9886bea
+Inicial: HistBoost 0a3eb62a7420f5e4
+Inicial: HistBoost 5e4b2f60710cd397
+Inicial: HistBoost f8115672dc549ece
+Inicial: HistBoost 6cf812d464c33b78
+Inicial: HistBoost 396e25fb919dc9af
+Inicial: HistBoost 006a8373c632919f
+Inicial: HistBoost 03b3fba7a7a5bcab
+Inicial: HistBoost d0142bd640db2043
+Repetición semilla 44: HistBoost 4405cb9aaf738e64
+Repetición semilla 45: HistBoost 4405cb9aaf738e64
+Repetición semilla 45: HistBoost e871c80befc16cdc
+Repetición semilla 44: HistBoost 5fafdae3947ada19
+Repetición semilla 45: HistBoost 5fafdae3947ada19
+Repetición semilla 44: HistBoost d0d3c00c3bcf0799
+Repetición semilla 45: HistBoost d0d3c00c3bcf0799
+Repetición semilla 44: HistBoost 6cf812d464c33b78
+Repetición semilla 45: HistBoost 6cf812d464c33b78
+{
+  "modelo_actual": "HistBoost_leve",
+  "parametros_actuales": {
+    "exponente_pesos": 0.25,
+    "max_iter": 250,
+    "learning_rate": 0.1,
+    "max_leaf_nodes": 31,
+    "min_samples_leaf": 20,
+    "l2_regularization": 1.0
+  },
+  "f1_macro_base_media": 0.9522812276792535,
+  "id_configuracion_elegida": "e871c80befc16cdc",
+  "familia_elegida": "HistBoost",
+  "parametros_elegidos": {
+    "exponente_pesos": 0.25,
+    "l2_regularization": 1.0,
+    "learning_rate": 0.1,
+    "max_iter": 250,
+    "max_leaf_nodes": 31,
+    "min_samples_leaf": 20
+  },
+  "f1_macro_elegido_media": 0.9522812276792535,
+  "f1_macro_elegido_desvio": 0.0019298699112454967,
+  "mejora_sobre_base": 0.0032769399592418313,
+  "recomienda_reemplazo": false,
+  "umbral_mejora": 0.005
+}
+
+=== DatosGenerales / TipoProduccionMGAPCodigo ===
+Inicial: HistBoost 39622af6c2e7facb
+Inicial: HistBoost e0da0fecbbd30161
+Inicial: HistBoost 16a44680464114b1
+Inicial: HistBoost caa6de9c06da90be
+Inicial: HistBoost 6478608c9581cf5a
+Inicial: HistBoost 4605aaa2b0f088cf
+Inicial: HistBoost 5d7da965c6b971ce
+Inicial: HistBoost ae39c88066580293
+Inicial: HistBoost 5929d60ed3128383
+Inicial: HistBoost 5fafdae3947ada19
+Inicial: HistBoost d0d3c00c3bcf0799
+Inicial: HistBoost 1040e6585994ab18
+Inicial: HistBoost 56f05043f32a9d88
+Inicial: HistBoost 4405cb9aaf738e64
+Inicial: HistBoost ee215b8283661c88
+Inicial: HistBoost 3c6ec3a1f9886bea
+Inicial: HistBoost 0a3eb62a7420f5e4
+Inicial: HistBoost 5e4b2f60710cd397
+Inicial: HistBoost f8115672dc549ece
+Inicial: HistBoost 6cf812d464c33b78
+Inicial: HistBoost 396e25fb919dc9af
+Inicial: HistBoost 006a8373c632919f
+Inicial: HistBoost 03b3fba7a7a5bcab
+Inicial: HistBoost d0142bd640db2043
+Repetición semilla 44: HistBoost 4605aaa2b0f088cf
+Repetición semilla 45: HistBoost 4605aaa2b0f088cf
+Repetición semilla 44: HistBoost 6478608c9581cf5a
+Repetición semilla 45: HistBoost 6478608c9581cf5a
+Repetición semilla 44: HistBoost 39622af6c2e7facb
+Repetición semilla 45: HistBoost 39622af6c2e7facb
+Repetición semilla 44: HistBoost e0da0fecbbd30161
+Repetición semilla 45: HistBoost e0da0fecbbd30161
+Repetición semilla 44: HistBoost 6cf812d464c33b78
+Repetición semilla 45: HistBoost 6cf812d464c33b78
+{
+  "modelo_actual": "HistBoost_suavizado",
+  "parametros_actuales": {
+    "exponente_pesos": 0.5,
+    "max_iter": 250,
+    "learning_rate": 0.1,
+    "max_leaf_nodes": 31,
+    "min_samples_leaf": 20,
+    "l2_regularization": 1.0
+  },
+  "f1_macro_base_media": 0.6410564616084576,
+  "id_configuracion_elegida": "39622af6c2e7facb",
+  "familia_elegida": "HistBoost",
+  "parametros_elegidos": {
+    "exponente_pesos": 0.5,
+    "l2_regularization": 1.0,
+    "learning_rate": 0.1,
+    "max_iter": 250,
+    "max_leaf_nodes": 31,
+    "min_samples_leaf": 20
+  },
+  "f1_macro_elegido_media": 0.6410564616084576,
+  "f1_macro_elegido_desvio": 0.0016292171013883277,
+  "mejora_sobre_base": 0.0004952027569076201,
+  "recomienda_reemplazo": false,
+  "umbral_mejora": 0.005
+}
+
+=== DatosProduccionLeche / EspecializacionMGAPCodigo ===
+Inicial: RF bdcfbcf518168bf3
+Inicial: RF c64e6295483c2a05
+Inicial: RF a443eb3c13186e68
+Inicial: RF 8d0da7aebd6c3f08
+Inicial: RF 79289aec4c57be9c
+Inicial: RF d9b55b3b805972d3
+Inicial: RF 9cfeb835f2d2113a
+Inicial: RF 17fc958d74559755
+Inicial: RF 92660e03dd07f5a5
+Inicial: RF 379677c8dbc67250
+Inicial: RF ba76dc766b633335
+Inicial: RF 4cc8fce92a4903de
+Inicial: RF 5573528dbbef1329
+Inicial: RF 26718b008b2c6bcb
+Inicial: RF 8907fada28df9cee
+Inicial: RF 2365fe28da3ec04d
+Inicial: RF f3e3262d53314cef
+Inicial: RF 583d47dc6cc8a3b0
+Inicial: RF 7067b7c53902916f
+Inicial: RF f2631f981873030d
+Inicial: HistBoost e4bc39d6d96aaf94
+Inicial: HistBoost 4aa1268e90abef90
+Inicial: HistBoost f1c0c4ed59b45600
+Inicial: HistBoost dff69c76b519b14d
+Inicial: HistBoost 4f465a4413cf55a4
+Inicial: HistBoost f055603a92bbb537
+Inicial: HistBoost eaffa2dcfb085acd
+Inicial: HistBoost 42e7d2f44a2c06b6
+Inicial: HistBoost cd83f548a6ed81ab
+Inicial: HistBoost ddd972710c968020
+Inicial: HistBoost e1ea59a29db4f514
+Inicial: HistBoost 097cb683845aadec
+Inicial: HistBoost 6b3ac9a42196bc88
+Inicial: HistBoost cbcf89619d45092e
+Inicial: HistBoost c19c31165e56d7db
+Inicial: HistBoost 36c8ba4544065cf6
+Inicial: HistBoost 4dfe7ecb2eace95d
+Inicial: HistBoost 2491ab8ff31d20c2
+Inicial: HistBoost c5c65abb29f961ac
+Inicial: HistBoost 91745dd4b0afe24d
+Repetición semilla 44: HistBoost f055603a92bbb537
+Repetición semilla 45: HistBoost f055603a92bbb537
+Repetición semilla 46: HistBoost f055603a92bbb537
+Repetición semilla 47: HistBoost f055603a92bbb537
+Repetición semilla 44: HistBoost 6b3ac9a42196bc88
+Repetición semilla 45: HistBoost 6b3ac9a42196bc88
+Repetición semilla 46: HistBoost 6b3ac9a42196bc88
+Repetición semilla 47: HistBoost 6b3ac9a42196bc88
+Repetición semilla 44: HistBoost e1ea59a29db4f514
+Repetición semilla 45: HistBoost e1ea59a29db4f514
+Repetición semilla 46: HistBoost e1ea59a29db4f514
+Repetición semilla 47: HistBoost e1ea59a29db4f514
+Repetición semilla 44: RF bdcfbcf518168bf3
+Repetición semilla 45: RF bdcfbcf518168bf3
+Repetición semilla 46: RF bdcfbcf518168bf3
+Repetición semilla 47: RF bdcfbcf518168bf3
+Repetición semilla 44: HistBoost 2491ab8ff31d20c2
+Repetición semilla 45: HistBoost 2491ab8ff31d20c2
+Repetición semilla 46: HistBoost 2491ab8ff31d20c2
+Repetición semilla 47: HistBoost 2491ab8ff31d20c2
+{
+  "modelo_actual": "RF_suavizado",
+  "parametros_actuales": {
+    "exponente_pesos": 0.5,
+    "n_estimators": 100,
+    "max_depth": 20,
+    "min_samples_split": 2,
+    "min_samples_leaf": 3,
+    "max_features": "sqrt"
+  },
+  "f1_macro_base_media": 0.7330063926254764,
+  "id_configuracion_elegida": "e4bc39d6d96aaf94",
+  "familia_elegida": "HistBoost",
+  "parametros_elegidos": {
+    "exponente_pesos": 0.0,
+    "l2_regularization": 1.0,
+    "learning_rate": 0.1,
+    "max_iter": 250,
+    "max_leaf_nodes": 31,
+    "min_samples_leaf": 20
+  },
+  "f1_macro_elegido_media": 0.8235647307924985,
+  "f1_macro_elegido_desvio": 0.0,
+  "mejora_sobre_base": 0.09055833816702208,
+  "recomienda_reemplazo": true,
+  "umbral_mejora": 0.005
+}
+
+=== DatosProduccionLeche / TipoProduccionMGAPCodigo ===
+Inicial: ExtraTrees ec7343d82d68f4a3
+Inicial: ExtraTrees 3a975fae93d19dfd
+Inicial: ExtraTrees 73ffd2c7a6e22a24
+Inicial: ExtraTrees e48eb866950ff348
+Inicial: ExtraTrees 8d5eba44043c2696
+Inicial: ExtraTrees e8c984a41d545639
+Inicial: ExtraTrees 45c386a3c3621f68
+Inicial: ExtraTrees 52b4901bda89da44
+Inicial: ExtraTrees 4bfc2ec9876f6250
+Inicial: ExtraTrees 5577272281a9c894
+Inicial: ExtraTrees d8548127850fcfab
+Inicial: ExtraTrees 1c843056145969fc
+Inicial: ExtraTrees 1c78c7f9aef7efdb
+Inicial: ExtraTrees 91f4aa4a5e1f8b4f
+Inicial: ExtraTrees 7d647c8c573d9f70
+Inicial: ExtraTrees 2aa120ccd7c92e1e
+Inicial: ExtraTrees 189e8a3aa6737bb3
+Inicial: ExtraTrees bdadf685235ff970
+Inicial: ExtraTrees 984903d59fa9045a
+Inicial: ExtraTrees 4894e86f5e5e6eb0
+Inicial: RF bdcfbcf518168bf3
+Inicial: RF 205e326523fc44ce
+Inicial: RF f6fb19109aa1de88
+Inicial: RF 080310056b0288af
+Inicial: RF 660d625da7541096
+Inicial: RF 16498c700a1063d2
+Inicial: RF dd0923f3812fc384
+Inicial: RF 46abe87695d726dd
+Inicial: RF 3c3b4f50c89163f5
+Inicial: RF 4bcbf41b7265c227
+Inicial: RF 1b2897c73c30a5b0
+Inicial: RF 8295146798071dd5
+Inicial: RF 3c9c584bc377137e
+Inicial: RF 7e4452ef55134f6d
+Inicial: RF 084970b1d42a8367
+Inicial: RF a872c0304eed9e8c
+Inicial: RF cd253ca784194ebf
+Inicial: RF 070da10259b5c281
+Inicial: RF 4ec3cf8497ed584a
+Inicial: RF ab97fa2a97416469
+Repetición semilla 44: ExtraTrees e8c984a41d545639
+Repetición semilla 45: ExtraTrees e8c984a41d545639
+Repetición semilla 46: ExtraTrees e8c984a41d545639
+Repetición semilla 47: ExtraTrees e8c984a41d545639
+Repetición semilla 44: RF 46abe87695d726dd
+Repetición semilla 45: RF 46abe87695d726dd
+Repetición semilla 46: RF 46abe87695d726dd
+Repetición semilla 47: RF 46abe87695d726dd
+Repetición semilla 44: RF 16498c700a1063d2
+Repetición semilla 45: RF 16498c700a1063d2
+Repetición semilla 46: RF 16498c700a1063d2
+Repetición semilla 47: RF 16498c700a1063d2
+Repetición semilla 44: ExtraTrees e48eb866950ff348
+Repetición semilla 45: ExtraTrees e48eb866950ff348
+Repetición semilla 46: ExtraTrees e48eb866950ff348
+Repetición semilla 47: ExtraTrees e48eb866950ff348
+Repetición semilla 44: RF f6fb19109aa1de88
+Repetición semilla 45: RF f6fb19109aa1de88
+Repetición semilla 46: RF f6fb19109aa1de88
+Repetición semilla 47: RF f6fb19109aa1de88
+Repetición semilla 44: ExtraTrees ec7343d82d68f4a3
+Repetición semilla 45: ExtraTrees ec7343d82d68f4a3
+Repetición semilla 46: ExtraTrees ec7343d82d68f4a3
+Repetición semilla 47: ExtraTrees ec7343d82d68f4a3
+{
+  "modelo_actual": "ExtraTrees_suavizado",
+  "parametros_actuales": {
+    "exponente_pesos": 0.5,
+    "n_estimators": 100,
+    "max_depth": 25,
+    "min_samples_split": 2,
+    "min_samples_leaf": 3,
+    "max_features": "sqrt"
+  },
+  "f1_macro_base_media": 0.7166680049247087,
+  "id_configuracion_elegida": "46abe87695d726dd",
+  "familia_elegida": "RF",
+  "parametros_elegidos": {
+    "exponente_pesos": 0.25,
+    "max_depth": null,
+    "max_features": "sqrt",
+    "min_samples_leaf": 1,
+    "min_samples_split": 10,
+    "n_estimators": 200
+  },
+  "f1_macro_elegido_media": 0.7375566421149571,
+  "f1_macro_elegido_desvio": 0.04223814904356144,
+  "mejora_sobre_base": 0.02088863719024836,
+  "recomienda_reemplazo": true,
+  "umbral_mejora": 0.005
+}
+
+=== DatosProduccionLecheEnEstablecimiento / EspecializacionMGAPCodigo ===
+Inicial: RF a443eb3c13186e68
+Inicial: RF 8d0da7aebd6c3f08
+Inicial: RF 79289aec4c57be9c
+Inicial: RF d9b55b3b805972d3
+Inicial: RF 9cfeb835f2d2113a
+Inicial: RF 17fc958d74559755
+Inicial: RF 92660e03dd07f5a5
+Inicial: RF 379677c8dbc67250
+Inicial: RF ba76dc766b633335
+Inicial: RF 4cc8fce92a4903de
+Inicial: RF 5573528dbbef1329
+Inicial: RF 26718b008b2c6bcb
+Inicial: RF 8907fada28df9cee
+Inicial: RF 2365fe28da3ec04d
+Inicial: RF f3e3262d53314cef
+Inicial: RF 583d47dc6cc8a3b0
+Inicial: RF 7067b7c53902916f
+Inicial: RF f2631f981873030d
+Inicial: ExtraTrees 72164d9eae343c46
+Inicial: ExtraTrees a1891848ed90051f
+Inicial: ExtraTrees 292a70e5d3491a73
+Inicial: ExtraTrees 6f9a9f3aa44bb4cf
+Inicial: ExtraTrees 43a7b758ac37e1fe
+Inicial: ExtraTrees 416a782abf5c3bbf
+Inicial: ExtraTrees 61316bdf4c93c9ee
+Inicial: ExtraTrees 368670235187f37e
+Inicial: ExtraTrees d6c97c7679b287d7
+Inicial: ExtraTrees b5f93c0e5ee73d2c
+Inicial: ExtraTrees 69155fc603f4dca4
+Inicial: ExtraTrees 0fde1de743f26ede
+Inicial: ExtraTrees e58284b0117ed9d6
+Inicial: ExtraTrees 01eadaf1febb4ddc
+Inicial: ExtraTrees 184a1ea23599934f
+Inicial: ExtraTrees 0549cf4f42e4f491
+Inicial: ExtraTrees 9961ecb9f485de85
+Inicial: ExtraTrees 8fb24bed1028a2bc
+Repetición semilla 44: RF 17fc958d74559755
+Repetición semilla 45: RF 17fc958d74559755
+Repetición semilla 46: RF 17fc958d74559755
+Repetición semilla 47: RF 17fc958d74559755
+Repetición semilla 44: ExtraTrees 416a782abf5c3bbf
+Repetición semilla 45: ExtraTrees 416a782abf5c3bbf
+Repetición semilla 46: ExtraTrees 416a782abf5c3bbf
+Repetición semilla 47: ExtraTrees 416a782abf5c3bbf
+Repetición semilla 44: RF 8d0da7aebd6c3f08
+Repetición semilla 45: RF 8d0da7aebd6c3f08
+Repetición semilla 46: RF 8d0da7aebd6c3f08
+Repetición semilla 47: RF 8d0da7aebd6c3f08
+Repetición semilla 44: ExtraTrees e58284b0117ed9d6
+Repetición semilla 45: ExtraTrees e58284b0117ed9d6
+Repetición semilla 46: ExtraTrees e58284b0117ed9d6
+Repetición semilla 47: ExtraTrees e58284b0117ed9d6
+Repetición semilla 44: ExtraTrees ec7343d82d68f4a3
+Repetición semilla 45: ExtraTrees ec7343d82d68f4a3
+Repetición semilla 46: ExtraTrees ec7343d82d68f4a3
+Repetición semilla 47: ExtraTrees ec7343d82d68f4a3
+Repetición semilla 45: RF bdcfbcf518168bf3
+Repetición semilla 46: RF bdcfbcf518168bf3
+Repetición semilla 47: RF bdcfbcf518168bf3
+{
+  "modelo_actual": "RF_suavizado",
+  "parametros_actuales": {
+    "exponente_pesos": 0.5,
+    "n_estimators": 100,
+    "max_depth": 20,
+    "min_samples_split": 2,
+    "min_samples_leaf": 3,
+    "max_features": "sqrt"
+  },
+  "f1_macro_base_media": 0.9130619820422743,
+  "id_configuracion_elegida": "f3e3262d53314cef",
+  "familia_elegida": "RF",
+  "parametros_elegidos": {
+    "exponente_pesos": 0.65,
+    "max_depth": null,
+    "max_features": "sqrt",
+    "min_samples_leaf": 1,
+    "min_samples_split": 2,
+    "n_estimators": 400
+  },
+  "f1_macro_elegido_media": 1.0,
+  "f1_macro_elegido_desvio": 0.0,
+  "mejora_sobre_base": 0.08693801795772571,
+  "recomienda_reemplazo": true,
+  "umbral_mejora": 0.005
+}
+
+=== DatosProduccionLecheEnEstablecimiento / TipoProduccionMGAPCodigo ===
+Inicial: RF bdcfbcf518168bf3
+Inicial: RF c64e6295483c2a05
+Inicial: RF a443eb3c13186e68
+Inicial: RF 8d0da7aebd6c3f08
+Inicial: RF 79289aec4c57be9c
+Inicial: RF d9b55b3b805972d3
+Inicial: RF 9cfeb835f2d2113a
+Inicial: RF 17fc958d74559755
+Inicial: RF 92660e03dd07f5a5
+Inicial: RF 379677c8dbc67250
+Inicial: RF ba76dc766b633335
+Inicial: RF 4cc8fce92a4903de
+Inicial: RF 5573528dbbef1329
+Inicial: RF 26718b008b2c6bcb
+Inicial: RF 8907fada28df9cee
+Inicial: RF 2365fe28da3ec04d
+Inicial: RF f3e3262d53314cef
+Inicial: RF 583d47dc6cc8a3b0
+Inicial: RF 7067b7c53902916f
+Inicial: RF f2631f981873030d
+Inicial: RF 091daedd7cdfd4a6
+Inicial: RF c6110c7c2bb1ef5a
+Inicial: RF 18895bb3818cd04a
+Inicial: RF 623fd29fe0ec4bfe
+Inicial: RF 6888b299819a84f4
+Inicial: RF 1cf7db31ab456612
+Inicial: RF 4608fc83a293f608
+Inicial: RF 7b7355283b75885e
+Inicial: RF 0fedb349792fcce4
+Inicial: RF 6e0be6f2650c57b1
+Inicial: RF d5f3b66edcf73ca9
+Inicial: RF d7b129ff56eef778
+Inicial: RF c91609645f6b490f
+Inicial: RF 0b321f171de78e01
+Inicial: RF 2f4d8206c7d6544a
+Inicial: RF 2d8a26f6350422f4
+Inicial: RF d36467fe108a0eb4
+Inicial: RF d0e29e3d379f8302
+Inicial: RF e22896659d6e6b32
+Inicial: RF c8d9496c73f4d3cb
+Repetición semilla 44: RF 8d0da7aebd6c3f08
+Repetición semilla 45: RF 8d0da7aebd6c3f08
+Repetición semilla 46: RF 8d0da7aebd6c3f08
+Repetición semilla 47: RF 8d0da7aebd6c3f08
+Repetición semilla 44: RF c8d9496c73f4d3cb
+Repetición semilla 45: RF c8d9496c73f4d3cb
+Repetición semilla 46: RF c8d9496c73f4d3cb
+Repetición semilla 47: RF c8d9496c73f4d3cb
+Repetición semilla 44: RF 0fedb349792fcce4
+Repetición semilla 45: RF 0fedb349792fcce4
+Repetición semilla 46: RF 0fedb349792fcce4
+Repetición semilla 47: RF 0fedb349792fcce4
+Repetición semilla 44: RF 7067b7c53902916f
+Repetición semilla 45: RF 7067b7c53902916f
+Repetición semilla 46: RF 7067b7c53902916f
+Repetición semilla 47: RF 7067b7c53902916f
+Repetición semilla 44: RF 1cf7db31ab456612
+Repetición semilla 45: RF 1cf7db31ab456612
+Repetición semilla 46: RF 1cf7db31ab456612
+Repetición semilla 47: RF 1cf7db31ab456612
+Repetición semilla 44: RF bdcfbcf518168bf3
+Repetición semilla 45: RF bdcfbcf518168bf3
+Repetición semilla 46: RF bdcfbcf518168bf3
+Repetición semilla 47: RF bdcfbcf518168bf3
+{
+  "modelo_actual": "RF_suavizado",
+  "parametros_actuales": {
+    "exponente_pesos": 0.5,
+    "n_estimators": 100,
+    "max_depth": 20,
+    "min_samples_split": 2,
+    "min_samples_leaf": 3,
+    "max_features": "sqrt"
+  },
+  "f1_macro_base_media": 0.8434477220881117,
+  "id_configuracion_elegida": "d7b129ff56eef778",
+  "familia_elegida": "RF",
+  "parametros_elegidos": {
+    "exponente_pesos": 0.4,
+    "max_depth": 16,
+    "max_features": "sqrt",
+    "min_samples_leaf": 2,
+    "min_samples_split": 5,
+    "n_estimators": 200
+  },
+  "f1_macro_elegido_media": 0.9523809523809524,
+  "f1_macro_elegido_desvio": 0.0,
+  "mejora_sobre_base": 0.10893323029284074,
+  "recomienda_reemplazo": true,
+  "umbral_mejora": 0.005
+}
+
+=== DatosTenenciasTierra / EspecializacionMGAPCodigo ===
+Inicial: ExtraTrees ec7343d82d68f4a3
+Inicial: ExtraTrees 3a975fae93d19dfd
+Inicial: ExtraTrees 73ffd2c7a6e22a24
+Inicial: ExtraTrees e48eb866950ff348
+Inicial: ExtraTrees 8d5eba44043c2696
+Inicial: ExtraTrees e8c984a41d545639
+Inicial: ExtraTrees 45c386a3c3621f68
+Inicial: ExtraTrees 52b4901bda89da44
+Inicial: ExtraTrees 4bfc2ec9876f6250
+Inicial: ExtraTrees 5577272281a9c894
+Inicial: ExtraTrees d8548127850fcfab
+Inicial: ExtraTrees 1c843056145969fc
+Inicial: HistBoost 39622af6c2e7facb
+Inicial: HistBoost 4aa1268e90abef90
+Inicial: HistBoost f1c0c4ed59b45600
+Inicial: HistBoost dff69c76b519b14d
+Inicial: HistBoost 4f465a4413cf55a4
+Inicial: HistBoost f055603a92bbb537
+Inicial: HistBoost eaffa2dcfb085acd
+Inicial: HistBoost 42e7d2f44a2c06b6
+Inicial: HistBoost cd83f548a6ed81ab
+Inicial: HistBoost ddd972710c968020
+Inicial: HistBoost e1ea59a29db4f514
+Inicial: HistBoost 097cb683845aadec
+Repetición semilla 44: ExtraTrees 8d5eba44043c2696
+Repetición semilla 45: ExtraTrees 8d5eba44043c2696
+Repetición semilla 44: ExtraTrees e8c984a41d545639
+Repetición semilla 45: ExtraTrees e8c984a41d545639
+Repetición semilla 44: HistBoost dff69c76b519b14d
+Repetición semilla 45: HistBoost dff69c76b519b14d
+Repetición semilla 44: ExtraTrees 52b4901bda89da44
+Repetición semilla 45: ExtraTrees 52b4901bda89da44
+Repetición semilla 44: ExtraTrees 1c843056145969fc
+Repetición semilla 45: ExtraTrees 1c843056145969fc
+Repetición semilla 44: ExtraTrees ec7343d82d68f4a3
+Repetición semilla 45: ExtraTrees ec7343d82d68f4a3
+{
+  "modelo_actual": "ExtraTrees_suavizado",
+  "parametros_actuales": {
+    "exponente_pesos": 0.5,
+    "n_estimators": 100,
+    "max_depth": 25,
+    "min_samples_split": 2,
+    "min_samples_leaf": 3,
+    "max_features": "sqrt"
+  },
+  "f1_macro_base_media": 0.6977082324940526,
+  "id_configuracion_elegida": "8d5eba44043c2696",
+  "familia_elegida": "ExtraTrees",
+  "parametros_elegidos": {
+    "exponente_pesos": 1.0,
+    "max_depth": 25,
+    "max_features": 1.0,
+    "min_samples_leaf": 1,
+    "min_samples_split": 5,
+    "n_estimators": 200
+  },
+  "f1_macro_elegido_media": 0.7166481514399052,
+  "f1_macro_elegido_desvio": 0.001589268362550464,
+  "mejora_sobre_base": 0.018939918945852674,
+  "recomienda_reemplazo": true,
+  "umbral_mejora": 0.005
+}
+
+=== DatosTenenciasTierra / TipoProduccionMGAPCodigo ===
+Inicial: HistBoost 39622af6c2e7facb
+Inicial: HistBoost e0da0fecbbd30161
+Inicial: HistBoost 16a44680464114b1
+Inicial: HistBoost caa6de9c06da90be
+Inicial: HistBoost 6478608c9581cf5a
+Inicial: HistBoost 4605aaa2b0f088cf
+Inicial: HistBoost 5d7da965c6b971ce
+Inicial: HistBoost ae39c88066580293
+Inicial: HistBoost 5929d60ed3128383
+Inicial: HistBoost 5fafdae3947ada19
+Inicial: HistBoost d0d3c00c3bcf0799
+Inicial: HistBoost 1040e6585994ab18
+Inicial: HistBoost 56f05043f32a9d88
+Inicial: HistBoost 4405cb9aaf738e64
+Inicial: HistBoost ee215b8283661c88
+Inicial: HistBoost 3c6ec3a1f9886bea
+Inicial: HistBoost 0a3eb62a7420f5e4
+Inicial: HistBoost 5e4b2f60710cd397
+Inicial: HistBoost f8115672dc549ece
+Inicial: HistBoost 6cf812d464c33b78
+Inicial: HistBoost 396e25fb919dc9af
+Inicial: HistBoost 006a8373c632919f
+Inicial: HistBoost 03b3fba7a7a5bcab
+Inicial: HistBoost d0142bd640db2043
+Repetición semilla 44: HistBoost 6cf812d464c33b78
+Repetición semilla 45: HistBoost 6cf812d464c33b78
+Repetición semilla 44: HistBoost 4405cb9aaf738e64
+Repetición semilla 45: HistBoost 4405cb9aaf738e64
+Repetición semilla 44: HistBoost d0142bd640db2043
+Repetición semilla 45: HistBoost d0142bd640db2043
+Repetición semilla 44: HistBoost 6478608c9581cf5a
+Repetición semilla 45: HistBoost 6478608c9581cf5a
+Repetición semilla 44: HistBoost e0da0fecbbd30161
+Repetición semilla 45: HistBoost e0da0fecbbd30161
+Repetición semilla 44: HistBoost 39622af6c2e7facb
+Repetición semilla 45: HistBoost 39622af6c2e7facb
+{
+  "modelo_actual": "HistBoost_suavizado",
+  "parametros_actuales": {
+    "exponente_pesos": 0.5,
+    "max_iter": 250,
+    "learning_rate": 0.1,
+    "max_leaf_nodes": 31,
+    "min_samples_leaf": 20,
+    "l2_regularization": 1.0
+  },
+  "f1_macro_base_media": 0.4650578357186432,
+  "id_configuracion_elegida": "6cf812d464c33b78",
+  "familia_elegida": "HistBoost",
+  "parametros_elegidos": {
+    "exponente_pesos": 0.5,
+    "l2_regularization": 0.0,
+    "learning_rate": 0.1,
+    "max_iter": 350,
+    "max_leaf_nodes": 31,
+    "min_samples_leaf": 20
+  },
+  "f1_macro_elegido_media": 0.4824459952898204,
+  "f1_macro_elegido_desvio": 0.0004311584418494217,
+  "mejora_sobre_base": 0.01738815957117723,
+  "recomienda_reemplazo": true,
+  "umbral_mejora": 0.005
+}
+
+=== DatosUsosTierra / EspecializacionMGAPCodigo ===
+Inicial: HistBoost 39622af6c2e7facb
+Inicial: HistBoost e0da0fecbbd30161
+Inicial: HistBoost 16a44680464114b1
+Inicial: HistBoost caa6de9c06da90be
+Inicial: HistBoost 6478608c9581cf5a
+Inicial: HistBoost 4605aaa2b0f088cf
+Inicial: HistBoost 5d7da965c6b971ce
+Inicial: HistBoost ae39c88066580293
+Inicial: HistBoost 5929d60ed3128383
+Inicial: HistBoost 5fafdae3947ada19
+Inicial: HistBoost d0d3c00c3bcf0799
+Inicial: HistBoost 1040e6585994ab18
+Inicial: RF bdcfbcf518168bf3
+Inicial: RF 205e326523fc44ce
+Inicial: RF f6fb19109aa1de88
+Inicial: RF 080310056b0288af
+Inicial: RF 660d625da7541096
+Inicial: RF 16498c700a1063d2
+Inicial: RF dd0923f3812fc384
+Inicial: RF 46abe87695d726dd
+Inicial: RF 3c3b4f50c89163f5
+Inicial: RF 4bcbf41b7265c227
+Inicial: RF 1b2897c73c30a5b0
+Inicial: RF 8295146798071dd5
+Repetición semilla 44: RF 46abe87695d726dd
+Repetición semilla 45: RF 46abe87695d726dd
+Repetición semilla 44: RF 8295146798071dd5
+Repetición semilla 45: RF 8295146798071dd5
+Repetición semilla 44: RF 4bcbf41b7265c227
+Repetición semilla 45: RF 4bcbf41b7265c227
+Repetición semilla 44: HistBoost 39622af6c2e7facb
+Repetición semilla 45: HistBoost 39622af6c2e7facb
+Repetición semilla 44: HistBoost e0da0fecbbd30161
+Repetición semilla 45: HistBoost e0da0fecbbd30161
+{
+  "modelo_actual": "HistBoost_suavizado",
+  "parametros_actuales": {
+    "exponente_pesos": 0.5,
+    "max_iter": 250,
+    "learning_rate": 0.1,
+    "max_leaf_nodes": 31,
+    "min_samples_leaf": 20,
+    "l2_regularization": 1.0
+  },
+  "f1_macro_base_media": 0.7139574355476075,
+  "id_configuracion_elegida": "46abe87695d726dd",
+  "familia_elegida": "RF",
+  "parametros_elegidos": {
+    "exponente_pesos": 0.25,
+    "max_depth": null,
+    "max_features": "sqrt",
+    "min_samples_leaf": 1,
+    "min_samples_split": 10,
+    "n_estimators": 200
+  },
+  "f1_macro_elegido_media": 0.7324895126995377,
+  "f1_macro_elegido_desvio": 0.001547301180340214,
+  "mejora_sobre_base": 0.01853207715193017,
+  "recomienda_reemplazo": true,
+  "umbral_mejora": 0.005
+}
+
+=== DatosUsosTierra / TipoProduccionMGAPCodigo ===
+Inicial: ExtraTrees ec7343d82d68f4a3
+Inicial: ExtraTrees 3a975fae93d19dfd
+Inicial: ExtraTrees 73ffd2c7a6e22a24
+Inicial: ExtraTrees e48eb866950ff348
+Inicial: ExtraTrees 8d5eba44043c2696
+Inicial: ExtraTrees e8c984a41d545639
+Inicial: ExtraTrees 45c386a3c3621f68
+Inicial: ExtraTrees 52b4901bda89da44
+Inicial: ExtraTrees 4bfc2ec9876f6250
+Inicial: ExtraTrees 5577272281a9c894
+Inicial: ExtraTrees d8548127850fcfab
+Inicial: ExtraTrees 1c843056145969fc
+Inicial: RF dde39a8c21344235
+Inicial: RF 205e326523fc44ce
+Inicial: RF f6fb19109aa1de88
+Inicial: RF 080310056b0288af
+Inicial: RF 660d625da7541096
+Inicial: RF 16498c700a1063d2
+Inicial: RF dd0923f3812fc384
+Inicial: RF 46abe87695d726dd
+Inicial: RF 3c3b4f50c89163f5
+Inicial: RF 4bcbf41b7265c227
+Inicial: RF 1b2897c73c30a5b0
+Inicial: RF 8295146798071dd5
+Repetición semilla 44: RF 8295146798071dd5
+Repetición semilla 45: RF 8295146798071dd5
+Repetición semilla 44: RF 46abe87695d726dd
+Repetición semilla 45: RF 46abe87695d726dd
+Repetición semilla 44: ExtraTrees 8d5eba44043c2696
+Repetición semilla 45: ExtraTrees 8d5eba44043c2696
+Repetición semilla 44: ExtraTrees 3a975fae93d19dfd
+Repetición semilla 45: ExtraTrees 3a975fae93d19dfd
+Repetición semilla 44: RF 660d625da7541096
+Repetición semilla 45: RF 660d625da7541096
+Repetición semilla 44: ExtraTrees ec7343d82d68f4a3
+Repetición semilla 45: ExtraTrees ec7343d82d68f4a3
+{
+  "modelo_actual": "ExtraTrees_suavizado",
+  "parametros_actuales": {
+    "exponente_pesos": 0.5,
+    "n_estimators": 100,
+    "max_depth": 25,
+    "min_samples_split": 2,
+    "min_samples_leaf": 3,
+    "max_features": "sqrt"
+  },
+  "f1_macro_base_media": 0.44763117882186765,
+  "id_configuracion_elegida": "8295146798071dd5",
+  "familia_elegida": "RF",
+  "parametros_elegidos": {
+    "exponente_pesos": 0.8,
+    "max_depth": null,
+    "max_features": 1.0,
+    "min_samples_leaf": 1,
+    "min_samples_split": 10,
+    "n_estimators": 400
+  },
+  "f1_macro_elegido_media": 0.5075006737619739,
+  "f1_macro_elegido_desvio": 0.012192192194624836,
+  "mejora_sobre_base": 0.059869494940106294,
+  "recomienda_reemplazo": true,
+  "umbral_mejora": 0.005
+}
+
+=== DatosAnimalesDetallados / EspecializacionMGAPCodigo ===
+Inicial: HistBoost ad805e3c42f844b8
+Inicial: HistBoost e0da0fecbbd30161
+Inicial: HistBoost 16a44680464114b1
+Inicial: HistBoost caa6de9c06da90be
+Inicial: HistBoost 6478608c9581cf5a
+Inicial: HistBoost 4605aaa2b0f088cf
+Inicial: HistBoost 5d7da965c6b971ce
+Inicial: HistBoost ae39c88066580293
+Inicial: HistBoost 5929d60ed3128383
+Inicial: HistBoost 5fafdae3947ada19
+Inicial: HistBoost d0d3c00c3bcf0799
+Inicial: HistBoost 1040e6585994ab18
+Repetición semilla 44: HistBoost 5fafdae3947ada19
+Repetición semilla 45: HistBoost 5fafdae3947ada19
+Repetición semilla 44: HistBoost 5929d60ed3128383
+Repetición semilla 45: HistBoost 5929d60ed3128383
+Repetición semilla 44: HistBoost ae39c88066580293
+Repetición semilla 45: HistBoost ae39c88066580293
+Repetición semilla 44: HistBoost ad805e3c42f844b8
+Repetición semilla 45: HistBoost ad805e3c42f844b8
+{
+  "modelo_actual": "HistBoost_suavizado",
+  "parametros_actuales": {
+    "exponente_pesos": 0.5,
+    "max_iter": 100,
+    "learning_rate": 0.1,
+    "max_leaf_nodes": 31,
+    "min_samples_leaf": 20,
+    "l2_regularization": 1.0
+  },
+  "f1_macro_base_media": 0.8157574984174426,
+  "id_configuracion_elegida": "ad805e3c42f844b8",
+  "familia_elegida": "HistBoost",
+  "parametros_elegidos": {
+    "exponente_pesos": 0.5,
+    "l2_regularization": 1.0,
+    "learning_rate": 0.1,
+    "max_iter": 100,
+    "max_leaf_nodes": 31,
+    "min_samples_leaf": 20
+  },
+  "f1_macro_elegido_media": 0.8157574984174426,
+  "f1_macro_elegido_desvio": 0.0009069976033437684,
+  "mejora_sobre_base": 0.003245846154599441,
+  "recomienda_reemplazo": false,
+  "umbral_mejora": 0.005
+}
+
+=== DatosAnimalesDetallados / TipoProduccionMGAPCodigo ===
+Inicial: HistBoost ad805e3c42f844b8
+Inicial: HistBoost e0da0fecbbd30161
+Inicial: HistBoost 16a44680464114b1
+Inicial: HistBoost caa6de9c06da90be
+Inicial: HistBoost 6478608c9581cf5a
+Inicial: HistBoost 4605aaa2b0f088cf
+Inicial: HistBoost 5d7da965c6b971ce
+Inicial: HistBoost ae39c88066580293
+Inicial: HistBoost 5929d60ed3128383
+Inicial: HistBoost 5fafdae3947ada19
+Inicial: HistBoost d0d3c00c3bcf0799
+Inicial: HistBoost 1040e6585994ab18
+Repetición semilla 44: HistBoost e0da0fecbbd30161
+Repetición semilla 45: HistBoost e0da0fecbbd30161
+Repetición semilla 44: HistBoost 6478608c9581cf5a
+Repetición semilla 45: HistBoost 6478608c9581cf5a
+Repetición semilla 44: HistBoost ad805e3c42f844b8
+Repetición semilla 45: HistBoost ad805e3c42f844b8
+{
+  "modelo_actual": "HistBoost_suavizado",
+  "parametros_actuales": {
+    "exponente_pesos": 0.5,
+    "max_iter": 100,
+    "learning_rate": 0.1,
+    "max_leaf_nodes": 31,
+    "min_samples_leaf": 20,
+    "l2_regularization": 1.0
+  },
+  "f1_macro_base_media": 0.5776517030208698,
+  "id_configuracion_elegida": "e0da0fecbbd30161",
+  "familia_elegida": "HistBoost",
+  "parametros_elegidos": {
+    "exponente_pesos": 0.65,
+    "l2_regularization": 0.5,
+    "learning_rate": 0.1,
+    "max_iter": 200,
+    "max_leaf_nodes": 31,
+    "min_samples_leaf": 10
+  },
+  "f1_macro_elegido_media": 0.5830054184000071,
+  "f1_macro_elegido_desvio": 0.0008059828202057758,
+  "mejora_sobre_base": 0.005353715379137314,
+  "recomienda_reemplazo": true,
+  "umbral_mejora": 0.005
+}

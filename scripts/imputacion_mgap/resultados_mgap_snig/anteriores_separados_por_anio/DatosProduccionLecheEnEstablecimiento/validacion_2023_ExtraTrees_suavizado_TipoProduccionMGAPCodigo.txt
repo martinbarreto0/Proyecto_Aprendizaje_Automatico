@@ -1,0 +1,14 @@
+Acierto: 0.9836
+F1 macro (clases con soporte en prueba): 0.5803
+Clases sin ejemplos en entrenamiento: [np.int64(6)]
+
+              precision    recall  f1-score   support
+
+           1     1.0000    0.8667    0.9286        15
+           3     0.9855    1.0000    0.9927       407
+           4     1.0000    0.2500    0.4000         4
+           6     0.0000    0.0000    0.0000         2
+
+   micro avg     0.9859    0.9836    0.9848       428
+   macro avg     0.7464    0.5292    0.5803       428
+weighted avg     0.9815    0.9836    0.9803       428

@@ -1,0 +1,17 @@
+{
+  "tabla": "DatosUsosTierra",
+  "objetivos": {
+    "EspecializacionMGAPCodigo": {
+      "f1_macro_actual_test": 0.7174737605237074,
+      "f1_macro_busqueda_test": 0.7476049168462159,
+      "delta_f1_macro_test": 0.030131156322508512,
+      "recomienda_reemplazo": true
+    },
+    "TipoProduccionMGAPCodigo": {
+      "f1_macro_actual_test": 0.4442842841279427,
+      "f1_macro_busqueda_test": 0.49825443073812675,
+      "delta_f1_macro_test": 0.05397014661018407,
+      "recomienda_reemplazo": true
+    }
+  }
+}

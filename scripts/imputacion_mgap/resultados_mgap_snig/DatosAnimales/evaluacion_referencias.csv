@@ -1,0 +1,5 @@
+tabla,etapa,modelo,objetivo,accuracy,f1_macro,f1_weighted,filas_train,filas_prueba,segundos,clases_prueba,clases_sin_entrenamiento,rol
+DatosAnimales,prueba_aleatoria,Mayoritaria,EspecializacionMGAPCodigo,0.7176000626615493,0.20889614476072343,0.5996155462802049,255339,63835,0.01545230000920128,1 2 3 4,,Referencia
+DatosAnimales,prueba_aleatoria,RF_balanceado,EspecializacionMGAPCodigo,0.8094775593326545,0.7979886916045595,0.8327072969826571,255339,63835,15.233798900007969,1 2 3 4,,Referencia
+DatosAnimales,prueba_aleatoria,Mayoritaria,TipoProduccionMGAPCodigo,0.45852588705255737,0.06986138708387782,0.28829929035021434,255339,63835,0.016835000002174638,1 2 3 4 5 6 7 8 9,,Referencia
+DatosAnimales,prueba_aleatoria,RF_balanceado,TipoProduccionMGAPCodigo,0.5218297172397588,0.566791298041693,0.5498751112329794,255339,63835,14.865617700008443,1 2 3 4 5 6 7 8 9,,Referencia
