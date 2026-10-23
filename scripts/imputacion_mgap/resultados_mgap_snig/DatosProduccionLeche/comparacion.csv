@@ -1,0 +1,15 @@
+tabla,etapa,modelo,objetivo,accuracy,f1_macro,f1_weighted,filas_train,filas_prueba,segundos,clases_prueba,clases_sin_entrenamiento,exponente_pesos,iteraciones,max_iter
+DatosProduccionLeche,validacion_aleatoria,Mayoritaria,EspecializacionMGAPCodigo,0.9692537313432836,0.24609671062604213,0.9541206201823985,13399,3350,0.0024095000117085874,1 2 3 4,,0.0,0,0
+DatosProduccionLeche,validacion_aleatoria,RF_balanceado,EspecializacionMGAPCodigo,0.9534328358208956,0.603128274394745,0.9610486624181749,13399,3350,0.3350486999988789,1 2 3 4,,1.0,100,0
+DatosProduccionLeche,validacion_aleatoria,RF_suavizado,EspecializacionMGAPCodigo,0.9874626865671642,0.8268247723373852,0.9863515450376203,13399,3350,0.441999599992414,1 2 3 4,,0.5,100,0
+DatosProduccionLeche,validacion_aleatoria,ExtraTrees_suavizado,EspecializacionMGAPCodigo,0.9859701492537314,0.8019705974350954,0.9843943996003717,13399,3350,0.5040663999971002,1 2 3 4,,0.5,100,0
+DatosProduccionLeche,validacion_aleatoria,HistBoost_suavizado,EspecializacionMGAPCodigo,0.9835820895522388,0.8132110054613078,0.982865120215086,13399,3350,1.115831300005084,1 2 3 4,,0.5,37,250
+DatosProduccionLeche,validacion_aleatoria,HistBoost_leve,EspecializacionMGAPCodigo,0.986268656716418,0.8175121985779034,0.98522003664417,13399,3350,1.0717412999947555,1 2 3 4,,0.25,42,250
+DatosProduccionLeche,validacion_aleatoria,HistBoost_sin_pesos,EspecializacionMGAPCodigo,0.9859701492537314,0.8235647307924985,0.9847686859110377,13399,3350,1.0023626000038348,1 2 3 4,,0.0,43,250
+DatosProduccionLeche,validacion_aleatoria,Mayoritaria,TipoProduccionMGAPCodigo,0.9692537313432836,0.16406447375069474,0.9541206201823985,13399,3350,0.003355399996507913,1 3 4 5 6 9,,0.0,0,0
+DatosProduccionLeche,validacion_aleatoria,RF_balanceado,TipoProduccionMGAPCodigo,0.9417910447761194,0.6195196907436774,0.953981505108832,13399,3350,0.331640399992466,1 3 4 5 6 9,,1.0,100,0
+DatosProduccionLeche,validacion_aleatoria,RF_suavizado,TipoProduccionMGAPCodigo,0.9850746268656716,0.7178179161286217,0.9840646192271761,13399,3350,0.4182470999949146,1 3 4 5 6 9,,0.5,100,0
+DatosProduccionLeche,validacion_aleatoria,ExtraTrees_suavizado,TipoProduccionMGAPCodigo,0.9841791044776119,0.7245278517889245,0.983677587349963,13399,3350,0.33953910000855103,1 3 4 5 6 9,,0.5,100,0
+DatosProduccionLeche,validacion_aleatoria,HistBoost_suavizado,TipoProduccionMGAPCodigo,0.9838805970149254,0.514963957109448,0.9831355232484942,13399,3350,5.924327300002915,1 3 4 5 6 9,,0.5,250,250
+DatosProduccionLeche,validacion_aleatoria,HistBoost_leve,TipoProduccionMGAPCodigo,0.9838805970149254,0.5477224799513957,0.9830219410249982,13399,3350,5.495701200008625,1 3 4 5 6 9,,0.25,250,250
+DatosProduccionLeche,validacion_aleatoria,HistBoost_sin_pesos,TipoProduccionMGAPCodigo,0.986268656716418,0.5529884993404307,0.9850311676664889,13399,3350,6.681978199994774,1 3 4 5 6 9,,0.0,250,250

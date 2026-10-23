@@ -1,0 +1,59 @@
+{
+  "tabla": "DatosProduccionLeche",
+  "objetivos": {
+    "EspecializacionMGAPCodigo": {
+      "modelo_actual": "RF_suavizado",
+      "parametros_actuales": {
+        "exponente_pesos": 0.5,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_split": 2,
+        "min_samples_leaf": 3,
+        "max_features": "sqrt"
+      },
+      "f1_macro_base_media": 0.7330063926254764,
+      "id_configuracion_elegida": "e4bc39d6d96aaf94",
+      "familia_elegida": "HistBoost",
+      "parametros_elegidos": {
+        "exponente_pesos": 0.0,
+        "l2_regularization": 1.0,
+        "learning_rate": 0.1,
+        "max_iter": 250,
+        "max_leaf_nodes": 31,
+        "min_samples_leaf": 20
+      },
+      "f1_macro_elegido_media": 0.8235647307924985,
+      "f1_macro_elegido_desvio": 0.0,
+      "mejora_sobre_base": 0.09055833816702208,
+      "recomienda_reemplazo": true,
+      "umbral_mejora": 0.005
+    },
+    "TipoProduccionMGAPCodigo": {
+      "modelo_actual": "ExtraTrees_suavizado",
+      "parametros_actuales": {
+        "exponente_pesos": 0.5,
+        "n_estimators": 100,
+        "max_depth": 25,
+        "min_samples_split": 2,
+        "min_samples_leaf": 3,
+        "max_features": "sqrt"
+      },
+      "f1_macro_base_media": 0.7166680049247087,
+      "id_configuracion_elegida": "46abe87695d726dd",
+      "familia_elegida": "RF",
+      "parametros_elegidos": {
+        "exponente_pesos": 0.25,
+        "max_depth": null,
+        "max_features": "sqrt",
+        "min_samples_leaf": 1,
+        "min_samples_split": 10,
+        "n_estimators": 200
+      },
+      "f1_macro_elegido_media": 0.7375566421149571,
+      "f1_macro_elegido_desvio": 0.04223814904356144,
+      "mejora_sobre_base": 0.02088863719024836,
+      "recomienda_reemplazo": true,
+      "umbral_mejora": 0.005
+    }
+  }
+}

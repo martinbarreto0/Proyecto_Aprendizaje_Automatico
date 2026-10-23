@@ -1,0 +1,3 @@
+tabla,etapa,modelo,objetivo,accuracy,f1_macro,f1_weighted,filas_train,filas_prueba,segundos,clases_prueba,clases_sin_entrenamiento,rol
+DatosProduccionLecheEnEstablecimiento,prueba_aleatoria,RF_suavizado,EspecializacionMGAPCodigo,0.9911764705882353,0.9261206535400084,0.9906353039749624,1359,340,0.27191660000244156,1 2 3 4,,Elegido
+DatosProduccionLecheEnEstablecimiento,prueba_aleatoria,RF_suavizado,TipoProduccionMGAPCodigo,0.9882352941176471,0.8570497602755668,0.9884784412298645,1359,340,0.30999809999775607,1 3 4,,Elegido

@@ -1,0 +1,3 @@
+etapa,modelo,objetivo,accuracy,f1_macro,f1_weighted,segundos
+validacion_2023,HistBoost_sin_pesos,TipoProduccionMGAPCodigo,0.6524127450736155,0.5612436068586912,0.6039363776204719,116.13098219998938
+validacion_2023,HistBoost_pesos_leves,TipoProduccionMGAPCodigo,0.6455868065070626,0.5897909587901481,0.6222331256017939,96.45466560000204

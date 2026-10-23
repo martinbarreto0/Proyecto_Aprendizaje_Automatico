@@ -1,0 +1,30 @@
+--- Evaluaci�n Random Forest: EspecializacionMGAPCodigo ---
+              precision    recall  f1-score   support
+
+         1.0       0.88      1.00      0.94      5756
+         2.0       0.96      0.86      0.91      5631
+         3.0       0.23      0.72      0.35      6713
+         4.0       0.93      0.65      0.76     45735
+
+    accuracy                           0.71     63835
+   macro avg       0.75      0.81      0.74     63835
+weighted avg       0.86      0.71      0.75     63835
+
+
+--- Evaluaci�n Random Forest: TipoProduccionMGAPCodigo ---
+              precision    recall  f1-score   support
+
+         1.0       0.88      1.00      0.94      5756
+         2.0       1.00      1.00      1.00        74
+         3.0       0.96      0.86      0.91      5631
+         4.0       0.65      0.81      0.72     29270
+         5.0       0.51      0.06      0.11      8250
+         6.0       0.42      0.34      0.38      7175
+         7.0       0.29      0.33      0.31      2344
+         8.0       0.31      0.24      0.27      3132
+         9.0       0.29      0.49      0.36      2203
+
+    accuracy                           0.63     63835
+   macro avg       0.59      0.57      0.56     63835
+weighted avg       0.61      0.63      0.59     63835
+

@@ -1,0 +1,32 @@
+{
+  "EspecializacionMGAPCodigo": {
+    "ensamble": "E2_voto_blando",
+    "miembros": [
+      "KNN",
+      "RF_suavizado",
+      "ExtraTrees_suavizado",
+      "HistBoost"
+    ],
+    "histboost": [
+      "HistBoost_suavizado",
+      0.5,
+      250
+    ],
+    "f1_macro_validacion": 0.8331230795205304
+  },
+  "TipoProduccionMGAPCodigo": {
+    "ensamble": "E4_stacking",
+    "miembros": [
+      "KNN",
+      "RF_suavizado",
+      "ExtraTrees_suavizado",
+      "HistBoost"
+    ],
+    "histboost": [
+      "HistBoost_suavizado",
+      0.5,
+      250
+    ],
+    "f1_macro_validacion": 0.60459488814864
+  }
+}

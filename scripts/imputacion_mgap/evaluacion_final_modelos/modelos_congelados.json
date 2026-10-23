@@ -1,0 +1,579 @@
+{
+  "descripcion": "Comparación final: original, hiperparámetros y ensamble congelados.",
+  "semilla_train_test_split": 20261007,
+  "test_size": 0.2,
+  "tablas": {
+    "DatosAnimales": {
+      "objetivos": {
+        "EspecializacionMGAPCodigo": {
+          "modelo_original": "HistBoost_suavizado",
+          "familia_original": "HistBoost",
+          "parametros_originales": {
+            "exponente_pesos": 0.5,
+            "max_iter": 250,
+            "learning_rate": 0.1,
+            "max_leaf_nodes": 31,
+            "min_samples_leaf": 20,
+            "l2_regularization": 1.0
+          },
+          "familia_hiperparametros": "HistBoost",
+          "parametros_hiperparametros": {
+            "exponente_pesos": 0.5,
+            "l2_regularization": 1.0,
+            "learning_rate": 0.1,
+            "max_iter": 250,
+            "max_leaf_nodes": 31,
+            "min_samples_leaf": 20
+          },
+          "ensamble": {
+            "ensamble": "E2_voto_blando",
+            "miembros": [
+              "KNN",
+              "RF_suavizado",
+              "ExtraTrees_suavizado",
+              "HistBoost"
+            ],
+            "histboost": [
+              "HistBoost_suavizado",
+              0.5,
+              250
+            ],
+            "f1_macro_validacion": 0.8331230795205304
+          }
+        },
+        "TipoProduccionMGAPCodigo": {
+          "modelo_original": "HistBoost_suavizado",
+          "familia_original": "HistBoost",
+          "parametros_originales": {
+            "exponente_pesos": 0.5,
+            "max_iter": 250,
+            "learning_rate": 0.1,
+            "max_leaf_nodes": 31,
+            "min_samples_leaf": 20,
+            "l2_regularization": 1.0
+          },
+          "familia_hiperparametros": "HistBoost",
+          "parametros_hiperparametros": {
+            "exponente_pesos": 0.5,
+            "l2_regularization": 1.0,
+            "learning_rate": 0.1,
+            "max_iter": 250,
+            "max_leaf_nodes": 31,
+            "min_samples_leaf": 20
+          },
+          "ensamble": {
+            "ensamble": "E4_stacking",
+            "miembros": [
+              "KNN",
+              "RF_suavizado",
+              "ExtraTrees_suavizado",
+              "HistBoost"
+            ],
+            "histboost": [
+              "HistBoost_suavizado",
+              0.5,
+              250
+            ],
+            "f1_macro_validacion": 0.60459488814864
+          }
+        }
+      },
+      "fuentes": {
+        "busqueda": "modelos_busqueda_hiperparametros\\resultados\\DatosAnimales\\mejores_parametros.json",
+        "busqueda_sha256": "d776c54e177b7f8f205febce23368dcf6b80aaa0d466c2be64e797ce61110489",
+        "ensamble": "ensamble\\resultados_ensamble\\DatosAnimales\\ensambles_elegidos.json",
+        "ensamble_sha256": "60d3cc861a1bad33873c9710fe2bdf3f92132419487373544fdb6d6c8e0c7689"
+      }
+    },
+    "DatosAnimalesDetallados": {
+      "objetivos": {
+        "EspecializacionMGAPCodigo": {
+          "modelo_original": "HistBoost_suavizado",
+          "familia_original": "HistBoost",
+          "parametros_originales": {
+            "exponente_pesos": 0.5,
+            "max_iter": 100,
+            "learning_rate": 0.1,
+            "max_leaf_nodes": 31,
+            "min_samples_leaf": 20,
+            "l2_regularization": 1.0
+          },
+          "familia_hiperparametros": "HistBoost",
+          "parametros_hiperparametros": {
+            "exponente_pesos": 0.5,
+            "l2_regularization": 1.0,
+            "learning_rate": 0.1,
+            "max_iter": 100,
+            "max_leaf_nodes": 31,
+            "min_samples_leaf": 20
+          },
+          "ensamble": {
+            "ensamble": "E3_voto_blando_arboles",
+            "miembros": [
+              "RF_suavizado",
+              "ExtraTrees_suavizado",
+              "HistBoost"
+            ],
+            "histboost": [
+              "HistBoost_suavizado",
+              0.5,
+              100
+            ],
+            "f1_macro_validacion": 0.820481313267259
+          }
+        },
+        "TipoProduccionMGAPCodigo": {
+          "modelo_original": "HistBoost_suavizado",
+          "familia_original": "HistBoost",
+          "parametros_originales": {
+            "exponente_pesos": 0.5,
+            "max_iter": 100,
+            "learning_rate": 0.1,
+            "max_leaf_nodes": 31,
+            "min_samples_leaf": 20,
+            "l2_regularization": 1.0
+          },
+          "familia_hiperparametros": "HistBoost",
+          "parametros_hiperparametros": {
+            "exponente_pesos": 0.65,
+            "l2_regularization": 0.5,
+            "learning_rate": 0.1,
+            "max_iter": 200,
+            "max_leaf_nodes": 31,
+            "min_samples_leaf": 10
+          },
+          "ensamble": {
+            "ensamble": "E3_voto_blando_arboles",
+            "miembros": [
+              "RF_suavizado",
+              "ExtraTrees_suavizado",
+              "HistBoost"
+            ],
+            "histboost": [
+              "HistBoost_suavizado",
+              0.5,
+              100
+            ],
+            "f1_macro_validacion": 0.5675133253281505
+          }
+        }
+      },
+      "fuentes": {
+        "busqueda": "modelos_busqueda_hiperparametros\\resultados\\DatosAnimalesDetallados\\mejores_parametros.json",
+        "busqueda_sha256": "a55869116c848e8e01b7116e938ac2f3614cec28920f45d49b6b6e4252b311a1",
+        "ensamble": "ensamble\\resultados_ensamble\\DatosAnimalesDetallados\\ensambles_elegidos.json",
+        "ensamble_sha256": "7a8cbf8b27f5406fde8c77eb02948a2b55a13b05de881f6d433e49200a680a82"
+      }
+    },
+    "DatosGenerales": {
+      "objetivos": {
+        "EspecializacionMGAPCodigo": {
+          "modelo_original": "HistBoost_leve",
+          "familia_original": "HistBoost",
+          "parametros_originales": {
+            "exponente_pesos": 0.25,
+            "max_iter": 250,
+            "learning_rate": 0.1,
+            "max_leaf_nodes": 31,
+            "min_samples_leaf": 20,
+            "l2_regularization": 1.0
+          },
+          "familia_hiperparametros": "HistBoost",
+          "parametros_hiperparametros": {
+            "exponente_pesos": 0.25,
+            "l2_regularization": 1.0,
+            "learning_rate": 0.1,
+            "max_iter": 250,
+            "max_leaf_nodes": 31,
+            "min_samples_leaf": 20
+          },
+          "ensamble": {
+            "ensamble": "E4_stacking",
+            "miembros": [
+              "KNN",
+              "RF_suavizado",
+              "ExtraTrees_suavizado",
+              "HistBoost"
+            ],
+            "histboost": [
+              "HistBoost_leve",
+              0.25,
+              250
+            ],
+            "f1_macro_validacion": 0.9511094263743167
+          }
+        },
+        "TipoProduccionMGAPCodigo": {
+          "modelo_original": "HistBoost_suavizado",
+          "familia_original": "HistBoost",
+          "parametros_originales": {
+            "exponente_pesos": 0.5,
+            "max_iter": 250,
+            "learning_rate": 0.1,
+            "max_leaf_nodes": 31,
+            "min_samples_leaf": 20,
+            "l2_regularization": 1.0
+          },
+          "familia_hiperparametros": "HistBoost",
+          "parametros_hiperparametros": {
+            "exponente_pesos": 0.5,
+            "l2_regularization": 1.0,
+            "learning_rate": 0.1,
+            "max_iter": 250,
+            "max_leaf_nodes": 31,
+            "min_samples_leaf": 20
+          },
+          "ensamble": {
+            "ensamble": "E4_stacking",
+            "miembros": [
+              "KNN",
+              "RF_suavizado",
+              "ExtraTrees_suavizado",
+              "HistBoost"
+            ],
+            "histboost": [
+              "HistBoost_suavizado",
+              0.5,
+              250
+            ],
+            "f1_macro_validacion": 0.6777949625553551
+          }
+        }
+      },
+      "fuentes": {
+        "busqueda": "modelos_busqueda_hiperparametros\\resultados\\DatosGenerales\\mejores_parametros.json",
+        "busqueda_sha256": "f901f4e0a53789e52171dba0af887395e4383ac8363c8584f52228457f1874c3",
+        "ensamble": "ensamble\\resultados_ensamble\\DatosGenerales\\ensambles_elegidos.json",
+        "ensamble_sha256": "a4d8519afe20f7b66dea47941561695fb0b3f8241b97ce29e199ce2164011704"
+      }
+    },
+    "DatosProduccionLeche": {
+      "objetivos": {
+        "EspecializacionMGAPCodigo": {
+          "modelo_original": "RF_suavizado",
+          "familia_original": "RF",
+          "parametros_originales": {
+            "exponente_pesos": 0.5,
+            "n_estimators": 100,
+            "max_depth": 20,
+            "min_samples_split": 2,
+            "min_samples_leaf": 3,
+            "max_features": "sqrt"
+          },
+          "familia_hiperparametros": "HistBoost",
+          "parametros_hiperparametros": {
+            "exponente_pesos": 0.0,
+            "l2_regularization": 1.0,
+            "learning_rate": 0.1,
+            "max_iter": 250,
+            "max_leaf_nodes": 31,
+            "min_samples_leaf": 20
+          },
+          "ensamble": {
+            "ensamble": "E2_voto_blando",
+            "miembros": [
+              "KNN",
+              "RF_suavizado",
+              "ExtraTrees_suavizado",
+              "HistBoost"
+            ],
+            "histboost": [
+              "HistBoost_sin_pesos",
+              0.0,
+              250
+            ],
+            "f1_macro_validacion": 0.828608755025511
+          }
+        },
+        "TipoProduccionMGAPCodigo": {
+          "modelo_original": "ExtraTrees_suavizado",
+          "familia_original": "ExtraTrees",
+          "parametros_originales": {
+            "exponente_pesos": 0.5,
+            "n_estimators": 100,
+            "max_depth": 25,
+            "min_samples_split": 2,
+            "min_samples_leaf": 3,
+            "max_features": "sqrt"
+          },
+          "familia_hiperparametros": "RF",
+          "parametros_hiperparametros": {
+            "exponente_pesos": 0.25,
+            "max_depth": null,
+            "max_features": "sqrt",
+            "min_samples_leaf": 1,
+            "min_samples_split": 10,
+            "n_estimators": 200
+          },
+          "ensamble": {
+            "ensamble": "E4_stacking",
+            "miembros": [
+              "KNN",
+              "RF_suavizado",
+              "ExtraTrees_suavizado",
+              "HistBoost"
+            ],
+            "histboost": [
+              "HistBoost_sin_pesos",
+              0.0,
+              250
+            ],
+            "f1_macro_validacion": 0.7363088390708182
+          }
+        }
+      },
+      "fuentes": {
+        "busqueda": "modelos_busqueda_hiperparametros\\resultados\\DatosProduccionLeche\\mejores_parametros.json",
+        "busqueda_sha256": "7fed2fabd5524d05e97d781ddecedc02a54b80ba55b6771eb14e53559266162c",
+        "ensamble": "ensamble\\resultados_ensamble\\DatosProduccionLeche\\ensambles_elegidos.json",
+        "ensamble_sha256": "596026acaa0547a2fea97bd5f1b32f222975c1bc21f1f94900ee2738ed4f3de7"
+      }
+    },
+    "DatosProduccionLecheEnEstablecimiento": {
+      "objetivos": {
+        "EspecializacionMGAPCodigo": {
+          "modelo_original": "RF_suavizado",
+          "familia_original": "RF",
+          "parametros_originales": {
+            "exponente_pesos": 0.5,
+            "n_estimators": 100,
+            "max_depth": 20,
+            "min_samples_split": 2,
+            "min_samples_leaf": 3,
+            "max_features": "sqrt"
+          },
+          "familia_hiperparametros": "RF",
+          "parametros_hiperparametros": {
+            "exponente_pesos": 0.65,
+            "max_depth": null,
+            "max_features": "sqrt",
+            "min_samples_leaf": 1,
+            "min_samples_split": 2,
+            "n_estimators": 400
+          },
+          "ensamble": {
+            "ensamble": "E1_voto_duro",
+            "miembros": [
+              "KNN",
+              "RF_suavizado",
+              "ExtraTrees_suavizado",
+              "HistBoost"
+            ],
+            "histboost": [
+              "HistBoost_leve",
+              0.25,
+              250
+            ],
+            "f1_macro_validacion": 1.0
+          }
+        },
+        "TipoProduccionMGAPCodigo": {
+          "modelo_original": "RF_suavizado",
+          "familia_original": "RF",
+          "parametros_originales": {
+            "exponente_pesos": 0.5,
+            "n_estimators": 100,
+            "max_depth": 20,
+            "min_samples_split": 2,
+            "min_samples_leaf": 3,
+            "max_features": "sqrt"
+          },
+          "familia_hiperparametros": "RF",
+          "parametros_hiperparametros": {
+            "exponente_pesos": 0.4,
+            "max_depth": 16,
+            "max_features": "sqrt",
+            "min_samples_leaf": 2,
+            "min_samples_split": 5,
+            "n_estimators": 200
+          },
+          "ensamble": {
+            "ensamble": "E2_voto_blando",
+            "miembros": [
+              "KNN",
+              "RF_suavizado",
+              "ExtraTrees_suavizado",
+              "HistBoost"
+            ],
+            "histboost": [
+              "HistBoost_suavizado",
+              0.5,
+              250
+            ],
+            "f1_macro_validacion": 0.9523809523809524
+          }
+        }
+      },
+      "fuentes": {
+        "busqueda": "modelos_busqueda_hiperparametros\\resultados\\DatosProduccionLecheEnEstablecimiento\\mejores_parametros.json",
+        "busqueda_sha256": "4ea2df984f3b1dfb037726ae69934f8e74579ce81f5a9d0d31108bc93a0c1750",
+        "ensamble": "ensamble\\resultados_ensamble\\DatosProduccionLecheEnEstablecimiento\\ensambles_elegidos.json",
+        "ensamble_sha256": "c82d872d06cbd1d1a13dad20dd891e00567f0a31646e1518ebea59fb2d22b1ad"
+      }
+    },
+    "DatosTenenciasTierra": {
+      "objetivos": {
+        "EspecializacionMGAPCodigo": {
+          "modelo_original": "ExtraTrees_suavizado",
+          "familia_original": "ExtraTrees",
+          "parametros_originales": {
+            "exponente_pesos": 0.5,
+            "n_estimators": 100,
+            "max_depth": 25,
+            "min_samples_split": 2,
+            "min_samples_leaf": 3,
+            "max_features": "sqrt"
+          },
+          "familia_hiperparametros": "ExtraTrees",
+          "parametros_hiperparametros": {
+            "exponente_pesos": 1.0,
+            "max_depth": 25,
+            "max_features": 1.0,
+            "min_samples_leaf": 1,
+            "min_samples_split": 5,
+            "n_estimators": 200
+          },
+          "ensamble": {
+            "ensamble": "E4_stacking",
+            "miembros": [
+              "KNN",
+              "RF_suavizado",
+              "ExtraTrees_suavizado",
+              "HistBoost"
+            ],
+            "histboost": [
+              "HistBoost_suavizado",
+              0.5,
+              250
+            ],
+            "f1_macro_validacion": 0.7924910504073469
+          }
+        },
+        "TipoProduccionMGAPCodigo": {
+          "modelo_original": "HistBoost_suavizado",
+          "familia_original": "HistBoost",
+          "parametros_originales": {
+            "exponente_pesos": 0.5,
+            "max_iter": 250,
+            "learning_rate": 0.1,
+            "max_leaf_nodes": 31,
+            "min_samples_leaf": 20,
+            "l2_regularization": 1.0
+          },
+          "familia_hiperparametros": "HistBoost",
+          "parametros_hiperparametros": {
+            "exponente_pesos": 0.5,
+            "l2_regularization": 0.0,
+            "learning_rate": 0.1,
+            "max_iter": 350,
+            "max_leaf_nodes": 31,
+            "min_samples_leaf": 20
+          },
+          "ensamble": {
+            "ensamble": "E4_stacking",
+            "miembros": [
+              "KNN",
+              "RF_suavizado",
+              "ExtraTrees_suavizado",
+              "HistBoost"
+            ],
+            "histboost": [
+              "HistBoost_suavizado",
+              0.5,
+              250
+            ],
+            "f1_macro_validacion": 0.5779987729805103
+          }
+        }
+      },
+      "fuentes": {
+        "busqueda": "modelos_busqueda_hiperparametros\\resultados\\DatosTenenciasTierra\\mejores_parametros.json",
+        "busqueda_sha256": "b8e3768ab76d398c287f4424109ca1667c07c953c521d5d41a3e79841fbd4b00",
+        "ensamble": "ensamble\\resultados_ensamble\\DatosTenenciasTierra\\ensambles_elegidos.json",
+        "ensamble_sha256": "0f95d50f3b0d460d3f7933b8b7d22b39596e55bb6b45a388f4901ae16b3da2d3"
+      }
+    },
+    "DatosUsosTierra": {
+      "objetivos": {
+        "EspecializacionMGAPCodigo": {
+          "modelo_original": "HistBoost_suavizado",
+          "familia_original": "HistBoost",
+          "parametros_originales": {
+            "exponente_pesos": 0.5,
+            "max_iter": 250,
+            "learning_rate": 0.1,
+            "max_leaf_nodes": 31,
+            "min_samples_leaf": 20,
+            "l2_regularization": 1.0
+          },
+          "familia_hiperparametros": "RF",
+          "parametros_hiperparametros": {
+            "exponente_pesos": 0.25,
+            "max_depth": null,
+            "max_features": "sqrt",
+            "min_samples_leaf": 1,
+            "min_samples_split": 10,
+            "n_estimators": 200
+          },
+          "ensamble": {
+            "ensamble": "E4_stacking",
+            "miembros": [
+              "KNN",
+              "RF_suavizado",
+              "ExtraTrees_suavizado",
+              "HistBoost"
+            ],
+            "histboost": [
+              "HistBoost_suavizado",
+              0.5,
+              250
+            ],
+            "f1_macro_validacion": 0.7578587541864419
+          }
+        },
+        "TipoProduccionMGAPCodigo": {
+          "modelo_original": "ExtraTrees_suavizado",
+          "familia_original": "ExtraTrees",
+          "parametros_originales": {
+            "exponente_pesos": 0.5,
+            "n_estimators": 100,
+            "max_depth": 25,
+            "min_samples_split": 2,
+            "min_samples_leaf": 3,
+            "max_features": "sqrt"
+          },
+          "familia_hiperparametros": "RF",
+          "parametros_hiperparametros": {
+            "exponente_pesos": 0.8,
+            "max_depth": null,
+            "max_features": 1.0,
+            "min_samples_leaf": 1,
+            "min_samples_split": 10,
+            "n_estimators": 400
+          },
+          "ensamble": {
+            "ensamble": "E4_stacking",
+            "miembros": [
+              "KNN",
+              "RF_suavizado",
+              "ExtraTrees_suavizado",
+              "HistBoost"
+            ],
+            "histboost": [
+              "HistBoost_suavizado",
+              0.5,
+              250
+            ],
+            "f1_macro_validacion": 0.5225213058953042
+          }
+        }
+      },
+      "fuentes": {
+        "busqueda": "modelos_busqueda_hiperparametros\\resultados\\DatosUsosTierra\\mejores_parametros.json",
+        "busqueda_sha256": "e4816e4cfa4f52ad593ee3dd2ae01961183e96613df0efefe1528efa93727a66",
+        "ensamble": "ensamble\\resultados_ensamble\\DatosUsosTierra\\ensambles_elegidos.json",
+        "ensamble_sha256": "6e1bf48c21d138cca28d35d3b141a356469585a8ef0c07d833bb73b912f1ae78"
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+tabla,etapa,modelo,objetivo,accuracy,f1_macro,f1_weighted,filas_train,filas_prueba,segundos,clases_prueba,clases_sin_entrenamiento,rol
+DatosAnimales,prueba_aleatoria,Mayoritaria,EspecializacionMGAPCodigo,0.7176000626615493,0.2088961447607234,0.5996155462802049,255339,63835,0.0154523000092012,1 2 3 4,,Referencia
+DatosAnimales,prueba_aleatoria,RF_balanceado,EspecializacionMGAPCodigo,0.8094775593326545,0.7979886916045595,0.8327072969826571,255339,63835,15.233798900007969,1 2 3 4,,Referencia
+DatosAnimales,prueba_aleatoria,Mayoritaria,TipoProduccionMGAPCodigo,0.4585258870525573,0.0698613870838778,0.2882992903502143,255339,63835,0.0168350000021746,1 2 3 4 5 6 7 8 9,,Referencia
+DatosAnimales,prueba_aleatoria,RF_balanceado,TipoProduccionMGAPCodigo,0.5218297172397588,0.566791298041693,0.5498751112329794,255339,63835,14.865617700008444,1 2 3 4 5 6 7 8 9,,Referencia
+DatosAnimales,prueba_aleatoria,HistBoost_suavizado,EspecializacionMGAPCodigo,0.8766664055768779,0.8268617841478255,0.8787462411871709,255339,63835,36.74624940000649,1 2 3 4,,Elegido
+DatosAnimales,prueba_aleatoria,HistBoost_suavizado,TipoProduccionMGAPCodigo,0.6227148116237174,0.5974694904679866,0.6262646803869683,255339,63835,77.32478830000036,1 2 3 4 5 6 7 8 9,,Elegido
+DatosGenerales,prueba_aleatoria,Mayoritaria,EspecializacionMGAPCodigo,0.6065757328990228,0.188779066083761,0.4580352014630016,117885,29472,0.0080424999905517,1 2 3 4,,Referencia
+DatosGenerales,prueba_aleatoria,RF_balanceado,EspecializacionMGAPCodigo,0.961387079261672,0.9324590269291424,0.962806403236074,117885,29472,5.483500399990589,1 2 3 4,,Referencia
+DatosGenerales,prueba_aleatoria,Mayoritaria,TipoProduccionMGAPCodigo,0.3412391422366992,0.0565379566619162,0.1736366745161519,117885,29472,0.0165817000088281,1 2 3 4 5 6 7 8 9,,Referencia
+DatosGenerales,prueba_aleatoria,RF_balanceado,TipoProduccionMGAPCodigo,0.6125814332247557,0.6139414571189844,0.6270947771129776,117885,29472,10.387952799996128,1 2 3 4 5 6 7 8 9,,Referencia
+DatosGenerales,prueba_aleatoria,HistBoost_leve,EspecializacionMGAPCodigo,0.9766897394136808,0.9537265685009568,0.9767958240621188,117885,29472,24.041755700003705,1 2 3 4,,Elegido
+DatosGenerales,prueba_aleatoria,HistBoost_suavizado,TipoProduccionMGAPCodigo,0.6875339305103149,0.6445104190132467,0.6841993362628014,117885,29472,105.05230199999642,1 2 3 4 5 6 7 8 9,,Elegido
+DatosProduccionLeche,prueba_aleatoria,Mayoritaria,EspecializacionMGAPCodigo,0.9691903510866968,0.2460885385081867,0.9540265481406466,16749,4187,0.0025581999943824,1 2 3 4,,Referencia
+DatosProduccionLeche,prueba_aleatoria,RF_balanceado,EspecializacionMGAPCodigo,0.9617864819679962,0.6505534825424426,0.967507234037738,16749,4187,0.3934205999976257,1 2 3 4,,Referencia
+DatosProduccionLeche,prueba_aleatoria,Mayoritaria,TipoProduccionMGAPCodigo,0.9691903510866968,0.1640590256721245,0.9540265481406466,16749,4187,0.0051000000094063,1 3 4 5 6 9,,Referencia
+DatosProduccionLeche,prueba_aleatoria,RF_balanceado,TipoProduccionMGAPCodigo,0.9567709577262956,0.4245003508226108,0.9646051677029708,16749,4187,0.4105882000003475,1 3 4 5 6 9,,Referencia
+DatosProduccionLeche,prueba_aleatoria,RF_suavizado,EspecializacionMGAPCodigo,0.9875806066395988,0.8005938827928356,0.9870144180211368,16749,4187,0.5669788000086555,1 2 3 4,,Elegido
+DatosProduccionLeche,prueba_aleatoria,ExtraTrees_suavizado,TipoProduccionMGAPCodigo,0.9847145927871984,0.497450417017258,0.9842854080107571,16749,4187,0.6417828999983612,1 3 4 5 6 9,,Elegido
+DatosProduccionLecheEnEstablecimiento,prueba_aleatoria,Mayoritaria,EspecializacionMGAPCodigo,0.9529411764705882,0.2439759036144578,0.9299787384833452,1359,340,0.0030265000095823,1 2 3 4,,Referencia
+DatosProduccionLecheEnEstablecimiento,prueba_aleatoria,RF_balanceado,EspecializacionMGAPCodigo,0.973529411764706,0.814693446088795,0.9778796169630644,1359,340,0.3075609000079566,1 2 3 4,,Referencia
+DatosProduccionLecheEnEstablecimiento,prueba_aleatoria,Mayoritaria,TipoProduccionMGAPCodigo,0.9529411764705882,0.3253012048192771,0.9299787384833452,1359,340,0.0023947000008774,1 3 4,,Referencia
+DatosProduccionLecheEnEstablecimiento,prueba_aleatoria,RF_balanceado,TipoProduccionMGAPCodigo,0.9705882352941176,0.7650458069062721,0.9764357666956848,1359,340,0.3451147000014316,1 3 4,,Referencia
+DatosProduccionLecheEnEstablecimiento,prueba_aleatoria,RF_suavizado,EspecializacionMGAPCodigo,0.9911764705882352,0.9261206535400084,0.9906353039749624,1359,340,0.2719166000024415,1 2 3 4,,Elegido
+DatosProduccionLecheEnEstablecimiento,prueba_aleatoria,RF_suavizado,TipoProduccionMGAPCodigo,0.9882352941176472,0.8570497602755668,0.9884784412298644,1359,340,0.309998099997756,1 3 4,,Elegido
+DatosTenenciasTierra,prueba_aleatoria,Mayoritaria,EspecializacionMGAPCodigo,0.6942512303081957,0.2048843813387424,0.5689649352614217,145490,36373,0.0190445000043837,1 2 3 4,,Referencia
+DatosTenenciasTierra,prueba_aleatoria,RF_balanceado,EspecializacionMGAPCodigo,0.6889725895581887,0.6640951752872143,0.7138718551645106,145490,36373,9.316247399998248,1 2 3 4,,Referencia
+DatosTenenciasTierra,prueba_aleatoria,Mayoritaria,TipoProduccionMGAPCodigo,0.4284771671294641,0.0666564019656902,0.2570467165677162,145490,36373,0.0258420000027399,1 2 3 4 5 6 7 8 9,,Referencia
+DatosTenenciasTierra,prueba_aleatoria,RF_balanceado,TipoProduccionMGAPCodigo,0.4150606218898633,0.460843982295722,0.4282626679471564,145490,36373,10.00949070000206,1 2 3 4 5 6 7 8 9,,Referencia
+DatosTenenciasTierra,prueba_aleatoria,ExtraTrees_suavizado,EspecializacionMGAPCodigo,0.7868748797184725,0.7042300929310803,0.785298075099106,145490,36373,18.996161400005803,1 2 3 4,,Elegido
+DatosTenenciasTierra,prueba_aleatoria,HistBoost_suavizado,TipoProduccionMGAPCodigo,0.512468039479834,0.476845986616487,0.5036878736587984,145490,36373,103.1591838000022,1 2 3 4 5 6 7 8 9,,Elegido
+DatosUsosTierra,prueba_aleatoria,Mayoritaria,EspecializacionMGAPCodigo,0.6162308352977725,0.1906382497597377,0.4699086715565941,218891,54723,0.0230082999914884,1 2 3 4,,Referencia
+DatosUsosTierra,prueba_aleatoria,RF_balanceado,EspecializacionMGAPCodigo,0.7240465617747565,0.698489221472454,0.7368671386091534,218891,54723,15.56961869999941,1 2 3 4,,Referencia
+DatosUsosTierra,prueba_aleatoria,Mayoritaria,TipoProduccionMGAPCodigo,0.4181422802112457,0.065522696847998,0.2465802887905089,218891,54723,0.0166428999946219,1 2 3 4 5 6 7 8 9,,Referencia
+DatosUsosTierra,prueba_aleatoria,RF_balanceado,TipoProduccionMGAPCodigo,0.4033952816914277,0.4355812829579291,0.4189355521122603,218891,54723,16.123017799996887,1 2 3 4 5 6 7 8 9,,Referencia
+DatosUsosTierra,prueba_aleatoria,HistBoost_suavizado,EspecializacionMGAPCodigo,0.7701149425287356,0.7174737605237074,0.7708792339049866,218891,54723,62.4491418999969,1 2 3 4,,Elegido
+DatosUsosTierra,prueba_aleatoria,ExtraTrees_suavizado,TipoProduccionMGAPCodigo,0.5366847577800925,0.4442842841279427,0.5061103675092176,218891,54723,33.824406700005056,1 2 3 4 5 6 7 8 9,,Elegido
+DatosAnimalesDetallados,prueba_aleatoria,Mayoritaria,EspecializacionMGAPCodigo,0.713981591916646,0.2082815811102854,0.5948368593921505,888740,222185,0.0462249999982304,1 2 3 4,,Referencia
+DatosAnimalesDetallados,prueba_aleatoria,RF_balanceado,EspecializacionMGAPCodigo,0.813569772936967,0.7891700180694596,0.8341666749128961,888740,222185,68.25224170000001,1 2 3 4,,Referencia
+DatosAnimalesDetallados,prueba_aleatoria,Mayoritaria,TipoProduccionMGAPCodigo,0.4738483696019083,0.0714453670140808,0.3046884360770894,888740,222185,0.054790000009234,1 2 3 4 5 6 7 8 9,,Referencia
+DatosAnimalesDetallados,prueba_aleatoria,RF_balanceado,TipoProduccionMGAPCodigo,0.4815176542070797,0.5318776152737703,0.5098110587228573,888740,222185,73.8968268000026,1 2 3 4 5 6 7 8 9,,Referencia
+DatosAnimalesDetallados,prueba_aleatoria,HistBoost_suavizado,EspecializacionMGAPCodigo,0.8759052141233656,0.8168528495798685,0.8771028970556041,888740,222185,54.1063492000103,1 2 3 4,,Elegido
+DatosAnimalesDetallados,prueba_aleatoria,HistBoost_suavizado,TipoProduccionMGAPCodigo,0.641105385152013,0.5777595698295456,0.631589227586855,888740,222185,118.6849729000096,1 2 3 4 5 6 7 8 9,,Elegido

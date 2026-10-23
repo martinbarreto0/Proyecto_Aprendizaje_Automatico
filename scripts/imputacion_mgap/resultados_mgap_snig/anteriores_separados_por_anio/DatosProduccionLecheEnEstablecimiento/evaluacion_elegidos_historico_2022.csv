@@ -1,0 +1,3 @@
+tabla,etapa,modelo,rol,objetivo,accuracy,f1_macro,f1_weighted,filas_train,filas_prueba,segundos,clases_prueba,clases_sin_entrenamiento
+DatosProduccionLecheEnEstablecimiento,historico_2022,RF_balanceado,Elegido,EspecializacionMGAPCodigo,0.9477272727272728,0.678741528645038,0.9629959283151919,1259,440,0.33438119999482296,1 2 4,
+DatosProduccionLecheEnEstablecimiento,historico_2022,RF_suavizado,Elegido,TipoProduccionMGAPCodigo,0.9886363636363636,0.6424565944138898,0.9868449947550563,1259,440,0.3145571000059135,1 3 4 9,9

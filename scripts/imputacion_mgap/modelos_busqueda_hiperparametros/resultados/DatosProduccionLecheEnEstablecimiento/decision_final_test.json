@@ -1,0 +1,17 @@
+{
+  "tabla": "DatosProduccionLecheEnEstablecimiento",
+  "objetivos": {
+    "EspecializacionMGAPCodigo": {
+      "f1_macro_actual_test": 0.9261206535400084,
+      "f1_macro_busqueda_test": 0.8726851851851851,
+      "delta_f1_macro_test": -0.05343546835482327,
+      "recomienda_reemplazo": false
+    },
+    "TipoProduccionMGAPCodigo": {
+      "f1_macro_actual_test": 0.8570497602755668,
+      "f1_macro_busqueda_test": 0.8570497602755668,
+      "delta_f1_macro_test": 0.0,
+      "recomienda_reemplazo": false
+    }
+  }
+}

@@ -1,0 +1,573 @@
+### DatosProduccionLeche 20:15:21
+
+=== DatosProduccionLeche ===
+Validación EspecializacionMGAPCodigo
+  base KNN (13399 filas)
+  base RF_suavizado (13399 filas)
+  base ExtraTrees_suavizado (13399 filas)
+  base HistBoost (13399 filas)
+{'tabla': 'DatosProduccionLeche', 'etapa': 'validacion_ensamble', 'modelo': 'KNN', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.9853731343283582, 'f1_macro': 0.8211379027567898, 'f1_weighted': 0.9842196735528391, 'filas_train': 13399, 'filas_prueba': 3350, 'segundos': 0.23074580007232726, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosProduccionLeche', 'etapa': 'validacion_ensamble', 'modelo': 'RF_suavizado', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.9871641791044776, 'f1_macro': 0.8258980474704043, 'f1_weighted': 0.9856040427480652, 'filas_train': 13399, 'filas_prueba': 3350, 'segundos': 0.5370791000314057, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosProduccionLeche', 'etapa': 'validacion_ensamble', 'modelo': 'ExtraTrees_suavizado', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.9859701492537314, 'f1_macro': 0.8019705974350954, 'f1_weighted': 0.9843943996003717, 'filas_train': 13399, 'filas_prueba': 3350, 'segundos': 0.4912024000659585, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosProduccionLeche', 'etapa': 'validacion_ensamble', 'modelo': 'HistBoost', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.9859701492537314, 'f1_macro': 0.8049435851511022, 'f1_weighted': 0.9844700629591954, 'filas_train': 13399, 'filas_prueba': 3350, 'segundos': 1.729653000133112, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosProduccionLeche', 'etapa': 'validacion_ensamble', 'modelo': 'E1_voto_duro', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.9871641791044776, 'f1_macro': 0.8268267301052774, 'f1_weighted': 0.9857008336804675, 'filas_train': 13399, 'filas_prueba': 3350, 'segundos': 2.9886803003028035, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosProduccionLeche', 'etapa': 'validacion_ensamble', 'modelo': 'E2_voto_blando', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.9871641791044776, 'f1_macro': 0.828608755025511, 'f1_weighted': 0.985886405737399, 'filas_train': 13399, 'filas_prueba': 3350, 'segundos': 2.9886803003028035, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosProduccionLeche', 'etapa': 'validacion_ensamble', 'modelo': 'E3_voto_blando_arboles', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.9874626865671642, 'f1_macro': 0.8281521508794236, 'f1_weighted': 0.9859869080113314, 'filas_train': 13399, 'filas_prueba': 3350, 'segundos': 2.7579345002304763, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+ pliegue 1/3
+  base KNN (8932 filas)
+  base RF_suavizado (8932 filas)
+  base ExtraTrees_suavizado (8932 filas)
+  base HistBoost (8932 filas)
+ pliegue 2/3
+  base KNN (8933 filas)
+  base RF_suavizado (8933 filas)
+  base ExtraTrees_suavizado (8933 filas)
+  base HistBoost (8933 filas)
+ pliegue 3/3
+  base KNN (8933 filas)
+  base RF_suavizado (8933 filas)
+  base ExtraTrees_suavizado (8933 filas)
+  base HistBoost (8933 filas)
+{'tabla': 'DatosProduccionLeche', 'etapa': 'validacion_ensamble', 'modelo': 'E4_stacking', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.9853731343283582, 'f1_macro': 0.8197051953046934, 'f1_weighted': 0.9848427167633538, 'filas_train': 13399, 'filas_prueba': 3350, 'segundos': 34.32962450035848, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+Validación TipoProduccionMGAPCodigo
+  base KNN (13399 filas)
+  base RF_suavizado (13399 filas)
+  base ExtraTrees_suavizado (13399 filas)
+  base HistBoost (13399 filas)
+{'tabla': 'DatosProduccionLeche', 'etapa': 'validacion_ensamble', 'modelo': 'KNN', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.984776119402985, 'f1_macro': 0.7130337341129921, 'f1_weighted': 0.9835506377793257, 'filas_train': 13399, 'filas_prueba': 3350, 'segundos': 0.15886259987019002, 'clases_prueba': '1 3 4 5 6 9', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosProduccionLeche', 'etapa': 'validacion_ensamble', 'modelo': 'RF_suavizado', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.986268656716418, 'f1_macro': 0.5577812561463319, 'f1_weighted': 0.9844002569594824, 'filas_train': 13399, 'filas_prueba': 3350, 'segundos': 0.502491399878636, 'clases_prueba': '1 3 4 5 6 9', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosProduccionLeche', 'etapa': 'validacion_ensamble', 'modelo': 'ExtraTrees_suavizado', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.9841791044776119, 'f1_macro': 0.7245278517889245, 'f1_weighted': 0.983677587349963, 'filas_train': 13399, 'filas_prueba': 3350, 'segundos': 0.48123509995639324, 'clases_prueba': '1 3 4 5 6 9', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosProduccionLeche', 'etapa': 'validacion_ensamble', 'modelo': 'HistBoost', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.986268656716418, 'f1_macro': 0.5524477182843717, 'f1_weighted': 0.9849469140005502, 'filas_train': 13399, 'filas_prueba': 3350, 'segundos': 12.072958800010383, 'clases_prueba': '1 3 4 5 6 9', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosProduccionLeche', 'etapa': 'validacion_ensamble', 'modelo': 'E1_voto_duro', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.986268656716418, 'f1_macro': 0.551322280495328, 'f1_weighted': 0.9847714091741886, 'filas_train': 13399, 'filas_prueba': 3350, 'segundos': 13.215547899715602, 'clases_prueba': '1 3 4 5 6 9', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosProduccionLeche', 'etapa': 'validacion_ensamble', 'modelo': 'E2_voto_blando', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.9868656716417911, 'f1_macro': 0.5541657913165267, 'f1_weighted': 0.9855115405117271, 'filas_train': 13399, 'filas_prueba': 3350, 'segundos': 13.215547899715602, 'clases_prueba': '1 3 4 5 6 9', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosProduccionLeche', 'etapa': 'validacion_ensamble', 'modelo': 'E3_voto_blando_arboles', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.9859701492537314, 'f1_macro': 0.5498720388476934, 'f1_weighted': 0.9843968686001061, 'filas_train': 13399, 'filas_prueba': 3350, 'segundos': 13.056685299845412, 'clases_prueba': '1 3 4 5 6 9', 'clases_sin_entrenamiento': ''}
+C:\Users\alera\.venvs\paa_ensamble\Lib\site-packages\sklearn\model_selection\_split.py:813: UserWarning: The least populated class in y has only 1 members, which is less than n_splits=3.
+  warnings.warn(
+ pliegue 1/3
+  base KNN (8932 filas)
+  base RF_suavizado (8932 filas)
+  base ExtraTrees_suavizado (8932 filas)
+  base HistBoost (8932 filas)
+ pliegue 2/3
+  base KNN (8933 filas)
+  base RF_suavizado (8933 filas)
+  base ExtraTrees_suavizado (8933 filas)
+  base HistBoost (8933 filas)
+ pliegue 3/3
+  base KNN (8933 filas)
+  base RF_suavizado (8933 filas)
+  base ExtraTrees_suavizado (8933 filas)
+  base HistBoost (8933 filas)
+{'tabla': 'DatosProduccionLeche', 'etapa': 'validacion_ensamble', 'modelo': 'E4_stacking', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.9838805970149254, 'f1_macro': 0.7363088390708182, 'f1_weighted': 0.9846963158804078, 'filas_train': 13399, 'filas_prueba': 3350, 'segundos': 60.097053999779746, 'clases_prueba': '1 3 4 5 6 9', 'clases_sin_entrenamiento': ''}
+ELEGIDOS: DatosProduccionLeche {'EspecializacionMGAPCodigo': {'ensamble': 'E2_voto_blando', 'miembros': ['KNN', 'RF_suavizado', 'ExtraTrees_suavizado', 'HistBoost'], 'histboost': ['HistBoost_sin_pesos', 0.0, 250], 'f1_macro_validacion': 0.828608755025511}, 'TipoProduccionMGAPCodigo': {'ensamble': 'E4_stacking', 'miembros': ['KNN', 'RF_suavizado', 'ExtraTrees_suavizado', 'HistBoost'], 'histboost': ['HistBoost_sin_pesos', 0.0, 250], 'f1_macro_validacion': 0.7363088390708182}}
+Prueba EspecializacionMGAPCodigo
+  base KNN (16749 filas)
+  base RF_suavizado (16749 filas)
+  base ExtraTrees_suavizado (16749 filas)
+  base HistBoost (16749 filas)
+{'tabla': 'DatosProduccionLeche', 'etapa': 'prueba_ensamble', 'modelo': 'KNN', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.9873417721518988, 'f1_macro': 0.819951813350163, 'f1_weighted': 0.9870419083459626, 'filas_train': 16749, 'filas_prueba': 4187, 'segundos': 0.2207567000295967, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosProduccionLeche', 'etapa': 'prueba_ensamble', 'modelo': 'RF_suavizado', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.9882971101026988, 'f1_macro': 0.8487833765471495, 'f1_weighted': 0.9871405174209733, 'filas_train': 16749, 'filas_prueba': 4187, 'segundos': 0.5819467999972403, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosProduccionLeche', 'etapa': 'prueba_ensamble', 'modelo': 'ExtraTrees_suavizado', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.9859087652256986, 'f1_macro': 0.7459241895306754, 'f1_weighted': 0.9851635633222288, 'filas_train': 16749, 'filas_prueba': 4187, 'segundos': 0.514338199980557, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosProduccionLeche', 'etapa': 'prueba_ensamble', 'modelo': 'HistBoost', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.9880582756149988, 'f1_macro': 0.836105944998424, 'f1_weighted': 0.9870327554421069, 'filas_train': 16749, 'filas_prueba': 4187, 'segundos': 3.761996899964288, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosProduccionLeche', 'etapa': 'prueba_ensamble', 'modelo': 'E2_voto_blando', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.9887747790780989, 'f1_macro': 0.8222702583936411, 'f1_weighted': 0.9879991419951375, 'filas_train': 16749, 'filas_prueba': 4187, 'segundos': 5.079038599971682, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+Prueba TipoProduccionMGAPCodigo
+  base KNN (16749 filas)
+  base RF_suavizado (16749 filas)
+  base ExtraTrees_suavizado (16749 filas)
+  base HistBoost (16749 filas)
+{'tabla': 'DatosProduccionLeche', 'etapa': 'prueba_ensamble', 'modelo': 'KNN', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.9866252686887986, 'f1_macro': 0.5401829293302162, 'f1_weighted': 0.9863711172901858, 'filas_train': 16749, 'filas_prueba': 4187, 'segundos': 0.2331441999413073, 'clases_prueba': '1 3 4 5 6 9', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosProduccionLeche', 'etapa': 'prueba_ensamble', 'modelo': 'RF_suavizado', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.9878194411272988, 'f1_macro': 0.5221849096021282, 'f1_weighted': 0.9865828210309789, 'filas_train': 16749, 'filas_prueba': 4187, 'segundos': 0.606740899849683, 'clases_prueba': '1 3 4 5 6 9', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosProduccionLeche', 'etapa': 'prueba_ensamble', 'modelo': 'ExtraTrees_suavizado', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.9847145927871984, 'f1_macro': 0.49745041701725806, 'f1_weighted': 0.9842854080107571, 'filas_train': 16749, 'filas_prueba': 4187, 'segundos': 0.5407910000067204, 'clases_prueba': '1 3 4 5 6 9', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosProduccionLeche', 'etapa': 'prueba_ensamble', 'modelo': 'HistBoost', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.9887747790780989, 'f1_macro': 0.5929406297014458, 'f1_weighted': 0.9878717475724365, 'filas_train': 16749, 'filas_prueba': 4187, 'segundos': 13.529361400054768, 'clases_prueba': '1 3 4 5 6 9', 'clases_sin_entrenamiento': ''}
+C:\Users\alera\.venvs\paa_ensamble\Lib\site-packages\sklearn\model_selection\_split.py:813: UserWarning: The least populated class in y has only 1 members, which is less than n_splits=3.
+  warnings.warn(
+ pliegue 1/3
+  base KNN (11166 filas)
+  base RF_suavizado (11166 filas)
+  base ExtraTrees_suavizado (11166 filas)
+  base HistBoost (11166 filas)
+ pliegue 2/3
+  base KNN (11166 filas)
+  base RF_suavizado (11166 filas)
+  base ExtraTrees_suavizado (11166 filas)
+  base HistBoost (11166 filas)
+ pliegue 3/3
+  base KNN (11166 filas)
+  base RF_suavizado (11166 filas)
+  base ExtraTrees_suavizado (11166 filas)
+  base HistBoost (11166 filas)
+{'tabla': 'DatosProduccionLeche', 'etapa': 'prueba_ensamble', 'modelo': 'E4_stacking', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.9825650823978983, 'f1_macro': 0.5097886704437234, 'f1_weighted': 0.9836801194443066, 'filas_train': 16749, 'filas_prueba': 4187, 'segundos': 40.37631029984914, 'clases_prueba': '1 3 4 5 6 9', 'clases_sin_entrenamiento': ''}
+### DatosGenerales 20:17:49
+
+=== DatosGenerales ===
+Validación EspecializacionMGAPCodigo
+  base KNN (94308 filas)
+  base RF_suavizado (94308 filas)
+  base ExtraTrees_suavizado (94308 filas)
+  base HistBoost (94308 filas)
+{'tabla': 'DatosGenerales', 'etapa': 'validacion_ensamble', 'modelo': 'KNN', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.9275141027272342, 'f1_macro': 0.8995789191201671, 'f1_weighted': 0.9273063854285927, 'filas_train': 94308, 'filas_prueba': 23577, 'segundos': 5.257917999988422, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosGenerales', 'etapa': 'validacion_ensamble', 'modelo': 'RF_suavizado', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.9644993001654154, 'f1_macro': 0.9344306854345188, 'f1_weighted': 0.9652589450193069, 'filas_train': 94308, 'filas_prueba': 23577, 'segundos': 3.6611281000077724, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosGenerales', 'etapa': 'validacion_ensamble', 'modelo': 'ExtraTrees_suavizado', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.8962548246172117, 'f1_macro': 0.8675585755932052, 'f1_weighted': 0.8945680068718087, 'filas_train': 94308, 'filas_prueba': 23577, 'segundos': 4.1694414999801666, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosGenerales', 'etapa': 'validacion_ensamble', 'modelo': 'HistBoost', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.9738728421766977, 'f1_macro': 0.9497138134297144, 'f1_weighted': 0.9740859122593576, 'filas_train': 94308, 'filas_prueba': 23577, 'segundos': 23.541458699852228, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosGenerales', 'etapa': 'validacion_ensamble', 'modelo': 'E1_voto_duro', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.9742969843491538, 'f1_macro': 0.9495748376540389, 'f1_weighted': 0.9742861966528195, 'filas_train': 94308, 'filas_prueba': 23577, 'segundos': 36.62994629982859, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosGenerales', 'etapa': 'validacion_ensamble', 'modelo': 'E2_voto_blando', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.9750180260423293, 'f1_macro': 0.9506030362344563, 'f1_weighted': 0.9749612862359381, 'filas_train': 94308, 'filas_prueba': 23577, 'segundos': 36.62994629982859, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosGenerales', 'etapa': 'validacion_ensamble', 'modelo': 'E3_voto_blando_arboles', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.9723459303558553, 'f1_macro': 0.9456739611159459, 'f1_weighted': 0.9725282069642309, 'filas_train': 94308, 'filas_prueba': 23577, 'segundos': 31.372028299840167, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+ pliegue 1/3
+  base KNN (62872 filas)
+  base RF_suavizado (62872 filas)
+  base ExtraTrees_suavizado (62872 filas)
+  base HistBoost (62872 filas)
+ pliegue 2/3
+  base KNN (62872 filas)
+  base RF_suavizado (62872 filas)
+  base ExtraTrees_suavizado (62872 filas)
+  base HistBoost (62872 filas)
+ pliegue 3/3
+  base KNN (62872 filas)
+  base RF_suavizado (62872 filas)
+  base ExtraTrees_suavizado (62872 filas)
+  base HistBoost (62872 filas)
+{'tabla': 'DatosGenerales', 'etapa': 'validacion_ensamble', 'modelo': 'E4_stacking', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.9742121559146626, 'f1_macro': 0.9511094263743167, 'f1_weighted': 0.9745185796909175, 'filas_train': 94308, 'filas_prueba': 23577, 'segundos': 87.70471149962395, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+Validación TipoProduccionMGAPCodigo
+  base KNN (94308 filas)
+  base RF_suavizado (94308 filas)
+  base ExtraTrees_suavizado (94308 filas)
+  base HistBoost (94308 filas)
+{'tabla': 'DatosGenerales', 'etapa': 'validacion_ensamble', 'modelo': 'KNN', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.6768460788056156, 'f1_macro': 0.6060645375334323, 'f1_weighted': 0.6684132006302644, 'filas_train': 94308, 'filas_prueba': 23577, 'segundos': 4.712792899925262, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosGenerales', 'etapa': 'validacion_ensamble', 'modelo': 'RF_suavizado', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.6933027950969165, 'f1_macro': 0.6133112541215034, 'f1_weighted': 0.6749523216872502, 'filas_train': 94308, 'filas_prueba': 23577, 'segundos': 3.9470708000008017, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosGenerales', 'etapa': 'validacion_ensamble', 'modelo': 'ExtraTrees_suavizado', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.6569113967001738, 'f1_macro': 0.5377771678924055, 'f1_weighted': 0.6261736554525412, 'filas_train': 94308, 'filas_prueba': 23577, 'segundos': 4.073344999924302, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosGenerales', 'etapa': 'validacion_ensamble', 'modelo': 'HistBoost', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.6863468634686347, 'f1_macro': 0.6425586102072569, 'f1_weighted': 0.6843778246186061, 'filas_train': 94308, 'filas_prueba': 23577, 'segundos': 45.208245099987835, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosGenerales', 'etapa': 'validacion_ensamble', 'modelo': 'E1_voto_duro', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.7151037027611655, 'f1_macro': 0.6458362898407766, 'f1_weighted': 0.6966072459297855, 'filas_train': 94308, 'filas_prueba': 23577, 'segundos': 57.9414537998382, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosGenerales', 'etapa': 'validacion_ensamble', 'modelo': 'E2_voto_blando', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.725113458031132, 'f1_macro': 0.6616382714820455, 'f1_weighted': 0.7106575034962864, 'filas_train': 94308, 'filas_prueba': 23577, 'segundos': 57.9414537998382, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosGenerales', 'etapa': 'validacion_ensamble', 'modelo': 'E3_voto_blando_arboles', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.7031004792806549, 'f1_macro': 0.6433205944468328, 'f1_weighted': 0.6907349456493845, 'filas_train': 94308, 'filas_prueba': 23577, 'segundos': 53.22866089991294, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+ pliegue 1/3
+  base KNN (62872 filas)
+  base RF_suavizado (62872 filas)
+  base ExtraTrees_suavizado (62872 filas)
+  base HistBoost (62872 filas)
+ pliegue 2/3
+  base KNN (62872 filas)
+  base RF_suavizado (62872 filas)
+  base ExtraTrees_suavizado (62872 filas)
+  base HistBoost (62872 filas)
+ pliegue 3/3
+  base KNN (62872 filas)
+  base RF_suavizado (62872 filas)
+  base ExtraTrees_suavizado (62872 filas)
+  base HistBoost (62872 filas)
+{'tabla': 'DatosGenerales', 'etapa': 'validacion_ensamble', 'modelo': 'E4_stacking', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.7179878695338677, 'f1_macro': 0.6777949625553551, 'f1_weighted': 0.7187986013716758, 'filas_train': 94308, 'filas_prueba': 23577, 'segundos': 183.97577989986166, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+ELEGIDOS: DatosGenerales {'EspecializacionMGAPCodigo': {'ensamble': 'E4_stacking', 'miembros': ['KNN', 'RF_suavizado', 'ExtraTrees_suavizado', 'HistBoost'], 'histboost': ['HistBoost_leve', 0.25, 250], 'f1_macro_validacion': 0.9511094263743167}, 'TipoProduccionMGAPCodigo': {'ensamble': 'E4_stacking', 'miembros': ['KNN', 'RF_suavizado', 'ExtraTrees_suavizado', 'HistBoost'], 'histboost': ['HistBoost_suavizado', 0.5, 250], 'f1_macro_validacion': 0.6777949625553551}}
+Prueba EspecializacionMGAPCodigo
+  base KNN (117885 filas)
+  base RF_suavizado (117885 filas)
+  base ExtraTrees_suavizado (117885 filas)
+  base HistBoost (117885 filas)
+{'tabla': 'DatosGenerales', 'etapa': 'prueba_ensamble', 'modelo': 'KNN', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.9367874592833876, 'f1_macro': 0.9119324496808752, 'f1_weighted': 0.9365968825542674, 'filas_train': 117885, 'filas_prueba': 29472, 'segundos': 8.928732799831778, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosGenerales', 'etapa': 'prueba_ensamble', 'modelo': 'RF_suavizado', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.9694286102062974, 'f1_macro': 0.9418787013372305, 'f1_weighted': 0.969915053616345, 'filas_train': 117885, 'filas_prueba': 29472, 'segundos': 4.654146200045943, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosGenerales', 'etapa': 'prueba_ensamble', 'modelo': 'ExtraTrees_suavizado', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.8978691639522258, 'f1_macro': 0.8720414786415694, 'f1_weighted': 0.8959997012622488, 'filas_train': 117885, 'filas_prueba': 29472, 'segundos': 5.0857260001357645, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosGenerales', 'etapa': 'prueba_ensamble', 'modelo': 'HistBoost', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.977164766558089, 'f1_macro': 0.954606302183338, 'f1_weighted': 0.9772482696374187, 'filas_train': 117885, 'filas_prueba': 29472, 'segundos': 25.49062649998814, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+ pliegue 1/3
+  base KNN (78590 filas)
+  base RF_suavizado (78590 filas)
+  base ExtraTrees_suavizado (78590 filas)
+  base HistBoost (78590 filas)
+ pliegue 2/3
+  base KNN (78590 filas)
+  base RF_suavizado (78590 filas)
+  base ExtraTrees_suavizado (78590 filas)
+  base HistBoost (78590 filas)
+ pliegue 3/3
+  base KNN (78590 filas)
+  base RF_suavizado (78590 filas)
+  base ExtraTrees_suavizado (78590 filas)
+  base HistBoost (78590 filas)
+{'tabla': 'DatosGenerales', 'etapa': 'prueba_ensamble', 'modelo': 'E4_stacking', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.9777755157437568, 'f1_macro': 0.9569593667419617, 'f1_weighted': 0.97800197649811, 'filas_train': 117885, 'filas_prueba': 29472, 'segundos': 139.16273520002142, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+Prueba TipoProduccionMGAPCodigo
+  base KNN (117885 filas)
+  base RF_suavizado (117885 filas)
+  base ExtraTrees_suavizado (117885 filas)
+  base HistBoost (117885 filas)
+{'tabla': 'DatosGenerales', 'etapa': 'prueba_ensamble', 'modelo': 'KNN', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.6922163409337676, 'f1_macro': 0.6273304099719728, 'f1_weighted': 0.6845846508990637, 'filas_train': 117885, 'filas_prueba': 29472, 'segundos': 7.592291499953717, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosGenerales', 'etapa': 'prueba_ensamble', 'modelo': 'RF_suavizado', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.6927252985884907, 'f1_macro': 0.6190967762203645, 'f1_weighted': 0.674658025162058, 'filas_train': 117885, 'filas_prueba': 29472, 'segundos': 4.755986799951643, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosGenerales', 'etapa': 'prueba_ensamble', 'modelo': 'ExtraTrees_suavizado', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.6460029858849077, 'f1_macro': 0.5366562457890872, 'f1_weighted': 0.6160016894780643, 'filas_train': 117885, 'filas_prueba': 29472, 'segundos': 5.676554099889472, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosGenerales', 'etapa': 'prueba_ensamble', 'modelo': 'HistBoost', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.6808496199782845, 'f1_macro': 0.636778041107941, 'f1_weighted': 0.6781102757568326, 'filas_train': 117885, 'filas_prueba': 29472, 'segundos': 57.95014650002122, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+ pliegue 1/3
+  base KNN (78590 filas)
+  base RF_suavizado (78590 filas)
+  base ExtraTrees_suavizado (78590 filas)
+  base HistBoost (78590 filas)
+ pliegue 2/3
+  base KNN (78590 filas)
+  base RF_suavizado (78590 filas)
+  base ExtraTrees_suavizado (78590 filas)
+  base HistBoost (78590 filas)
+ pliegue 3/3
+  base KNN (78590 filas)
+  base RF_suavizado (78590 filas)
+  base ExtraTrees_suavizado (78590 filas)
+  base HistBoost (78590 filas)
+{'tabla': 'DatosGenerales', 'etapa': 'prueba_ensamble', 'modelo': 'E4_stacking', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.7254343105320304, 'f1_macro': 0.6866099052413176, 'f1_weighted': 0.7262231351439993, 'filas_train': 117885, 'filas_prueba': 29472, 'segundos': 274.9809425997082, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+### DatosAnimales 20:29:50
+
+=== DatosAnimales ===
+Validación EspecializacionMGAPCodigo
+  base KNN (204271 filas)
+  base RF_suavizado (204271 filas)
+  base ExtraTrees_suavizado (204271 filas)
+  base HistBoost (204271 filas)
+{'tabla': 'DatosAnimales', 'etapa': 'validacion_ensamble', 'modelo': 'KNN', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.842797838176549, 'f1_macro': 0.7755358745031959, 'f1_weighted': 0.8457986258767349, 'filas_train': 204271, 'filas_prueba': 51068, 'segundos': 26.68069209996611, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosAnimales', 'etapa': 'validacion_ensamble', 'modelo': 'RF_suavizado', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.887874990209133, 'f1_macro': 0.8147910043722992, 'f1_weighted': 0.8797507258687306, 'filas_train': 204271, 'filas_prueba': 51068, 'segundos': 9.464787299977615, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosAnimales', 'etapa': 'validacion_ensamble', 'modelo': 'ExtraTrees_suavizado', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.8781037048641027, 'f1_macro': 0.8018637887510347, 'f1_weighted': 0.871681492393121, 'filas_train': 204271, 'filas_prueba': 51068, 'segundos': 12.947761700022966, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosAnimales', 'etapa': 'validacion_ensamble', 'modelo': 'HistBoost', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.8783582674081617, 'f1_macro': 0.8277985386122715, 'f1_weighted': 0.8799945642612063, 'filas_train': 204271, 'filas_prueba': 51068, 'segundos': 61.842731499811634, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosAnimales', 'etapa': 'validacion_ensamble', 'modelo': 'E1_voto_duro', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.8926529333437769, 'f1_macro': 0.8308956656882344, 'f1_weighted': 0.8880167013060283, 'filas_train': 204271, 'filas_prueba': 51068, 'segundos': 110.93597259977832, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosAnimales', 'etapa': 'validacion_ensamble', 'modelo': 'E2_voto_blando', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.8934753661784287, 'f1_macro': 0.8331230795205304, 'f1_weighted': 0.8892148292899966, 'filas_train': 204271, 'filas_prueba': 51068, 'segundos': 110.93597259977832, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosAnimales', 'etapa': 'validacion_ensamble', 'modelo': 'E3_voto_blando_arboles', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.8879728988799248, 'f1_macro': 0.8250039765346523, 'f1_weighted': 0.8835564949429553, 'filas_train': 204271, 'filas_prueba': 51068, 'segundos': 84.25528049981222, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+ pliegue 1/3
+  base KNN (136180 filas)
+  base RF_suavizado (136180 filas)
+  base ExtraTrees_suavizado (136180 filas)
+  base HistBoost (136180 filas)
+ pliegue 2/3
+  base KNN (136181 filas)
+  base RF_suavizado (136181 filas)
+  base ExtraTrees_suavizado (136181 filas)
+  base HistBoost (136181 filas)
+ pliegue 3/3
+  base KNN (136181 filas)
+  base RF_suavizado (136181 filas)
+  base ExtraTrees_suavizado (136181 filas)
+  base HistBoost (136181 filas)
+{'tabla': 'DatosAnimales', 'etapa': 'validacion_ensamble', 'modelo': 'E4_stacking', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.8593444035403776, 'f1_macro': 0.8053557173697308, 'f1_weighted': 0.8638611447349647, 'filas_train': 204271, 'filas_prueba': 51068, 'segundos': 323.3207446997985, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+Validación TipoProduccionMGAPCodigo
+  base KNN (204271 filas)
+  base RF_suavizado (204271 filas)
+  base ExtraTrees_suavizado (204271 filas)
+  base HistBoost (204271 filas)
+{'tabla': 'DatosAnimales', 'etapa': 'validacion_ensamble', 'modelo': 'KNN', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.6354468551734942, 'f1_macro': 0.5625073288261073, 'f1_weighted': 0.6136543016694813, 'filas_train': 204271, 'filas_prueba': 51068, 'segundos': 22.03921249997802, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosAnimales', 'etapa': 'validacion_ensamble', 'modelo': 'RF_suavizado', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.6413213754210073, 'f1_macro': 0.5845284282207377, 'f1_weighted': 0.622358863412716, 'filas_train': 204271, 'filas_prueba': 51068, 'segundos': 9.22486889990978, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosAnimales', 'etapa': 'validacion_ensamble', 'modelo': 'ExtraTrees_suavizado', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.6248335552596538, 'f1_macro': 0.5345404858422934, 'f1_weighted': 0.5782321914091844, 'filas_train': 204271, 'filas_prueba': 51068, 'segundos': 11.485931199975312, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosAnimales', 'etapa': 'validacion_ensamble', 'modelo': 'HistBoost', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.6239327954883684, 'f1_macro': 0.5979110268755621, 'f1_weighted': 0.6291156779048139, 'filas_train': 204271, 'filas_prueba': 51068, 'segundos': 128.7000209998805, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosAnimales', 'etapa': 'validacion_ensamble', 'modelo': 'E1_voto_duro', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.6577896138482024, 'f1_macro': 0.5956018840634918, 'f1_weighted': 0.635799171244038, 'filas_train': 204271, 'filas_prueba': 51068, 'segundos': 171.45003359974362, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosAnimales', 'etapa': 'validacion_ensamble', 'modelo': 'E2_voto_blando', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.6626458839194799, 'f1_macro': 0.5966011097237168, 'f1_weighted': 0.639877229463342, 'filas_train': 204271, 'filas_prueba': 51068, 'segundos': 171.45003359974362, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosAnimales', 'etapa': 'validacion_ensamble', 'modelo': 'E3_voto_blando_arboles', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.6446698519620898, 'f1_macro': 0.5952581935023099, 'f1_weighted': 0.6313482415867862, 'filas_train': 204271, 'filas_prueba': 51068, 'segundos': 149.4108210997656, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+ pliegue 1/3
+  base KNN (136180 filas)
+  base RF_suavizado (136180 filas)
+  base ExtraTrees_suavizado (136180 filas)
+  base HistBoost (136180 filas)
+ pliegue 2/3
+  base KNN (136181 filas)
+  base RF_suavizado (136181 filas)
+  base ExtraTrees_suavizado (136181 filas)
+  base HistBoost (136181 filas)
+ pliegue 3/3
+  base KNN (136181 filas)
+  base RF_suavizado (136181 filas)
+  base ExtraTrees_suavizado (136181 filas)
+  base HistBoost (136181 filas)
+{'tabla': 'DatosAnimales', 'etapa': 'validacion_ensamble', 'modelo': 'E4_stacking', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.6439649095323882, 'f1_macro': 0.60459488814864, 'f1_weighted': 0.6399926288372833, 'filas_train': 204271, 'filas_prueba': 51068, 'segundos': 495.9346039996017, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+ELEGIDOS: DatosAnimales {'EspecializacionMGAPCodigo': {'ensamble': 'E2_voto_blando', 'miembros': ['KNN', 'RF_suavizado', 'ExtraTrees_suavizado', 'HistBoost'], 'histboost': ['HistBoost_suavizado', 0.5, 250], 'f1_macro_validacion': 0.8331230795205304}, 'TipoProduccionMGAPCodigo': {'ensamble': 'E4_stacking', 'miembros': ['KNN', 'RF_suavizado', 'ExtraTrees_suavizado', 'HistBoost'], 'histboost': ['HistBoost_suavizado', 0.5, 250], 'f1_macro_validacion': 0.60459488814864}}
+Prueba EspecializacionMGAPCodigo
+  base KNN (255339 filas)
+  base RF_suavizado (255339 filas)
+  base ExtraTrees_suavizado (255339 filas)
+  base HistBoost (255339 filas)
+{'tabla': 'DatosAnimales', 'etapa': 'prueba_ensamble', 'modelo': 'KNN', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.843471449831597, 'f1_macro': 0.7763503608273663, 'f1_weighted': 0.8466118808547969, 'filas_train': 255339, 'filas_prueba': 63835, 'segundos': 29.03446580003947, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosAnimales', 'etapa': 'prueba_ensamble', 'modelo': 'RF_suavizado', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.8872718727970549, 'f1_macro': 0.8168561856121888, 'f1_weighted': 0.8801188785273831, 'filas_train': 255339, 'filas_prueba': 63835, 'segundos': 10.790960100013763, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosAnimales', 'etapa': 'prueba_ensamble', 'modelo': 'ExtraTrees_suavizado', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.8774810057178664, 'f1_macro': 0.8035608673730508, 'f1_weighted': 0.8719440951353822, 'filas_train': 255339, 'filas_prueba': 63835, 'segundos': 14.457233199849725, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosAnimales', 'etapa': 'prueba_ensamble', 'modelo': 'HistBoost', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.8768543902247983, 'f1_macro': 0.8268951942462642, 'f1_weighted': 0.8788720076566446, 'filas_train': 255339, 'filas_prueba': 63835, 'segundos': 51.008723999839276, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosAnimales', 'etapa': 'prueba_ensamble', 'modelo': 'E2_voto_blando', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.8912665465653639, 'f1_macro': 0.8304965171415046, 'f1_weighted': 0.8873606782025963, 'filas_train': 255339, 'filas_prueba': 63835, 'segundos': 105.29138309974223, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+Prueba TipoProduccionMGAPCodigo
+  base KNN (255339 filas)
+  base RF_suavizado (255339 filas)
+  base ExtraTrees_suavizado (255339 filas)
+  base HistBoost (255339 filas)
+{'tabla': 'DatosAnimales', 'etapa': 'prueba_ensamble', 'modelo': 'KNN', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.6321453747943918, 'f1_macro': 0.5647395724242302, 'f1_weighted': 0.6103806450701571, 'filas_train': 255339, 'filas_prueba': 63835, 'segundos': 28.566625599982217, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosAnimales', 'etapa': 'prueba_ensamble', 'modelo': 'RF_suavizado', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.6389128221195269, 'f1_macro': 0.5842781552889953, 'f1_weighted': 0.6201079452796384, 'filas_train': 255339, 'filas_prueba': 63835, 'segundos': 11.101345699978992, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosAnimales', 'etapa': 'prueba_ensamble', 'modelo': 'ExtraTrees_suavizado', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.6265998276807394, 'f1_macro': 0.5363102010601128, 'f1_weighted': 0.5812468322984016, 'filas_train': 255339, 'filas_prueba': 63835, 'segundos': 15.537852599984035, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosAnimales', 'etapa': 'prueba_ensamble', 'modelo': 'HistBoost', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.6223858384898566, 'f1_macro': 0.597701641777485, 'f1_weighted': 0.6264395196778207, 'filas_train': 255339, 'filas_prueba': 63835, 'segundos': 102.61717129987665, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+ pliegue 1/3
+  base KNN (170226 filas)
+  base RF_suavizado (170226 filas)
+  base ExtraTrees_suavizado (170226 filas)
+  base HistBoost (170226 filas)
+ pliegue 2/3
+  base KNN (170226 filas)
+  base RF_suavizado (170226 filas)
+  base ExtraTrees_suavizado (170226 filas)
+  base HistBoost (170226 filas)
+ pliegue 3/3
+  base KNN (170226 filas)
+  base RF_suavizado (170226 filas)
+  base ExtraTrees_suavizado (170226 filas)
+  base HistBoost (170226 filas)
+{'tabla': 'DatosAnimales', 'etapa': 'prueba_ensamble', 'modelo': 'E4_stacking', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.6421242265215007, 'f1_macro': 0.606748472511558, 'f1_weighted': 0.6373246247412117, 'filas_train': 255339, 'filas_prueba': 63835, 'segundos': 524.2692473996431, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+### DatosTenenciasTierra 20:55:16
+
+=== DatosTenenciasTierra ===
+Validación EspecializacionMGAPCodigo
+  base KNN (116392 filas)
+  base RF_suavizado (116392 filas)
+  base ExtraTrees_suavizado (116392 filas)
+  base HistBoost (116392 filas)
+{'tabla': 'DatosTenenciasTierra', 'etapa': 'validacion_ensamble', 'modelo': 'KNN', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.8452470960203451, 'f1_macro': 0.7829421197859037, 'f1_weighted': 0.8419402069628229, 'filas_train': 116392, 'filas_prueba': 29098, 'segundos': 7.018126399954781, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosTenenciasTierra', 'etapa': 'validacion_ensamble', 'modelo': 'RF_suavizado', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.7896075331637913, 'f1_macro': 0.6954444299559027, 'f1_weighted': 0.7840543191158535, 'filas_train': 116392, 'filas_prueba': 29098, 'segundos': 3.532230099895969, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosTenenciasTierra', 'etapa': 'validacion_ensamble', 'modelo': 'ExtraTrees_suavizado', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.7870987696748918, 'f1_macro': 0.7007057353420529, 'f1_weighted': 0.784231420735836, 'filas_train': 116392, 'filas_prueba': 29098, 'segundos': 5.329993899911642, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosTenenciasTierra', 'etapa': 'validacion_ensamble', 'modelo': 'HistBoost', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.7773730153275139, 'f1_macro': 0.6970778162863038, 'f1_weighted': 0.7774688005969232, 'filas_train': 116392, 'filas_prueba': 29098, 'segundos': 22.183070900151506, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosTenenciasTierra', 'etapa': 'validacion_ensamble', 'modelo': 'E1_voto_duro', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.8068939446010035, 'f1_macro': 0.7243035719272372, 'f1_weighted': 0.8023643627120636, 'filas_train': 116392, 'filas_prueba': 29098, 'segundos': 38.0634212999139, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosTenenciasTierra', 'etapa': 'validacion_ensamble', 'modelo': 'E2_voto_blando', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.8386487043783077, 'f1_macro': 0.7630836823689325, 'f1_weighted': 0.8315349024290734, 'filas_train': 116392, 'filas_prueba': 29098, 'segundos': 38.0634212999139, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosTenenciasTierra', 'etapa': 'validacion_ensamble', 'modelo': 'E3_voto_blando_arboles', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.7881985016152313, 'f1_macro': 0.7020523781995466, 'f1_weighted': 0.7852797523980976, 'filas_train': 116392, 'filas_prueba': 29098, 'segundos': 31.045294899959117, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+ pliegue 1/3
+  base KNN (77594 filas)
+  base RF_suavizado (77594 filas)
+  base ExtraTrees_suavizado (77594 filas)
+  base HistBoost (77594 filas)
+ pliegue 2/3
+  base KNN (77595 filas)
+  base RF_suavizado (77595 filas)
+  base ExtraTrees_suavizado (77595 filas)
+  base HistBoost (77595 filas)
+ pliegue 3/3
+  base KNN (77595 filas)
+  base RF_suavizado (77595 filas)
+  base ExtraTrees_suavizado (77595 filas)
+  base HistBoost (77595 filas)
+{'tabla': 'DatosTenenciasTierra', 'etapa': 'validacion_ensamble', 'modelo': 'E4_stacking', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.8474809265241597, 'f1_macro': 0.7924910504073469, 'f1_weighted': 0.8462015813891642, 'filas_train': 116392, 'filas_prueba': 29098, 'segundos': 155.5928857999388, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+Validación TipoProduccionMGAPCodigo
+  base KNN (116392 filas)
+  base RF_suavizado (116392 filas)
+  base ExtraTrees_suavizado (116392 filas)
+  base HistBoost (116392 filas)
+{'tabla': 'DatosTenenciasTierra', 'etapa': 'validacion_ensamble', 'modelo': 'KNN', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.6339267303594749, 'f1_macro': 0.5684265203201673, 'f1_weighted': 0.6238054288184144, 'filas_train': 116392, 'filas_prueba': 29098, 'segundos': 7.119568800088018, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosTenenciasTierra', 'etapa': 'validacion_ensamble', 'modelo': 'RF_suavizado', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.5391779503745961, 'f1_macro': 0.44073639156975936, 'f1_weighted': 0.49900443096603025, 'filas_train': 116392, 'filas_prueba': 29098, 'segundos': 3.7027945001609623, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosTenenciasTierra', 'etapa': 'validacion_ensamble', 'modelo': 'ExtraTrees_suavizado', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.5430957454120559, 'f1_macro': 0.455664222771486, 'f1_weighted': 0.5096950968056985, 'filas_train': 116392, 'filas_prueba': 29098, 'segundos': 5.656614900100976, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosTenenciasTierra', 'etapa': 'validacion_ensamble', 'modelo': 'HistBoost', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.5125781840676336, 'f1_macro': 0.4674466686763838, 'f1_weighted': 0.5029086707183694, 'filas_train': 116392, 'filas_prueba': 29098, 'segundos': 62.18867759988643, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosTenenciasTierra', 'etapa': 'validacion_ensamble', 'modelo': 'E1_voto_duro', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.5702453776891883, 'f1_macro': 0.4928546638054947, 'f1_weighted': 0.5433041017477414, 'filas_train': 116392, 'filas_prueba': 29098, 'segundos': 78.66765580023639, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosTenenciasTierra', 'etapa': 'validacion_ensamble', 'modelo': 'E2_voto_blando', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.6405594886246477, 'f1_macro': 0.5768154326768677, 'f1_weighted': 0.6315565877483011, 'filas_train': 116392, 'filas_prueba': 29098, 'segundos': 78.66765580023639, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosTenenciasTierra', 'etapa': 'validacion_ensamble', 'modelo': 'E3_voto_blando_arboles', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.5427864458038353, 'f1_macro': 0.4671950771181078, 'f1_weighted': 0.5140314751517693, 'filas_train': 116392, 'filas_prueba': 29098, 'segundos': 71.54808700014837, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+ pliegue 1/3
+  base KNN (77594 filas)
+  base RF_suavizado (77594 filas)
+  base ExtraTrees_suavizado (77594 filas)
+  base HistBoost (77594 filas)
+ pliegue 2/3
+  base KNN (77595 filas)
+  base RF_suavizado (77595 filas)
+  base ExtraTrees_suavizado (77595 filas)
+  base HistBoost (77595 filas)
+ pliegue 3/3
+  base KNN (77595 filas)
+  base RF_suavizado (77595 filas)
+  base ExtraTrees_suavizado (77595 filas)
+  base HistBoost (77595 filas)
+{'tabla': 'DatosTenenciasTierra', 'etapa': 'validacion_ensamble', 'modelo': 'E4_stacking', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.6358856278782047, 'f1_macro': 0.5779987729805103, 'f1_weighted': 0.6361605719828154, 'filas_train': 116392, 'filas_prueba': 29098, 'segundos': 246.82219410012476, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+ELEGIDOS: DatosTenenciasTierra {'EspecializacionMGAPCodigo': {'ensamble': 'E4_stacking', 'miembros': ['KNN', 'RF_suavizado', 'ExtraTrees_suavizado', 'HistBoost'], 'histboost': ['HistBoost_suavizado', 0.5, 250], 'f1_macro_validacion': 0.7924910504073469}, 'TipoProduccionMGAPCodigo': {'ensamble': 'E4_stacking', 'miembros': ['KNN', 'RF_suavizado', 'ExtraTrees_suavizado', 'HistBoost'], 'histboost': ['HistBoost_suavizado', 0.5, 250], 'f1_macro_validacion': 0.5779987729805103}}
+Prueba EspecializacionMGAPCodigo
+  base KNN (145490 filas)
+  base RF_suavizado (145490 filas)
+  base ExtraTrees_suavizado (145490 filas)
+  base HistBoost (145490 filas)
+{'tabla': 'DatosTenenciasTierra', 'etapa': 'prueba_ensamble', 'modelo': 'KNN', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.8470843757732384, 'f1_macro': 0.7884351216596126, 'f1_weighted': 0.8448642488416449, 'filas_train': 145490, 'filas_prueba': 36373, 'segundos': 11.924732000101358, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosTenenciasTierra', 'etapa': 'prueba_ensamble', 'modelo': 'RF_suavizado', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.7882220328265471, 'f1_macro': 0.697577520110933, 'f1_weighted': 0.7836821615730764, 'filas_train': 145490, 'filas_prueba': 36373, 'segundos': 5.093785600038245, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosTenenciasTierra', 'etapa': 'prueba_ensamble', 'modelo': 'ExtraTrees_suavizado', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.7868748797184725, 'f1_macro': 0.7042300929310803, 'f1_weighted': 0.785298075099106, 'filas_train': 145490, 'filas_prueba': 36373, 'segundos': 7.486178500112146, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosTenenciasTierra', 'etapa': 'prueba_ensamble', 'modelo': 'HistBoost', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.7729084760674126, 'f1_macro': 0.6935844930041197, 'f1_weighted': 0.7736968193432501, 'filas_train': 145490, 'filas_prueba': 36373, 'segundos': 32.80194830009714, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+ pliegue 1/3
+  base KNN (96993 filas)
+  base RF_suavizado (96993 filas)
+  base ExtraTrees_suavizado (96993 filas)
+  base HistBoost (96993 filas)
+ pliegue 2/3
+  base KNN (96993 filas)
+  base RF_suavizado (96993 filas)
+  base ExtraTrees_suavizado (96993 filas)
+  base HistBoost (96993 filas)
+ pliegue 3/3
+  base KNN (96994 filas)
+  base RF_suavizado (96994 filas)
+  base ExtraTrees_suavizado (96994 filas)
+  base HistBoost (96994 filas)
+{'tabla': 'DatosTenenciasTierra', 'etapa': 'prueba_ensamble', 'modelo': 'E4_stacking', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.8500261182745443, 'f1_macro': 0.7961662849646054, 'f1_weighted': 0.8487453153543819, 'filas_train': 145490, 'filas_prueba': 36373, 'segundos': 189.72923610033467, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+Prueba TipoProduccionMGAPCodigo
+  base KNN (145490 filas)
+  base RF_suavizado (145490 filas)
+  base ExtraTrees_suavizado (145490 filas)
+  base HistBoost (145490 filas)
+{'tabla': 'DatosTenenciasTierra', 'etapa': 'prueba_ensamble', 'modelo': 'KNN', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.6513622742143897, 'f1_macro': 0.5936599232236321, 'f1_weighted': 0.6421466361974901, 'filas_train': 145490, 'filas_prueba': 36373, 'segundos': 10.8618888000492, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosTenenciasTierra', 'etapa': 'prueba_ensamble', 'modelo': 'RF_suavizado', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.5405383113848184, 'f1_macro': 0.45297827951215297, 'f1_weighted': 0.5026492157355615, 'filas_train': 145490, 'filas_prueba': 36373, 'segundos': 4.944443700136617, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosTenenciasTierra', 'etapa': 'prueba_ensamble', 'modelo': 'ExtraTrees_suavizado', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.5479339070189426, 'f1_macro': 0.4786049650082583, 'f1_weighted': 0.5208221777608542, 'filas_train': 145490, 'filas_prueba': 36373, 'segundos': 8.16769120004028, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosTenenciasTierra', 'etapa': 'prueba_ensamble', 'modelo': 'HistBoost', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.5117532235449371, 'f1_macro': 0.4776936565608826, 'f1_weighted': 0.5036623930713651, 'filas_train': 145490, 'filas_prueba': 36373, 'segundos': 66.45550939999521, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+ pliegue 1/3
+  base KNN (96993 filas)
+  base RF_suavizado (96993 filas)
+  base ExtraTrees_suavizado (96993 filas)
+  base HistBoost (96993 filas)
+ pliegue 2/3
+  base KNN (96993 filas)
+  base RF_suavizado (96993 filas)
+  base ExtraTrees_suavizado (96993 filas)
+  base HistBoost (96993 filas)
+ pliegue 3/3
+  base KNN (96994 filas)
+  base RF_suavizado (96994 filas)
+  base ExtraTrees_suavizado (96994 filas)
+  base HistBoost (96994 filas)
+{'tabla': 'DatosTenenciasTierra', 'etapa': 'prueba_ensamble', 'modelo': 'E4_stacking', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.6527644131636103, 'f1_macro': 0.604648872574757, 'f1_weighted': 0.6546146981632179, 'filas_train': 145490, 'filas_prueba': 36373, 'segundos': 218.62140270043164, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+### DatosUsosTierra 21:09:26
+
+=== DatosUsosTierra ===
+Validación EspecializacionMGAPCodigo
+  base KNN (175112 filas)
+  base RF_suavizado (175112 filas)
+  base ExtraTrees_suavizado (175112 filas)
+  base HistBoost (175112 filas)
+{'tabla': 'DatosUsosTierra', 'etapa': 'validacion_ensamble', 'modelo': 'KNN', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.8004294296352132, 'f1_macro': 0.740348035197314, 'f1_weighted': 0.7970279498921234, 'filas_train': 175112, 'filas_prueba': 43779, 'segundos': 13.019945099949837, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosUsosTierra', 'etapa': 'validacion_ensamble', 'modelo': 'RF_suavizado', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.7743210214943238, 'f1_macro': 0.7103684546449149, 'f1_weighted': 0.7704221971246215, 'filas_train': 175112, 'filas_prueba': 43779, 'segundos': 4.228881899965927, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosUsosTierra', 'etapa': 'validacion_ensamble', 'modelo': 'ExtraTrees_suavizado', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.768199364992348, 'f1_macro': 0.7088522356060764, 'f1_weighted': 0.766181839891442, 'filas_train': 175112, 'filas_prueba': 43779, 'segundos': 6.688348199939355, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosUsosTierra', 'etapa': 'validacion_ensamble', 'modelo': 'HistBoost', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.7689303090522853, 'f1_macro': 0.7131790478502571, 'f1_weighted': 0.7689677125333898, 'filas_train': 175112, 'filas_prueba': 43779, 'segundos': 22.10294870007783, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosUsosTierra', 'etapa': 'validacion_ensamble', 'modelo': 'E1_voto_duro', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.7898078987642477, 'f1_macro': 0.7291418613284877, 'f1_weighted': 0.7862716760824946, 'filas_train': 175112, 'filas_prueba': 43779, 'segundos': 46.04012389993295, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosUsosTierra', 'etapa': 'validacion_ensamble', 'modelo': 'E2_voto_blando', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.8114621165398935, 'f1_macro': 0.7486346624053907, 'f1_weighted': 0.804957374620916, 'filas_train': 175112, 'filas_prueba': 43779, 'segundos': 46.04012389993295, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosUsosTierra', 'etapa': 'validacion_ensamble', 'modelo': 'E3_voto_blando_arboles', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.7761026976404212, 'f1_macro': 0.7164535086439929, 'f1_weighted': 0.7739195648949201, 'filas_train': 175112, 'filas_prueba': 43779, 'segundos': 33.020178799983114, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+ pliegue 1/3
+  base KNN (116741 filas)
+  base RF_suavizado (116741 filas)
+  base ExtraTrees_suavizado (116741 filas)
+  base HistBoost (116741 filas)
+ pliegue 2/3
+  base KNN (116741 filas)
+  base RF_suavizado (116741 filas)
+  base ExtraTrees_suavizado (116741 filas)
+  base HistBoost (116741 filas)
+ pliegue 3/3
+  base KNN (116742 filas)
+  base RF_suavizado (116742 filas)
+  base ExtraTrees_suavizado (116742 filas)
+  base HistBoost (116742 filas)
+{'tabla': 'DatosUsosTierra', 'etapa': 'validacion_ensamble', 'modelo': 'E4_stacking', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.8090408643413509, 'f1_macro': 0.7578587541864419, 'f1_weighted': 0.8078048709795843, 'filas_train': 175112, 'filas_prueba': 43779, 'segundos': 149.26194370002486, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+Validación TipoProduccionMGAPCodigo
+  base KNN (175112 filas)
+  base RF_suavizado (175112 filas)
+  base ExtraTrees_suavizado (175112 filas)
+  base HistBoost (175112 filas)
+{'tabla': 'DatosUsosTierra', 'etapa': 'validacion_ensamble', 'modelo': 'KNN', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.5765321272756344, 'f1_macro': 0.506687694795555, 'f1_weighted': 0.5652061001748399, 'filas_train': 175112, 'filas_prueba': 43779, 'segundos': 13.32247450016439, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosUsosTierra', 'etapa': 'validacion_ensamble', 'modelo': 'RF_suavizado', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.5308024395258001, 'f1_macro': 0.430259821838105, 'f1_weighted': 0.49108086808622375, 'filas_train': 175112, 'filas_prueba': 43779, 'segundos': 4.151364400051534, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosUsosTierra', 'etapa': 'validacion_ensamble', 'modelo': 'ExtraTrees_suavizado', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.5332922177299618, 'f1_macro': 0.4435225692400724, 'f1_weighted': 0.5013998725245198, 'filas_train': 175112, 'filas_prueba': 43779, 'segundos': 6.434908299939707, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosUsosTierra', 'etapa': 'validacion_ensamble', 'modelo': 'HistBoost', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.5122318920030151, 'f1_macro': 0.41474239888159814, 'f1_weighted': 0.4994924877598948, 'filas_train': 175112, 'filas_prueba': 43779, 'segundos': 43.290730600012466, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosUsosTierra', 'etapa': 'validacion_ensamble', 'modelo': 'E1_voto_duro', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.5519312912583659, 'f1_macro': 0.46338287464925215, 'f1_weighted': 0.523356027202288, 'filas_train': 175112, 'filas_prueba': 43779, 'segundos': 67.1994778001681, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosUsosTierra', 'etapa': 'validacion_ensamble', 'modelo': 'E2_voto_blando', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.5916078485118436, 'f1_macro': 0.5202334018905047, 'f1_weighted': 0.5789999417896081, 'filas_train': 175112, 'filas_prueba': 43779, 'segundos': 67.1994778001681, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosUsosTierra', 'etapa': 'validacion_ensamble', 'modelo': 'E3_voto_blando_arboles', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.5335891637543114, 'f1_macro': 0.43161226142318115, 'f1_weighted': 0.5047820908287066, 'filas_train': 175112, 'filas_prueba': 43779, 'segundos': 53.87700330000371, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+ pliegue 1/3
+  base KNN (116741 filas)
+  base RF_suavizado (116741 filas)
+  base ExtraTrees_suavizado (116741 filas)
+  base HistBoost (116741 filas)
+ pliegue 2/3
+  base KNN (116741 filas)
+  base RF_suavizado (116741 filas)
+  base ExtraTrees_suavizado (116741 filas)
+  base HistBoost (116741 filas)
+ pliegue 3/3
+  base KNN (116742 filas)
+  base RF_suavizado (116742 filas)
+  base ExtraTrees_suavizado (116742 filas)
+  base HistBoost (116742 filas)
+{'tabla': 'DatosUsosTierra', 'etapa': 'validacion_ensamble', 'modelo': 'E4_stacking', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.5796386395303684, 'f1_macro': 0.5225213058953042, 'f1_weighted': 0.5783055076010918, 'filas_train': 175112, 'filas_prueba': 43779, 'segundos': 225.59341620025225, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+ELEGIDOS: DatosUsosTierra {'EspecializacionMGAPCodigo': {'ensamble': 'E4_stacking', 'miembros': ['KNN', 'RF_suavizado', 'ExtraTrees_suavizado', 'HistBoost'], 'histboost': ['HistBoost_suavizado', 0.5, 250], 'f1_macro_validacion': 0.7578587541864419}, 'TipoProduccionMGAPCodigo': {'ensamble': 'E4_stacking', 'miembros': ['KNN', 'RF_suavizado', 'ExtraTrees_suavizado', 'HistBoost'], 'histboost': ['HistBoost_suavizado', 0.5, 250], 'f1_macro_validacion': 0.5225213058953042}}
+Prueba EspecializacionMGAPCodigo
+  base KNN (218891 filas)
+  base RF_suavizado (218891 filas)
+  base ExtraTrees_suavizado (218891 filas)
+  base HistBoost (218891 filas)
+{'tabla': 'DatosUsosTierra', 'etapa': 'prueba_ensamble', 'modelo': 'KNN', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.7624947462675657, 'f1_macro': 0.7192667232066433, 'f1_weighted': 0.7700171566654984, 'filas_train': 218891, 'filas_prueba': 54723, 'segundos': 17.91324510006234, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosUsosTierra', 'etapa': 'prueba_ensamble', 'modelo': 'RF_suavizado', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.7799097271713905, 'f1_macro': 0.7187474233539182, 'f1_weighted': 0.7763358085818617, 'filas_train': 218891, 'filas_prueba': 54723, 'segundos': 5.2785152001306415, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosUsosTierra', 'etapa': 'prueba_ensamble', 'modelo': 'ExtraTrees_suavizado', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.7719057800193703, 'f1_macro': 0.7151604927726595, 'f1_weighted': 0.7703324541185425, 'filas_train': 218891, 'filas_prueba': 54723, 'segundos': 8.783372799865901, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosUsosTierra', 'etapa': 'prueba_ensamble', 'modelo': 'HistBoost', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.7721067923907681, 'f1_macro': 0.7191563873798599, 'f1_weighted': 0.772580106118994, 'filas_train': 218891, 'filas_prueba': 54723, 'segundos': 24.992008100030944, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+ pliegue 1/3
+  base KNN (145927 filas)
+  base RF_suavizado (145927 filas)
+  base ExtraTrees_suavizado (145927 filas)
+  base HistBoost (145927 filas)
+ pliegue 2/3
+  base KNN (145927 filas)
+  base RF_suavizado (145927 filas)
+  base ExtraTrees_suavizado (145927 filas)
+  base HistBoost (145927 filas)
+ pliegue 3/3
+  base KNN (145928 filas)
+  base RF_suavizado (145928 filas)
+  base ExtraTrees_suavizado (145928 filas)
+  base HistBoost (145928 filas)
+{'tabla': 'DatosUsosTierra', 'etapa': 'prueba_ensamble', 'modelo': 'E4_stacking', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.7843502731940866, 'f1_macro': 0.7437368365378987, 'f1_weighted': 0.7900286810636207, 'filas_train': 218891, 'filas_prueba': 54723, 'segundos': 195.9697865000926, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+Prueba TipoProduccionMGAPCodigo
+  base KNN (218891 filas)
+  base RF_suavizado (218891 filas)
+  base ExtraTrees_suavizado (218891 filas)
+  base HistBoost (218891 filas)
+{'tabla': 'DatosUsosTierra', 'etapa': 'prueba_ensamble', 'modelo': 'KNN', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.5777095553971822, 'f1_macro': 0.49218263938589984, 'f1_weighted': 0.5616976160555157, 'filas_train': 218891, 'filas_prueba': 54723, 'segundos': 17.87760329991579, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosUsosTierra', 'etapa': 'prueba_ensamble', 'modelo': 'RF_suavizado', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.534619812510279, 'f1_macro': 0.4294861259864808, 'f1_weighted': 0.49353253684016185, 'filas_train': 218891, 'filas_prueba': 54723, 'segundos': 5.536989999935031, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosUsosTierra', 'etapa': 'prueba_ensamble', 'modelo': 'ExtraTrees_suavizado', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.5366847577800925, 'f1_macro': 0.4442842841279427, 'f1_weighted': 0.5061103675092176, 'filas_train': 218891, 'filas_prueba': 54723, 'segundos': 8.606520100031048, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosUsosTierra', 'etapa': 'prueba_ensamble', 'modelo': 'HistBoost', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.5115216636514811, 'f1_macro': 0.35784203145533866, 'f1_weighted': 0.49814733265169314, 'filas_train': 218891, 'filas_prueba': 54723, 'segundos': 54.04860700014979, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+ pliegue 1/3
+  base KNN (145927 filas)
+  base RF_suavizado (145927 filas)
+  base ExtraTrees_suavizado (145927 filas)
+  base HistBoost (145927 filas)
+ pliegue 2/3
+  base KNN (145927 filas)
+  base RF_suavizado (145927 filas)
+  base ExtraTrees_suavizado (145927 filas)
+  base HistBoost (145927 filas)
+ pliegue 3/3
+  base KNN (145928 filas)
+  base RF_suavizado (145928 filas)
+  base ExtraTrees_suavizado (145928 filas)
+  base HistBoost (145928 filas)
+{'tabla': 'DatosUsosTierra', 'etapa': 'prueba_ensamble', 'modelo': 'E4_stacking', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.5882170202657018, 'f1_macro': 0.5135146688052904, 'f1_weighted': 0.5782786395893196, 'filas_train': 218891, 'filas_prueba': 54723, 'segundos': 285.1479913000949, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+### DatosAnimalesDetallados 21:24:43
+
+=== DatosAnimalesDetallados ===
+Validación EspecializacionMGAPCodigo
+  base KNN (710992 filas)
+  base RF_suavizado (710992 filas)
+  base ExtraTrees_suavizado (710992 filas)
+  base HistBoost (710992 filas)
+{'tabla': 'DatosAnimalesDetallados', 'etapa': 'validacion_ensamble', 'modelo': 'KNN', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.8566734928100457, 'f1_macro': 0.7776278837413486, 'f1_weighted': 0.85530229507553, 'filas_train': 710992, 'filas_prueba': 177748, 'segundos': 58.271960199810565, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosAnimalesDetallados', 'etapa': 'validacion_ensamble', 'modelo': 'RF_suavizado', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.8873011229380922, 'f1_macro': 0.8086726617171337, 'f1_weighted': 0.8799470072013791, 'filas_train': 710992, 'filas_prueba': 177748, 'segundos': 21.12285599997267, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosAnimalesDetallados', 'etapa': 'validacion_ensamble', 'modelo': 'ExtraTrees_suavizado', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.8850057384611922, 'f1_macro': 0.812627948806655, 'f1_weighted': 0.8808373707709078, 'filas_train': 710992, 'filas_prueba': 177748, 'segundos': 39.423469699919224, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosAnimalesDetallados', 'etapa': 'validacion_ensamble', 'modelo': 'HistBoost', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.8755260256092896, 'f1_macro': 0.8171633963734332, 'f1_weighted': 0.8771133998312585, 'filas_train': 710992, 'filas_prueba': 177748, 'segundos': 37.137584399897605, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosAnimalesDetallados', 'etapa': 'validacion_ensamble', 'modelo': 'E1_voto_duro', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.8894952404527758, 'f1_macro': 0.8182613801546038, 'f1_weighted': 0.8847640494128772, 'filas_train': 710992, 'filas_prueba': 177748, 'segundos': 155.95587029960006, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosAnimalesDetallados', 'etapa': 'validacion_ensamble', 'modelo': 'E2_voto_blando', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.8885050745999955, 'f1_macro': 0.8157476109483965, 'f1_weighted': 0.8833417323628254, 'filas_train': 710992, 'filas_prueba': 177748, 'segundos': 155.95587029960006, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosAnimalesDetallados', 'etapa': 'validacion_ensamble', 'modelo': 'E3_voto_blando_arboles', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.8889326462182415, 'f1_macro': 0.820481313267259, 'f1_weighted': 0.8851627079099421, 'filas_train': 710992, 'filas_prueba': 177748, 'segundos': 97.6839100997895, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+Validación TipoProduccionMGAPCodigo
+  base KNN (710992 filas)
+  base RF_suavizado (710992 filas)
+  base ExtraTrees_suavizado (710992 filas)
+  base HistBoost (710992 filas)
+{'tabla': 'DatosAnimalesDetallados', 'etapa': 'validacion_ensamble', 'modelo': 'KNN', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.6125188469068569, 'f1_macro': 0.519760920082185, 'f1_weighted': 0.594798021142586, 'filas_train': 710992, 'filas_prueba': 177748, 'segundos': 58.198847600026056, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosAnimalesDetallados', 'etapa': 'validacion_ensamble', 'modelo': 'RF_suavizado', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.6608344397686613, 'f1_macro': 0.5474496142832385, 'f1_weighted': 0.6148033934400206, 'filas_train': 710992, 'filas_prueba': 177748, 'segundos': 22.94589770003222, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosAnimalesDetallados', 'etapa': 'validacion_ensamble', 'modelo': 'ExtraTrees_suavizado', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.6405922992101177, 'f1_macro': 0.539135817562438, 'f1_weighted': 0.6049968638723385, 'filas_train': 710992, 'filas_prueba': 177748, 'segundos': 37.99825199996121, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosAnimalesDetallados', 'etapa': 'validacion_ensamble', 'modelo': 'HistBoost', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.6415599612935167, 'f1_macro': 0.5778755959919941, 'f1_weighted': 0.6324689160032604, 'filas_train': 710992, 'filas_prueba': 177748, 'segundos': 77.08972529997118, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosAnimalesDetallados', 'etapa': 'validacion_ensamble', 'modelo': 'E1_voto_duro', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.6645475617165876, 'f1_macro': 0.5611986166527224, 'f1_weighted': 0.6286946801584924, 'filas_train': 710992, 'filas_prueba': 177748, 'segundos': 196.23272259999067, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosAnimalesDetallados', 'etapa': 'validacion_ensamble', 'modelo': 'E2_voto_blando', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.6564912122780566, 'f1_macro': 0.5601352004152522, 'f1_weighted': 0.6288187614578302, 'filas_train': 710992, 'filas_prueba': 177748, 'segundos': 196.23272259999067, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosAnimalesDetallados', 'etapa': 'validacion_ensamble', 'modelo': 'E3_voto_blando_arboles', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.6594729617210883, 'f1_macro': 0.5675133253281505, 'f1_weighted': 0.6296500224597452, 'filas_train': 710992, 'filas_prueba': 177748, 'segundos': 138.0338749999646, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+ELEGIDOS: DatosAnimalesDetallados {'EspecializacionMGAPCodigo': {'ensamble': 'E3_voto_blando_arboles', 'miembros': ['RF_suavizado', 'ExtraTrees_suavizado', 'HistBoost'], 'histboost': ['HistBoost_suavizado', 0.5, 100], 'f1_macro_validacion': 0.820481313267259}, 'TipoProduccionMGAPCodigo': {'ensamble': 'E3_voto_blando_arboles', 'miembros': ['RF_suavizado', 'ExtraTrees_suavizado', 'HistBoost'], 'histboost': ['HistBoost_suavizado', 0.5, 100], 'f1_macro_validacion': 0.5675133253281505}}
+Prueba EspecializacionMGAPCodigo
+  base KNN (888740 filas)
+  base RF_suavizado (888740 filas)
+  base ExtraTrees_suavizado (888740 filas)
+  base HistBoost (888740 filas)
+{'tabla': 'DatosAnimalesDetallados', 'etapa': 'prueba_ensamble', 'modelo': 'KNN', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.8554897945405856, 'f1_macro': 0.777523986900088, 'f1_weighted': 0.8546002108183187, 'filas_train': 888740, 'filas_prueba': 222185, 'segundos': 72.24406869988889, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosAnimalesDetallados', 'etapa': 'prueba_ensamble', 'modelo': 'RF_suavizado', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.8879897382811621, 'f1_macro': 0.8114341240598308, 'f1_weighted': 0.8811505737143983, 'filas_train': 888740, 'filas_prueba': 222185, 'segundos': 28.638842500047758, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosAnimalesDetallados', 'etapa': 'prueba_ensamble', 'modelo': 'ExtraTrees_suavizado', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.885937394513581, 'f1_macro': 0.8119246574312734, 'f1_weighted': 0.8810079693148909, 'filas_train': 888740, 'filas_prueba': 222185, 'segundos': 50.20222109998576, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosAnimalesDetallados', 'etapa': 'prueba_ensamble', 'modelo': 'HistBoost', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.8759052141233656, 'f1_macro': 0.8170161107814387, 'f1_weighted': 0.8771577461458633, 'filas_train': 888740, 'filas_prueba': 222185, 'segundos': 43.29909699992277, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosAnimalesDetallados', 'etapa': 'prueba_ensamble', 'modelo': 'E3_voto_blando_arboles', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.8887548664401287, 'f1_macro': 0.8197788913132649, 'f1_weighted': 0.8847437400168239, 'filas_train': 888740, 'filas_prueba': 222185, 'segundos': 122.14016059995629, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+Prueba TipoProduccionMGAPCodigo
+  base KNN (888740 filas)
+  base RF_suavizado (888740 filas)
+  base ExtraTrees_suavizado (888740 filas)
+  base HistBoost (888740 filas)
+{'tabla': 'DatosAnimalesDetallados', 'etapa': 'prueba_ensamble', 'modelo': 'KNN', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.6122330490357135, 'f1_macro': 0.5188691256498197, 'f1_weighted': 0.5942153483293223, 'filas_train': 888740, 'filas_prueba': 222185, 'segundos': 72.24138730019331, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosAnimalesDetallados', 'etapa': 'prueba_ensamble', 'modelo': 'RF_suavizado', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.6612642617638455, 'f1_macro': 0.5512127049432474, 'f1_weighted': 0.6163449089933336, 'filas_train': 888740, 'filas_prueba': 222185, 'segundos': 29.43267050012946, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosAnimalesDetallados', 'etapa': 'prueba_ensamble', 'modelo': 'ExtraTrees_suavizado', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.6429506942412854, 'f1_macro': 0.5437639914549759, 'f1_weighted': 0.6068421551986425, 'filas_train': 888740, 'filas_prueba': 222185, 'segundos': 49.98044529999606, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosAnimalesDetallados', 'etapa': 'prueba_ensamble', 'modelo': 'HistBoost', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.6413979341539708, 'f1_macro': 0.5781644669082228, 'f1_weighted': 0.6318168068806137, 'filas_train': 888740, 'filas_prueba': 222185, 'segundos': 93.17311560013331, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+{'tabla': 'DatosAnimalesDetallados', 'etapa': 'prueba_ensamble', 'modelo': 'E3_voto_blando_arboles', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.6587078335621217, 'f1_macro': 0.5693475385745095, 'f1_weighted': 0.629326142036318, 'filas_train': 888740, 'filas_prueba': 222185, 'segundos': 172.58623140025884, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+### FIN 21:39:51

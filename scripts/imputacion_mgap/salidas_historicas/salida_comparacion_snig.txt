@@ -1,0 +1,162 @@
+
+=== DatosGenerales ===
+Entrenando EspecializacionMGAPCodigo: Mayoritaria
+{'tabla': 'DatosGenerales', 'etapa': 'validacion_2023', 'modelo': 'Mayoritaria', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.6134504364004487, 'f1_macro': 0.19010513820586739, 'f1_weighted': 0.4664803199774279, 'filas_train': 73276, 'filas_prueba': 36549, 'segundos': 0.042192499997327104, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+Entrenando EspecializacionMGAPCodigo: RF_balanceado
+{'tabla': 'DatosGenerales', 'etapa': 'validacion_2023', 'modelo': 'RF_balanceado', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.9603272319352103, 'f1_macro': 0.9320341469894761, 'f1_weighted': 0.9618748866306719, 'filas_train': 73276, 'filas_prueba': 36549, 'segundos': 2.3573940999922343, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+Entrenando EspecializacionMGAPCodigo: RF_suavizado
+{'tabla': 'DatosGenerales', 'etapa': 'validacion_2023', 'modelo': 'RF_suavizado', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.9657719773454814, 'f1_macro': 0.9374659923437605, 'f1_weighted': 0.9665781384394192, 'filas_train': 73276, 'filas_prueba': 36549, 'segundos': 2.604062200000044, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+Entrenando EspecializacionMGAPCodigo: ExtraTrees_suavizado
+{'tabla': 'DatosGenerales', 'etapa': 'validacion_2023', 'modelo': 'ExtraTrees_suavizado', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.9019125010260198, 'f1_macro': 0.8742018152109957, 'f1_weighted': 0.9004243777618703, 'filas_train': 73276, 'filas_prueba': 36549, 'segundos': 2.6147014000016497, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+Entrenando EspecializacionMGAPCodigo: HistBoost_suavizado
+{'tabla': 'DatosGenerales', 'etapa': 'validacion_2023', 'modelo': 'HistBoost_suavizado', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.9727215518892446, 'f1_macro': 0.9482086918357853, 'f1_weighted': 0.9731193997974004, 'filas_train': 73276, 'filas_prueba': 36549, 'segundos': 9.284971200002474, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+Entrenando EspecializacionMGAPCodigo: HistBoost_leve
+{'tabla': 'DatosGenerales', 'etapa': 'validacion_2023', 'modelo': 'HistBoost_leve', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.9755944075077293, 'f1_macro': 0.9524225552781023, 'f1_weighted': 0.9757256173834419, 'filas_train': 73276, 'filas_prueba': 36549, 'segundos': 11.647421100002248, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+Entrenando EspecializacionMGAPCodigo: HistBoost_sin_pesos
+{'tabla': 'DatosGenerales', 'etapa': 'validacion_2023', 'modelo': 'HistBoost_sin_pesos', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.9768529918739227, 'f1_macro': 0.9536704614967244, 'f1_weighted': 0.9767717748666833, 'filas_train': 73276, 'filas_prueba': 36549, 'segundos': 12.60199090000242, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+Entrenando TipoProduccionMGAPCodigo: Mayoritaria
+{'tabla': 'DatosGenerales', 'etapa': 'validacion_2023', 'modelo': 'Mayoritaria', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.33812142603080797, 'f1_macro': 0.05615192553667619, 'f1_weighted': 0.17087552223153027, 'filas_train': 73276, 'filas_prueba': 36549, 'segundos': 0.008001200010767207, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+Entrenando TipoProduccionMGAPCodigo: RF_balanceado
+{'tabla': 'DatosGenerales', 'etapa': 'validacion_2023', 'modelo': 'RF_balanceado', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.6096746833018687, 'f1_macro': 0.6161508360629391, 'f1_weighted': 0.6232749600020507, 'filas_train': 73276, 'filas_prueba': 36549, 'segundos': 2.916389000005438, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+Entrenando TipoProduccionMGAPCodigo: RF_suavizado
+{'tabla': 'DatosGenerales', 'etapa': 'validacion_2023', 'modelo': 'RF_suavizado', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.6871870639415579, 'f1_macro': 0.6215475667060851, 'f1_weighted': 0.6686430982883191, 'filas_train': 73276, 'filas_prueba': 36549, 'segundos': 3.183093200001167, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+Entrenando TipoProduccionMGAPCodigo: ExtraTrees_suavizado
+{'tabla': 'DatosGenerales', 'etapa': 'validacion_2023', 'modelo': 'ExtraTrees_suavizado', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.6453254535007797, 'f1_macro': 0.5279446201660103, 'f1_weighted': 0.6086756964356952, 'filas_train': 73276, 'filas_prueba': 36549, 'segundos': 3.1207053000107408, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+Entrenando TipoProduccionMGAPCodigo: HistBoost_suavizado
+{'tabla': 'DatosGenerales', 'etapa': 'validacion_2023', 'modelo': 'HistBoost_suavizado', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.6748201045172234, 'f1_macro': 0.6343058156981808, 'f1_weighted': 0.6691759776117213, 'filas_train': 73276, 'filas_prueba': 36549, 'segundos': 20.821310499988613, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+Entrenando TipoProduccionMGAPCodigo: HistBoost_leve
+{'tabla': 'DatosGenerales', 'etapa': 'validacion_2023', 'modelo': 'HistBoost_leve', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.6952310596733152, 'f1_macro': 0.6329104199662017, 'f1_weighted': 0.6737027864572629, 'filas_train': 73276, 'filas_prueba': 36549, 'segundos': 27.43696259999706, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+Entrenando TipoProduccionMGAPCodigo: HistBoost_sin_pesos
+{'tabla': 'DatosGenerales', 'etapa': 'validacion_2023', 'modelo': 'HistBoost_sin_pesos', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.6958329913267121, 'f1_macro': 0.6099669894662747, 'f1_weighted': 0.6546742925731143, 'filas_train': 73276, 'filas_prueba': 36549, 'segundos': 24.4392516999942, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+ELEGIDOS: DatosGenerales {'EspecializacionMGAPCodigo': {'modelo': 'HistBoost_sin_pesos', 'exponente_pesos': 0, 'f1_macro_validacion': 0.9536704614967244}, 'TipoProduccionMGAPCodigo': {'modelo': 'HistBoost_suavizado', 'exponente_pesos': 0.5, 'f1_macro_validacion': 0.6343058156981808}}
+
+=== DatosProduccionLeche ===
+Entrenando EspecializacionMGAPCodigo: Mayoritaria
+{'tabla': 'DatosProduccionLeche', 'etapa': 'validacion_2023', 'modelo': 'Mayoritaria', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.9692565679150363, 'f1_macro': 0.24609707635537895, 'f1_weighted': 0.9541248304085569, 'filas_train': 10068, 'filas_prueba': 5367, 'segundos': 0.0031765000021550804, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+Entrenando EspecializacionMGAPCodigo: RF_balanceado
+{'tabla': 'DatosProduccionLeche', 'etapa': 'validacion_2023', 'modelo': 'RF_balanceado', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.9651574436370411, 'f1_macro': 0.7676286717426151, 'f1_weighted': 0.9692146358123713, 'filas_train': 10068, 'filas_prueba': 5367, 'segundos': 0.23236189999443013, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+Entrenando EspecializacionMGAPCodigo: RF_suavizado
+{'tabla': 'DatosProduccionLeche', 'etapa': 'validacion_2023', 'modelo': 'RF_suavizado', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.9867710080119247, 'f1_macro': 0.8509199769162915, 'f1_weighted': 0.9854858690681048, 'filas_train': 10068, 'filas_prueba': 5367, 'segundos': 0.2952259000012418, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+Entrenando EspecializacionMGAPCodigo: ExtraTrees_suavizado
+{'tabla': 'DatosProduccionLeche', 'etapa': 'validacion_2023', 'modelo': 'ExtraTrees_suavizado', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.9860257126886529, 'f1_macro': 0.8147392007823128, 'f1_weighted': 0.9848920943774039, 'filas_train': 10068, 'filas_prueba': 5367, 'segundos': 0.2883055999991484, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+Entrenando EspecializacionMGAPCodigo: HistBoost_suavizado
+{'tabla': 'DatosProduccionLeche', 'etapa': 'validacion_2023', 'modelo': 'HistBoost_suavizado', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.9834171790572014, 'f1_macro': 0.8248463817485917, 'f1_weighted': 0.9828140614983464, 'filas_train': 10068, 'filas_prueba': 5367, 'segundos': 0.7317992000025697, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+Entrenando EspecializacionMGAPCodigo: HistBoost_leve
+{'tabla': 'DatosProduccionLeche', 'etapa': 'validacion_2023', 'modelo': 'HistBoost_leve', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.9862120365194709, 'f1_macro': 0.8356632196395543, 'f1_weighted': 0.9849770843409873, 'filas_train': 10068, 'filas_prueba': 5367, 'segundos': 0.8020001000113552, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+Entrenando EspecializacionMGAPCodigo: HistBoost_sin_pesos
+{'tabla': 'DatosProduccionLeche', 'etapa': 'validacion_2023', 'modelo': 'HistBoost_sin_pesos', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.9871436556735607, 'f1_macro': 0.8340066013143796, 'f1_weighted': 0.9854719443917375, 'filas_train': 10068, 'filas_prueba': 5367, 'segundos': 0.6269115000031888, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+Entrenando TipoProduccionMGAPCodigo: Mayoritaria
+{'tabla': 'DatosProduccionLeche', 'etapa': 'validacion_2023', 'modelo': 'Mayoritaria', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.9692565679150363, 'f1_macro': 0.19687766108430316, 'f1_weighted': 0.9541248304085569, 'filas_train': 10068, 'filas_prueba': 5367, 'segundos': 0.004379999998491257, 'clases_prueba': '1 3 4 6 9', 'clases_sin_entrenamiento': ''}
+Entrenando TipoProduccionMGAPCodigo: RF_balanceado
+{'tabla': 'DatosProduccionLeche', 'etapa': 'validacion_2023', 'modelo': 'RF_balanceado', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.9550959567728713, 'f1_macro': 0.4924242551704555, 'f1_weighted': 0.9618976830131636, 'filas_train': 10068, 'filas_prueba': 5367, 'segundos': 0.2449207000026945, 'clases_prueba': '1 3 4 6 9', 'clases_sin_entrenamiento': ''}
+Entrenando TipoProduccionMGAPCodigo: RF_suavizado
+{'tabla': 'DatosProduccionLeche', 'etapa': 'validacion_2023', 'modelo': 'RF_suavizado', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.9865846841811068, 'f1_macro': 0.6716387000187137, 'f1_weighted': 0.9854434655363153, 'filas_train': 10068, 'filas_prueba': 5367, 'segundos': 0.40671510000538547, 'clases_prueba': '1 3 4 6 9', 'clases_sin_entrenamiento': ''}
+Entrenando TipoProduccionMGAPCodigo: ExtraTrees_suavizado
+{'tabla': 'DatosProduccionLeche', 'etapa': 'validacion_2023', 'modelo': 'ExtraTrees_suavizado', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.985653065027017, 'f1_macro': 0.6485845447589901, 'f1_weighted': 0.9845694073376805, 'filas_train': 10068, 'filas_prueba': 5367, 'segundos': 0.3307671000075061, 'clases_prueba': '1 3 4 6 9', 'clases_sin_entrenamiento': ''}
+Entrenando TipoProduccionMGAPCodigo: HistBoost_suavizado
+{'tabla': 'DatosProduccionLeche', 'etapa': 'validacion_2023', 'modelo': 'HistBoost_suavizado', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.9837898267188373, 'f1_macro': 0.6379617630655162, 'f1_weighted': 0.9829320202200938, 'filas_train': 10068, 'filas_prueba': 5367, 'segundos': 3.7989913999917917, 'clases_prueba': '1 3 4 6 9', 'clases_sin_entrenamiento': ''}
+Entrenando TipoProduccionMGAPCodigo: HistBoost_leve
+{'tabla': 'DatosProduccionLeche', 'etapa': 'validacion_2023', 'modelo': 'HistBoost_leve', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.9852804173653811, 'f1_macro': 0.6420959494876939, 'f1_weighted': 0.9842307580740364, 'filas_train': 10068, 'filas_prueba': 5367, 'segundos': 3.817529200008721, 'clases_prueba': '1 3 4 6 9', 'clases_sin_entrenamiento': ''}
+Entrenando TipoProduccionMGAPCodigo: HistBoost_sin_pesos
+{'tabla': 'DatosProduccionLeche', 'etapa': 'validacion_2023', 'modelo': 'HistBoost_sin_pesos', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.985839388857835, 'f1_macro': 0.6484096869109789, 'f1_weighted': 0.984630954897138, 'filas_train': 10068, 'filas_prueba': 5367, 'segundos': 4.151704899995821, 'clases_prueba': '1 3 4 6 9', 'clases_sin_entrenamiento': ''}
+ELEGIDOS: DatosProduccionLeche {'EspecializacionMGAPCodigo': {'modelo': 'RF_suavizado', 'exponente_pesos': 0.5, 'f1_macro_validacion': 0.8509199769162915}, 'TipoProduccionMGAPCodigo': {'modelo': 'RF_suavizado', 'exponente_pesos': 0.5, 'f1_macro_validacion': 0.6716387000187137}}
+
+=== DatosProduccionLecheEnEstablecimiento ===
+Entrenando EspecializacionMGAPCodigo: Mayoritaria
+{'tabla': 'DatosProduccionLecheEnEstablecimiento', 'etapa': 'validacion_2023', 'modelo': 'Mayoritaria', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.9509345794392523, 'f1_macro': 0.2437125748502994, 'f1_weighted': 0.9270188594773071, 'filas_train': 831, 'filas_prueba': 428, 'segundos': 0.002097499993396923, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+Entrenando EspecializacionMGAPCodigo: RF_balanceado
+{'tabla': 'DatosProduccionLecheEnEstablecimiento', 'etapa': 'validacion_2023', 'modelo': 'RF_balanceado', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.9742990654205608, 'f1_macro': 0.8466007416563659, 'f1_weighted': 0.9769455001944635, 'filas_train': 831, 'filas_prueba': 428, 'segundos': 0.22005740000167862, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+Entrenando EspecializacionMGAPCodigo: RF_suavizado
+{'tabla': 'DatosProduccionLecheEnEstablecimiento', 'etapa': 'validacion_2023', 'modelo': 'RF_suavizado', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.9836448598130841, 'f1_macro': 0.803424008661524, 'f1_weighted': 0.9802099104124217, 'filas_train': 831, 'filas_prueba': 428, 'segundos': 0.20452850000583567, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+Entrenando EspecializacionMGAPCodigo: ExtraTrees_suavizado
+{'tabla': 'DatosProduccionLecheEnEstablecimiento', 'etapa': 'validacion_2023', 'modelo': 'ExtraTrees_suavizado', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.985981308411215, 'f1_macro': 0.8136469221835075, 'f1_weighted': 0.982750442324183, 'filas_train': 831, 'filas_prueba': 428, 'segundos': 0.17101360000378918, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+Entrenando EspecializacionMGAPCodigo: HistBoost_suavizado
+{'tabla': 'DatosProduccionLecheEnEstablecimiento', 'etapa': 'validacion_2023', 'modelo': 'HistBoost_suavizado', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.9719626168224299, 'f1_macro': 0.7494464347912624, 'f1_weighted': 0.9717686393886844, 'filas_train': 831, 'filas_prueba': 428, 'segundos': 1.1843618999992032, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+Entrenando EspecializacionMGAPCodigo: HistBoost_leve
+{'tabla': 'DatosProduccionLecheEnEstablecimiento', 'etapa': 'validacion_2023', 'modelo': 'HistBoost_leve', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.9719626168224299, 'f1_macro': 0.7407808594214975, 'f1_weighted': 0.9722134770337755, 'filas_train': 831, 'filas_prueba': 428, 'segundos': 1.2601373000070453, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+Entrenando EspecializacionMGAPCodigo: HistBoost_sin_pesos
+{'tabla': 'DatosProduccionLecheEnEstablecimiento', 'etapa': 'validacion_2023', 'modelo': 'HistBoost_sin_pesos', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.9789719626168224, 'f1_macro': 0.7606138719855758, 'f1_weighted': 0.9778791055040557, 'filas_train': 831, 'filas_prueba': 428, 'segundos': 1.1042289000033634, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+Entrenando TipoProduccionMGAPCodigo: Mayoritaria
+{'tabla': 'DatosProduccionLecheEnEstablecimiento', 'etapa': 'validacion_2023', 'modelo': 'Mayoritaria', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.9509345794392523, 'f1_macro': 0.2437125748502994, 'f1_weighted': 0.9270188594773071, 'filas_train': 831, 'filas_prueba': 428, 'segundos': 0.0023379999911412597, 'clases_prueba': '1 3 4 6', 'clases_sin_entrenamiento': '6'}
+Entrenando TipoProduccionMGAPCodigo: RF_balanceado
+{'tabla': 'DatosProduccionLecheEnEstablecimiento', 'etapa': 'validacion_2023', 'modelo': 'RF_balanceado', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.9649532710280374, 'f1_macro': 0.5623349834983499, 'f1_weighted': 0.9685701397242529, 'filas_train': 831, 'filas_prueba': 428, 'segundos': 0.21769110001332592, 'clases_prueba': '1 3 4 6', 'clases_sin_entrenamiento': '6'}
+Entrenando TipoProduccionMGAPCodigo: RF_suavizado
+{'tabla': 'DatosProduccionLecheEnEstablecimiento', 'etapa': 'validacion_2023', 'modelo': 'RF_suavizado', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.985981308411215, 'f1_macro': 0.6469802555168409, 'f1_weighted': 0.982750442324183, 'filas_train': 831, 'filas_prueba': 428, 'segundos': 0.2292431999958353, 'clases_prueba': '1 3 4 6', 'clases_sin_entrenamiento': '6'}
+Entrenando TipoProduccionMGAPCodigo: ExtraTrees_suavizado
+{'tabla': 'DatosProduccionLecheEnEstablecimiento', 'etapa': 'validacion_2023', 'modelo': 'ExtraTrees_suavizado', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.9836448598130841, 'f1_macro': 0.5803135888501743, 'f1_weighted': 0.9802582304861768, 'filas_train': 831, 'filas_prueba': 428, 'segundos': 0.20799609999812674, 'clases_prueba': '1 3 4 6', 'clases_sin_entrenamiento': '6'}
+Entrenando TipoProduccionMGAPCodigo: HistBoost_suavizado
+{'tabla': 'DatosProduccionLecheEnEstablecimiento', 'etapa': 'validacion_2023', 'modelo': 'HistBoost_suavizado', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.969626168224299, 'f1_macro': 0.5344211822660099, 'f1_weighted': 0.9692469269370655, 'filas_train': 831, 'filas_prueba': 428, 'segundos': 1.4130011999950511, 'clases_prueba': '1 3 4 6', 'clases_sin_entrenamiento': '6'}
+Entrenando TipoProduccionMGAPCodigo: HistBoost_leve
+{'tabla': 'DatosProduccionLecheEnEstablecimiento', 'etapa': 'validacion_2023', 'modelo': 'HistBoost_leve', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.9719626168224299, 'f1_macro': 0.5407808594214975, 'f1_weighted': 0.9712788975945232, 'filas_train': 831, 'filas_prueba': 428, 'segundos': 1.2129257000051439, 'clases_prueba': '1 3 4 6', 'clases_sin_entrenamiento': '6'}
+Entrenando TipoProduccionMGAPCodigo: HistBoost_sin_pesos
+{'tabla': 'DatosProduccionLecheEnEstablecimiento', 'etapa': 'validacion_2023', 'modelo': 'HistBoost_sin_pesos', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.9789719626168224, 'f1_macro': 0.5661694275411313, 'f1_weighted': 0.9771002893046787, 'filas_train': 831, 'filas_prueba': 428, 'segundos': 1.3021486000070581, 'clases_prueba': '1 3 4 6', 'clases_sin_entrenamiento': '6'}
+ELEGIDOS: DatosProduccionLecheEnEstablecimiento {'EspecializacionMGAPCodigo': {'modelo': 'RF_balanceado', 'exponente_pesos': 1, 'f1_macro_validacion': 0.8466007416563659}, 'TipoProduccionMGAPCodigo': {'modelo': 'RF_suavizado', 'exponente_pesos': 0.5, 'f1_macro_validacion': 0.6469802555168409}}
+
+=== DatosTenenciasTierra ===
+Entrenando EspecializacionMGAPCodigo: Mayoritaria
+{'tabla': 'DatosTenenciasTierra', 'etapa': 'validacion_2023', 'modelo': 'Mayoritaria', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.7010562839010036, 'f1_macro': 0.20606498754211797, 'f1_weighted': 0.5778526176335352, 'filas_train': 90398, 'filas_prueba': 45537, 'segundos': 0.012340999994194135, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+Entrenando EspecializacionMGAPCodigo: RF_balanceado
+{'tabla': 'DatosTenenciasTierra', 'etapa': 'validacion_2023', 'modelo': 'RF_balanceado', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.6838834354480972, 'f1_macro': 0.662192495806941, 'f1_weighted': 0.7111807739207487, 'filas_train': 90398, 'filas_prueba': 45537, 'segundos': 3.06055870000273, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+Entrenando EspecializacionMGAPCodigo: RF_suavizado
+{'tabla': 'DatosTenenciasTierra', 'etapa': 'validacion_2023', 'modelo': 'RF_suavizado', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.793969738893647, 'f1_macro': 0.7048181907507127, 'f1_weighted': 0.7909435115930024, 'filas_train': 90398, 'filas_prueba': 45537, 'segundos': 2.971018800002639, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+Entrenando EspecializacionMGAPCodigo: ExtraTrees_suavizado
+{'tabla': 'DatosTenenciasTierra', 'etapa': 'validacion_2023', 'modelo': 'ExtraTrees_suavizado', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.7887651799635461, 'f1_macro': 0.7013519285897989, 'f1_weighted': 0.787343062724187, 'filas_train': 90398, 'filas_prueba': 45537, 'segundos': 3.8336083000031067, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+Entrenando EspecializacionMGAPCodigo: HistBoost_suavizado
+{'tabla': 'DatosTenenciasTierra', 'etapa': 'validacion_2023', 'modelo': 'HistBoost_suavizado', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.7827261347914882, 'f1_macro': 0.7056198289200604, 'f1_weighted': 0.7850479124140506, 'filas_train': 90398, 'filas_prueba': 45537, 'segundos': 15.54078140000638, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+Entrenando EspecializacionMGAPCodigo: HistBoost_leve
+{'tabla': 'DatosTenenciasTierra', 'etapa': 'validacion_2023', 'modelo': 'HistBoost_leve', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.8052133429958056, 'f1_macro': 0.7001062664135225, 'f1_weighted': 0.7943521297443887, 'filas_train': 90398, 'filas_prueba': 45537, 'segundos': 13.06443909999507, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+Entrenando EspecializacionMGAPCodigo: HistBoost_sin_pesos
+{'tabla': 'DatosTenenciasTierra', 'etapa': 'validacion_2023', 'modelo': 'HistBoost_sin_pesos', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.8108131848826229, 'f1_macro': 0.6751022055364961, 'f1_weighted': 0.7867399145773403, 'filas_train': 90398, 'filas_prueba': 45537, 'segundos': 13.06804289999127, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+Entrenando TipoProduccionMGAPCodigo: Mayoritaria
+{'tabla': 'DatosTenenciasTierra', 'etapa': 'validacion_2023', 'modelo': 'Mayoritaria', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.42477545732042077, 'f1_macro': 0.0662522263323743, 'f1_weighted': 0.2532808776494728, 'filas_train': 90398, 'filas_prueba': 45537, 'segundos': 0.009351300002890639, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+Entrenando TipoProduccionMGAPCodigo: RF_balanceado
+{'tabla': 'DatosTenenciasTierra', 'etapa': 'validacion_2023', 'modelo': 'RF_balanceado', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.41610119243691945, 'f1_macro': 0.45821828644238266, 'f1_weighted': 0.4274180675704752, 'filas_train': 90398, 'filas_prueba': 45537, 'segundos': 3.01979069999652, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+Entrenando TipoProduccionMGAPCodigo: RF_suavizado
+{'tabla': 'DatosTenenciasTierra', 'etapa': 'validacion_2023', 'modelo': 'RF_suavizado', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.5396051562465687, 'f1_macro': 0.4518250916616959, 'f1_weighted': 0.5006358580529772, 'filas_train': 90398, 'filas_prueba': 45537, 'segundos': 3.314433299994562, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+Entrenando TipoProduccionMGAPCodigo: ExtraTrees_suavizado
+{'tabla': 'DatosTenenciasTierra', 'etapa': 'validacion_2023', 'modelo': 'ExtraTrees_suavizado', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.5414498100445791, 'f1_macro': 0.45219491602925044, 'f1_weighted': 0.5002082095139516, 'filas_train': 90398, 'filas_prueba': 45537, 'segundos': 3.7816918000025908, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+Entrenando TipoProduccionMGAPCodigo: HistBoost_suavizado
+{'tabla': 'DatosTenenciasTierra', 'etapa': 'validacion_2023', 'modelo': 'HistBoost_suavizado', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.5204778531743417, 'f1_macro': 0.48629701430919653, 'f1_weighted': 0.5115141394972504, 'filas_train': 90398, 'filas_prueba': 45537, 'segundos': 26.875625300002866, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+Entrenando TipoProduccionMGAPCodigo: HistBoost_leve
+{'tabla': 'DatosTenenciasTierra', 'etapa': 'validacion_2023', 'modelo': 'HistBoost_leve', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.5457759624041988, 'f1_macro': 0.45852534970757247, 'f1_weighted': 0.4965616919929634, 'filas_train': 90398, 'filas_prueba': 45537, 'segundos': 29.6329548000067, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+Entrenando TipoProduccionMGAPCodigo: HistBoost_sin_pesos
+{'tabla': 'DatosTenenciasTierra', 'etapa': 'validacion_2023', 'modelo': 'HistBoost_sin_pesos', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.5467641697959901, 'f1_macro': 0.4103287446853638, 'f1_weighted': 0.4622048244369147, 'filas_train': 90398, 'filas_prueba': 45537, 'segundos': 31.61344570000074, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+ELEGIDOS: DatosTenenciasTierra {'EspecializacionMGAPCodigo': {'modelo': 'HistBoost_suavizado', 'exponente_pesos': 0.5, 'f1_macro_validacion': 0.7056198289200604}, 'TipoProduccionMGAPCodigo': {'modelo': 'HistBoost_suavizado', 'exponente_pesos': 0.5, 'f1_macro_validacion': 0.48629701430919653}}
+
+=== DatosUsosTierra ===
+Entrenando EspecializacionMGAPCodigo: Mayoritaria
+{'tabla': 'DatosUsosTierra', 'etapa': 'validacion_2023', 'modelo': 'Mayoritaria', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.6251767827722454, 'f1_macro': 0.19234116232752588, 'f1_weighted': 0.48098891623438744, 'filas_train': 136081, 'filas_prueba': 68587, 'segundos': 0.015446599994902499, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+Entrenando EspecializacionMGAPCodigo: RF_balanceado
+{'tabla': 'DatosUsosTierra', 'etapa': 'validacion_2023', 'modelo': 'RF_balanceado', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.7261871783282546, 'f1_macro': 0.700787803277715, 'f1_weighted': 0.7407926646801138, 'filas_train': 136081, 'filas_prueba': 68587, 'segundos': 4.737996199997724, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+Entrenando EspecializacionMGAPCodigo: RF_suavizado
+{'tabla': 'DatosUsosTierra', 'etapa': 'validacion_2023', 'modelo': 'RF_suavizado', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.7846384883432721, 'f1_macro': 0.7219083115517407, 'f1_weighted': 0.7824545436554857, 'filas_train': 136081, 'filas_prueba': 68587, 'segundos': 4.980897000001278, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+Entrenando EspecializacionMGAPCodigo: ExtraTrees_suavizado
+{'tabla': 'DatosUsosTierra', 'etapa': 'validacion_2023', 'modelo': 'ExtraTrees_suavizado', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.7768381763307916, 'f1_macro': 0.7168253624762, 'f1_weighted': 0.7757921128884293, 'filas_train': 136081, 'filas_prueba': 68587, 'segundos': 6.092984600007185, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+Entrenando EspecializacionMGAPCodigo: HistBoost_suavizado
+{'tabla': 'DatosUsosTierra', 'etapa': 'validacion_2023', 'modelo': 'HistBoost_suavizado', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.7798125009112514, 'f1_macro': 0.7248397297296032, 'f1_weighted': 0.7812161006765943, 'filas_train': 136081, 'filas_prueba': 68587, 'segundos': 18.331143699993845, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+Entrenando EspecializacionMGAPCodigo: HistBoost_leve
+{'tabla': 'DatosUsosTierra', 'etapa': 'validacion_2023', 'modelo': 'HistBoost_leve', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.7962296061935935, 'f1_macro': 0.7188268684036541, 'f1_weighted': 0.7875852016108822, 'filas_train': 136081, 'filas_prueba': 68587, 'segundos': 23.069444900000235, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+Entrenando EspecializacionMGAPCodigo: HistBoost_sin_pesos
+{'tabla': 'DatosUsosTierra', 'etapa': 'validacion_2023', 'modelo': 'HistBoost_sin_pesos', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.8009097934010818, 'f1_macro': 0.6993727629705957, 'f1_weighted': 0.7820091027327248, 'filas_train': 136081, 'filas_prueba': 68587, 'segundos': 25.220959199999925, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+Entrenando TipoProduccionMGAPCodigo: Mayoritaria
+{'tabla': 'DatosUsosTierra', 'etapa': 'validacion_2023', 'modelo': 'Mayoritaria', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.4142913380086605, 'f1_macro': 0.06509602322059797, 'f1_weighted': 0.2427184670319393, 'filas_train': 136081, 'filas_prueba': 68587, 'segundos': 0.022693000006256625, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+Entrenando TipoProduccionMGAPCodigo: RF_balanceado
+{'tabla': 'DatosUsosTierra', 'etapa': 'validacion_2023', 'modelo': 'RF_balanceado', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.4046539431670725, 'f1_macro': 0.43691174417978185, 'f1_weighted': 0.41924785042901974, 'filas_train': 136081, 'filas_prueba': 68587, 'segundos': 7.006255100000999, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+Entrenando TipoProduccionMGAPCodigo: RF_suavizado
+{'tabla': 'DatosUsosTierra', 'etapa': 'validacion_2023', 'modelo': 'RF_suavizado', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.5323020397451412, 'f1_macro': 0.4334425462977372, 'f1_weighted': 0.4933185596642796, 'filas_train': 136081, 'filas_prueba': 68587, 'segundos': 8.619674700006726, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+Entrenando TipoProduccionMGAPCodigo: ExtraTrees_suavizado
+{'tabla': 'DatosUsosTierra', 'etapa': 'validacion_2023', 'modelo': 'ExtraTrees_suavizado', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.5351305641010687, 'f1_macro': 0.4576813646091694, 'f1_weighted': 0.5016111763036913, 'filas_train': 136081, 'filas_prueba': 68587, 'segundos': 10.428008400005638, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+Entrenando TipoProduccionMGAPCodigo: HistBoost_suavizado
+{'tabla': 'DatosUsosTierra', 'etapa': 'validacion_2023', 'modelo': 'HistBoost_suavizado', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.5106944464694476, 'f1_macro': 0.35952319926556403, 'f1_weighted': 0.49636379317373314, 'filas_train': 136081, 'filas_prueba': 68587, 'segundos': 272.6865459999972, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+Entrenando TipoProduccionMGAPCodigo: HistBoost_leve
+{'tabla': 'DatosUsosTierra', 'etapa': 'validacion_2023', 'modelo': 'HistBoost_leve', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.5379007683671833, 'f1_macro': 0.33829996143370505, 'f1_weighted': 0.4853520049376742, 'filas_train': 136081, 'filas_prueba': 68587, 'segundos': 54.84912559999793, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+Entrenando TipoProduccionMGAPCodigo: HistBoost_sin_pesos
+{'tabla': 'DatosUsosTierra', 'etapa': 'validacion_2023', 'modelo': 'HistBoost_sin_pesos', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.5412250134865207, 'f1_macro': 0.29634307880812, 'f1_weighted': 0.45517483681097004, 'filas_train': 136081, 'filas_prueba': 68587, 'segundos': 53.337289700008114, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+ELEGIDOS: DatosUsosTierra {'EspecializacionMGAPCodigo': {'modelo': 'HistBoost_suavizado', 'exponente_pesos': 0.5, 'f1_macro_validacion': 0.7248397297296032}, 'TipoProduccionMGAPCodigo': {'modelo': 'ExtraTrees_suavizado', 'exponente_pesos': 0.5, 'f1_macro_validacion': 0.4576813646091694}}
+
+=== DatosAnimalesDetallados ===
+Entrenando EspecializacionMGAPCodigo: Mayoritaria
+{'tabla': 'DatosAnimalesDetallados', 'etapa': 'validacion_2023', 'modelo': 'Mayoritaria', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.7159741966824306, 'f1_macro': 0.20862032717818701, 'f1_weighted': 0.5974670846521132, 'filas_train': 549613, 'filas_prueba': 279964, 'segundos': 0.06773199999588542, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+Entrenando EspecializacionMGAPCodigo: RF_balanceado
+{'tabla': 'DatosAnimalesDetallados', 'etapa': 'validacion_2023', 'modelo': 'RF_balanceado', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.8080681801945965, 'f1_macro': 0.7858117127240378, 'f1_weighted': 0.8305340555945567, 'filas_train': 549613, 'filas_prueba': 279964, 'segundos': 28.351268400001572, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+Entrenando EspecializacionMGAPCodigo: RF_suavizado

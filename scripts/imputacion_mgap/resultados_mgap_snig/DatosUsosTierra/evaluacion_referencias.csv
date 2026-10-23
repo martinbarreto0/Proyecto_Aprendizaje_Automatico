@@ -1,0 +1,5 @@
+tabla,etapa,modelo,objetivo,accuracy,f1_macro,f1_weighted,filas_train,filas_prueba,segundos,clases_prueba,clases_sin_entrenamiento,rol
+DatosUsosTierra,prueba_aleatoria,Mayoritaria,EspecializacionMGAPCodigo,0.6162308352977725,0.1906382497597377,0.4699086715565941,218891,54723,0.023008299991488457,1 2 3 4,,Referencia
+DatosUsosTierra,prueba_aleatoria,RF_balanceado,EspecializacionMGAPCodigo,0.7240465617747565,0.698489221472454,0.7368671386091534,218891,54723,15.56961869999941,1 2 3 4,,Referencia
+DatosUsosTierra,prueba_aleatoria,Mayoritaria,TipoProduccionMGAPCodigo,0.4181422802112457,0.06552269684799805,0.24658028879050897,218891,54723,0.016642899994621985,1 2 3 4 5 6 7 8 9,,Referencia
+DatosUsosTierra,prueba_aleatoria,RF_balanceado,TipoProduccionMGAPCodigo,0.40339528169142774,0.43558128295792914,0.4189355521122603,218891,54723,16.123017799996887,1 2 3 4 5 6 7 8 9,,Referencia

@@ -1,0 +1,38 @@
+
+=== DatosGenerales ===
+ELEGIDOS: DatosGenerales {'EspecializacionMGAPCodigo': {'modelo': 'HistBoost_sin_pesos', 'exponente_pesos': 0.0, 'f1_macro_validacion': 0.9536704614967244, 'max_iter': 250}, 'TipoProduccionMGAPCodigo': {'modelo': 'HistBoost_suavizado', 'exponente_pesos': 0.5, 'f1_macro_validacion': 0.6343058156981808, 'max_iter': 250}}
+
+=== DatosProduccionLeche ===
+ELEGIDOS: DatosProduccionLeche {'EspecializacionMGAPCodigo': {'modelo': 'RF_suavizado', 'exponente_pesos': 0.5, 'f1_macro_validacion': 0.8509199769162915, 'max_iter': 0}, 'TipoProduccionMGAPCodigo': {'modelo': 'RF_suavizado', 'exponente_pesos': 0.5, 'f1_macro_validacion': 0.6716387000187137, 'max_iter': 0}}
+
+=== DatosProduccionLecheEnEstablecimiento ===
+ELEGIDOS: DatosProduccionLecheEnEstablecimiento {'EspecializacionMGAPCodigo': {'modelo': 'RF_balanceado', 'exponente_pesos': 1.0, 'f1_macro_validacion': 0.8466007416563659, 'max_iter': 0}, 'TipoProduccionMGAPCodigo': {'modelo': 'RF_suavizado', 'exponente_pesos': 0.5, 'f1_macro_validacion': 0.6469802555168409, 'max_iter': 0}}
+
+=== DatosTenenciasTierra ===
+ELEGIDOS: DatosTenenciasTierra {'EspecializacionMGAPCodigo': {'modelo': 'HistBoost_suavizado', 'exponente_pesos': 0.5, 'f1_macro_validacion': 0.7056198289200604, 'max_iter': 250}, 'TipoProduccionMGAPCodigo': {'modelo': 'HistBoost_suavizado', 'exponente_pesos': 0.5, 'f1_macro_validacion': 0.4862970143091965, 'max_iter': 250}}
+
+=== DatosUsosTierra ===
+ELEGIDOS: DatosUsosTierra {'EspecializacionMGAPCodigo': {'modelo': 'HistBoost_suavizado', 'exponente_pesos': 0.5, 'f1_macro_validacion': 0.7248397297296032, 'max_iter': 250}, 'TipoProduccionMGAPCodigo': {'modelo': 'ExtraTrees_suavizado', 'exponente_pesos': 0.5, 'f1_macro_validacion': 0.4576813646091694, 'max_iter': 0}}
+
+=== DatosAnimalesDetallados ===
+Entrenando EspecializacionMGAPCodigo: RF_suavizado
+{'tabla': 'DatosAnimalesDetallados', 'etapa': 'validacion_2023', 'modelo': 'RF_suavizado', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.8885106656570131, 'f1_macro': 0.8136513287978061, 'f1_weighted': 0.8828219399013076, 'filas_train': 549613, 'filas_prueba': 279964, 'segundos': 23.864312400008203, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+Entrenando EspecializacionMGAPCodigo: ExtraTrees_suavizado
+{'tabla': 'DatosAnimalesDetallados', 'etapa': 'validacion_2023', 'modelo': 'ExtraTrees_suavizado', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.8880177451386607, 'f1_macro': 0.8149810454940818, 'f1_weighted': 0.8836662056268949, 'filas_train': 549613, 'filas_prueba': 279964, 'segundos': 31.072719500007224, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+Entrenando EspecializacionMGAPCodigo: HistBoost_suavizado
+{'tabla': 'DatosAnimalesDetallados', 'etapa': 'validacion_2023', 'modelo': 'HistBoost_suavizado', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.8762019402494606, 'f1_macro': 0.8171884968506408, 'f1_weighted': 0.8780574855573431, 'filas_train': 549613, 'filas_prueba': 279964, 'segundos': 33.724291000005906, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+Entrenando EspecializacionMGAPCodigo: HistBoost_leve
+{'tabla': 'DatosAnimalesDetallados', 'etapa': 'validacion_2023', 'modelo': 'HistBoost_leve', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.8926826306239374, 'f1_macro': 0.8154895066850174, 'f1_weighted': 0.8854982894956165, 'filas_train': 549613, 'filas_prueba': 279964, 'segundos': 35.238996900006896, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+Entrenando EspecializacionMGAPCodigo: HistBoost_sin_pesos
+{'tabla': 'DatosAnimalesDetallados', 'etapa': 'validacion_2023', 'modelo': 'HistBoost_sin_pesos', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.897926161935106, 'f1_macro': 0.8028970833350964, 'f1_weighted': 0.8834143081788837, 'filas_train': 549613, 'filas_prueba': 279964, 'segundos': 38.727570100003504, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+Entrenando TipoProduccionMGAPCodigo: Mayoritaria
+{'tabla': 'DatosAnimalesDetallados', 'etapa': 'validacion_2023', 'modelo': 'Mayoritaria', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.4655384263691046, 'f1_macro': 0.07059042722877301, 'f1_weighted': 0.29576300767925207, 'filas_train': 549613, 'filas_prueba': 279964, 'segundos': 0.06213090001256205, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+Entrenando TipoProduccionMGAPCodigo: RF_balanceado
+{'tabla': 'DatosAnimalesDetallados', 'etapa': 'validacion_2023', 'modelo': 'RF_balanceado', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.4790615936334672, 'f1_macro': 0.5295478919567027, 'f1_weighted': 0.508553144725304, 'filas_train': 549613, 'filas_prueba': 279964, 'segundos': 26.952117499997257, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+Entrenando TipoProduccionMGAPCodigo: RF_suavizado
+{'tabla': 'DatosAnimalesDetallados', 'etapa': 'validacion_2023', 'modelo': 'RF_suavizado', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.6518159477647126, 'f1_macro': 0.5472599920762098, 'f1_weighted': 0.6062754061618506, 'filas_train': 549613, 'filas_prueba': 279964, 'segundos': 33.35596249999071, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+Entrenando TipoProduccionMGAPCodigo: ExtraTrees_suavizado
+{'tabla': 'DatosAnimalesDetallados', 'etapa': 'validacion_2023', 'modelo': 'ExtraTrees_suavizado', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.6353316855024217, 'f1_macro': 0.5403078110324956, 'f1_weighted': 0.5990715343357041, 'filas_train': 549613, 'filas_prueba': 279964, 'segundos': 44.5949249999976, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+Entrenando TipoProduccionMGAPCodigo: HistBoost_suavizado
+{'tabla': 'DatosAnimalesDetallados', 'etapa': 'validacion_2023', 'modelo': 'HistBoost_suavizado', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.6291023131545485, 'f1_macro': 0.5722384921736094, 'f1_weighted': 0.6191670594471388, 'filas_train': 549613, 'filas_prueba': 279964, 'segundos': 83.12824890000047, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+ELEGIDOS: DatosAnimalesDetallados {'EspecializacionMGAPCodigo': {'modelo': 'HistBoost_suavizado', 'exponente_pesos': 0.5, 'f1_macro_validacion': 0.8171884968506408, 'max_iter': 100}, 'TipoProduccionMGAPCodigo': {'modelo': 'HistBoost_suavizado', 'exponente_pesos': 0.5, 'f1_macro_validacion': 0.5722384921736094, 'max_iter': 100}}

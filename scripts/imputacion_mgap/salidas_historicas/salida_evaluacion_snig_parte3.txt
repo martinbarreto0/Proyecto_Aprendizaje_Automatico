@@ -1,0 +1,100 @@
+DatosAnimalesDetallados: historico_2022, entrenamiento=829577, prueba=281348.
+Entrenando EspecializacionMGAPCodigo: HistBoost_suavizado
+
+--- EspecializacionMGAPCodigo ---
+Acierto: 0.8724
+F1 macro: 0.8137
+Clases sin ejemplos en entrenamiento: []
+
+              precision    recall  f1-score   support
+
+           1     0.8648    0.9810    0.9193     29656
+           2     0.9752    0.9008    0.9365     25018
+           3     0.4752    0.4993    0.4870     27528
+           4     0.9203    0.9042    0.9122    199146
+
+    accuracy                         0.8724    281348
+   macro avg     0.8089    0.8213    0.8137    281348
+weighted avg     0.8758    0.8724    0.8735    281348
+
+Entrenando TipoProduccionMGAPCodigo: HistBoost_suavizado
+
+--- TipoProduccionMGAPCodigo ---
+Acierto: 0.6419
+F1 macro: 0.5765
+Clases sin ejemplos en entrenamiento: []
+
+              precision    recall  f1-score   support
+
+           1     0.8806    0.9628    0.9199     29656
+           2     1.0000    1.0000    1.0000       297
+           3     0.9760    0.9005    0.9367     25018
+           4     0.6986    0.7470    0.7220    133965
+           5     0.4192    0.2631    0.3233     42100
+           6     0.4428    0.3102    0.3648     28213
+           7     0.2906    0.4591    0.3559      8065
+           8     0.1904    0.1910    0.1907      7602
+           9     0.2644    0.6463    0.3753      6432
+
+    accuracy                         0.6419    281348
+   macro avg     0.5736    0.6089    0.5765    281348
+weighted avg     0.6399    0.6419    0.6340    281348
+
+DatosAnimalesDetallados: aleatorio, entrenamiento=888740, prueba=222185.
+Entrenando EspecializacionMGAPCodigo: HistBoost_suavizado
+
+--- EspecializacionMGAPCodigo ---
+Acierto: 0.8763
+F1 macro: 0.8179
+Clases sin ejemplos en entrenamiento: []
+
+              precision    recall  f1-score   support
+
+           1     0.8642    0.9884    0.9221     22260
+           2     0.9764    0.8909    0.9317     19756
+           3     0.4842    0.5214    0.5021     21446
+           4     0.9248    0.9067    0.9157    158723
+
+    accuracy                         0.8763    222185
+   macro avg     0.8124    0.8268    0.8179    222185
+weighted avg     0.8808    0.8763    0.8778    222185
+
+Entrenando TipoProduccionMGAPCodigo: HistBoost_suavizado
+
+--- TipoProduccionMGAPCodigo ---
+Acierto: 0.6411
+F1 macro: 0.5804
+Clases sin ejemplos en entrenamiento: []
+
+              precision    recall  f1-score   support
+
+           1     0.8810    0.9657    0.9214     22260
+           2     1.0000    1.0000    1.0000       253
+           3     0.9750    0.8911    0.9312     19756
+           4     0.6931    0.7527    0.7217    105282
+           5     0.4257    0.2629    0.3251     34643
+           6     0.4511    0.3253    0.3780     22990
+           7     0.2989    0.4590    0.3620      6446
+           8     0.2007    0.2011    0.2009      5748
+           9     0.2717    0.6505    0.3833      4807
+
+    accuracy                         0.6411    222185
+   macro avg     0.5775    0.6120    0.5804    222185
+weighted avg     0.6373    0.6411    0.6320    222185
+
+DatosAnimalesDetallados: historico_2022, EspecializacionMGAPCodigo, Mayoritaria
+{'tabla': 'DatosAnimalesDetallados', 'etapa': 'historico_2022', 'modelo': 'Mayoritaria', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.7078280279227149, 'f1_macro': 0.2072304753025012, 'f1_weighted': 0.5867341546354252, 'filas_train': 829577, 'filas_prueba': 281348, 'segundos': 0.07072429999243468, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+DatosAnimalesDetallados: historico_2022, EspecializacionMGAPCodigo, RF_balanceado
+{'tabla': 'DatosAnimalesDetallados', 'etapa': 'historico_2022', 'modelo': 'RF_balanceado', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.8128367715427158, 'f1_macro': 0.7900629873552777, 'f1_weighted': 0.8330123291966162, 'filas_train': 829577, 'filas_prueba': 281348, 'segundos': 32.32480719999876, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+DatosAnimalesDetallados: historico_2022, TipoProduccionMGAPCodigo, Mayoritaria
+{'tabla': 'DatosAnimalesDetallados', 'etapa': 'historico_2022', 'modelo': 'Mayoritaria', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.47615408675377113, 'f1_macro': 0.07168087683265394, 'f1_weighted': 0.307180282013657, 'filas_train': 829577, 'filas_prueba': 281348, 'segundos': 0.04973140000947751, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+DatosAnimalesDetallados: historico_2022, TipoProduccionMGAPCodigo, RF_balanceado
+{'tabla': 'DatosAnimalesDetallados', 'etapa': 'historico_2022', 'modelo': 'RF_balanceado', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.48210756785191294, 'f1_macro': 0.5304059104865468, 'f1_weighted': 0.5104300899300434, 'filas_train': 829577, 'filas_prueba': 281348, 'segundos': 37.393516899988754, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+DatosAnimalesDetallados: aleatorio, EspecializacionMGAPCodigo, Mayoritaria
+{'tabla': 'DatosAnimalesDetallados', 'etapa': 'aleatorio', 'modelo': 'Mayoritaria', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.7143731575038819, 'f1_macro': 0.20834821006647275, 'f1_weighted': 0.5953534747418728, 'filas_train': 888740, 'filas_prueba': 222185, 'segundos': 0.040060300001641735, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+DatosAnimalesDetallados: aleatorio, EspecializacionMGAPCodigo, RF_balanceado
+{'tabla': 'DatosAnimalesDetallados', 'etapa': 'aleatorio', 'modelo': 'RF_balanceado', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.8138938272160587, 'f1_macro': 0.7892146281930036, 'f1_weighted': 0.8346036329741559, 'filas_train': 888740, 'filas_prueba': 222185, 'segundos': 55.921343900001375, 'clases_prueba': '1 2 3 4', 'clases_sin_entrenamiento': ''}
+DatosAnimalesDetallados: aleatorio, TipoProduccionMGAPCodigo, Mayoritaria
+{'tabla': 'DatosAnimalesDetallados', 'etapa': 'aleatorio', 'modelo': 'Mayoritaria', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.4738483696019083, 'f1_macro': 0.07144536701408082, 'f1_weighted': 0.3046884360770894, 'filas_train': 888740, 'filas_prueba': 222185, 'segundos': 0.05135310000332538, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}
+DatosAnimalesDetallados: aleatorio, TipoProduccionMGAPCodigo, RF_balanceado
+{'tabla': 'DatosAnimalesDetallados', 'etapa': 'aleatorio', 'modelo': 'RF_balanceado', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.48353399194365054, 'f1_macro': 0.5333903415486173, 'f1_weighted': 0.5114290545973165, 'filas_train': 888740, 'filas_prueba': 222185, 'segundos': 56.30227839999134, 'clases_prueba': '1 2 3 4 5 6 7 8 9', 'clases_sin_entrenamiento': ''}

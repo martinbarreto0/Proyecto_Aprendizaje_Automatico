@@ -1,0 +1,30 @@
+{
+  "EspecializacionMGAPCodigo": {
+    "ensamble": "E3_voto_blando_arboles",
+    "miembros": [
+      "RF_suavizado",
+      "ExtraTrees_suavizado",
+      "HistBoost"
+    ],
+    "histboost": [
+      "HistBoost_suavizado",
+      0.5,
+      100
+    ],
+    "f1_macro_validacion": 0.820481313267259
+  },
+  "TipoProduccionMGAPCodigo": {
+    "ensamble": "E3_voto_blando_arboles",
+    "miembros": [
+      "RF_suavizado",
+      "ExtraTrees_suavizado",
+      "HistBoost"
+    ],
+    "histboost": [
+      "HistBoost_suavizado",
+      0.5,
+      100
+    ],
+    "f1_macro_validacion": 0.5675133253281505
+  }
+}

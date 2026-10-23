@@ -1,0 +1,34 @@
+Evaluación: aleatorio. Entrenamiento: 255339. Prueba: 63835.
+Entrenando EspecializacionMGAPCodigo...
+
+--- EspecializacionMGAPCodigo ---
+              precision    recall  f1-score   support
+
+           1     0.9039    0.9904    0.9452      5756
+           2     0.9758    0.8730    0.9215      5631
+           3     0.5040    0.5516    0.5267      6713
+           4     0.9227    0.9107    0.9167     45735
+
+    accuracy                         0.8768     63835
+   macro avg     0.8266    0.8315    0.8275     63835
+weighted avg     0.8817    0.8768    0.8787     63835
+
+Entrenando TipoProduccionMGAPCodigo...
+
+--- TipoProduccionMGAPCodigo ---
+              precision    recall  f1-score   support
+
+           1     0.9104    0.9765    0.9423      5756
+           2     1.0000    1.0000    1.0000        74
+           3     0.9689    0.8743    0.9192      5631
+           4     0.7376    0.7025    0.7196     29270
+           5     0.4029    0.3152    0.3536      8250
+           6     0.4222    0.3954    0.4083      7175
+           7     0.2999    0.4561    0.3619      2344
+           8     0.2781    0.3279    0.3010      3132
+           9     0.2985    0.5688    0.3915      2203
+
+    accuracy                         0.6261     63835
+   macro avg     0.5909    0.6241    0.5997     63835
+weighted avg     0.6414    0.6261    0.6303     63835
+

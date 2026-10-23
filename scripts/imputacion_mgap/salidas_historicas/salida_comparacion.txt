@@ -1,0 +1,21 @@
+Entrenando HistBoost_ampliado: EspecializacionMGAPCodigo
+{'etapa': 'validacion_2023', 'modelo': 'HistBoost_ampliado', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.8780424005381032, 'f1_macro': 0.8288054581175176, 'f1_weighted': 0.8805534434406332, 'segundos': 29.51201070001116}
+Entrenando CatBoost_original: EspecializacionMGAPCodigo
+{'etapa': 'validacion_2023', 'modelo': 'CatBoost_original', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.8779053835230811, 'f1_macro': 0.7877435080133761, 'f1_weighted': 0.8649600173287193, 'segundos': 120.63574539999536}
+Entrenando CatBoost_ampliado: EspecializacionMGAPCodigo
+{'etapa': 'validacion_2023', 'modelo': 'CatBoost_ampliado', 'objetivo': 'EspecializacionMGAPCodigo', 'accuracy': 0.872810841782716, 'f1_macro': 0.8226608065607446, 'f1_weighted': 0.8758849917049454, 'segundos': 132.0883548999991}
+Entrenando RF_original: TipoProduccionMGAPCodigo
+{'etapa': 'validacion_2023', 'modelo': 'RF_original', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.6247851324082608, 'f1_macro': 0.5525209284841729, 'f1_weighted': 0.582642411169341, 'segundos': 7.37466129999666}
+Entrenando ExtraTrees_ampliado: TipoProduccionMGAPCodigo
+{'etapa': 'validacion_2023', 'modelo': 'ExtraTrees_ampliado', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.6387982362173339, 'f1_macro': 0.5718322169580526, 'f1_weighted': 0.6100834013670839, 'segundos': 13.62030880000384}
+Entrenando HistBoost_ampliado: TipoProduccionMGAPCodigo
+{'etapa': 'validacion_2023', 'modelo': 'HistBoost_ampliado', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.6217084776164021, 'f1_macro': 0.5996460520080361, 'f1_weighted': 0.6235332733852469, 'segundos': 67.3014419000101}
+Entrenando CatBoost_original: TipoProduccionMGAPCodigo
+{'etapa': 'validacion_2023', 'modelo': 'CatBoost_original', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.6169751625520041, 'f1_macro': 0.5723298823433404, 'f1_weighted': 0.5984684124726967, 'segundos': 452.6571680999914}
+Entrenando CatBoost_ampliado: TipoProduccionMGAPCodigo
+{'etapa': 'validacion_2023', 'modelo': 'CatBoost_ampliado', 'objetivo': 'TipoProduccionMGAPCodigo', 'accuracy': 0.6190179616850602, 'f1_macro': 0.5908229370110303, 'f1_weighted': 0.617544831876199, 'segundos': 531.5609441000124}
+
+Ganadores por F1 macro (sin usar 2022):
+          etapa             modelo                  objetivo  accuracy  f1_macro  f1_weighted  segundos
+validacion_2023 HistBoost_ampliado EspecializacionMGAPCodigo  0.878042  0.828805     0.880553 29.512011
+validacion_2023 HistBoost_ampliado  TipoProduccionMGAPCodigo  0.621708  0.599646     0.623533 67.301442

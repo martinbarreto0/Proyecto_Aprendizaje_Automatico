@@ -1,0 +1,17 @@
+{
+  "tabla": "DatosTenenciasTierra",
+  "objetivos": {
+    "EspecializacionMGAPCodigo": {
+      "f1_macro_actual_test": 0.7042300929310803,
+      "f1_macro_busqueda_test": 0.7253909405675982,
+      "delta_f1_macro_test": 0.021160847636517932,
+      "recomienda_reemplazo": true
+    },
+    "TipoProduccionMGAPCodigo": {
+      "f1_macro_actual_test": 0.476845986616487,
+      "f1_macro_busqueda_test": 0.4928239805277198,
+      "delta_f1_macro_test": 0.01597799391123278,
+      "recomienda_reemplazo": true
+    }
+  }
+}
