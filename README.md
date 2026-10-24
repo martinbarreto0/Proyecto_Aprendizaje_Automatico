@@ -1,98 +1,58 @@
-# Predicción de producción lechera
+# Predicción de producción lechera con datos SNIG
 
-Proyecto de aprendizaje automático orientado a estimar la producción de leche, medida en litros, a partir de información productiva, ganadera, territorial y administrativa. El trabajo emplea registros desde 2016 y construye modelos de referencia y modelos supervisados para comparar su capacidad predictiva.
+Este proyecto completa dos códigos MGAP faltantes en siete tablas SNIG y utiliza cuatro de esas tablas para estimar la producción anual de leche (`Litros`) por perfil productivo. Este README describe los **datos y resultados finales publicados**; los archivos de experimentos anteriores siguen disponibles para reproducir las comparaciones.
 
 ## Contenido del repositorio
 
-```text
-data/                                       Datasets SNIG con códigos MGAP completados
-data/metadatos/                             Metadatos de la imputación por tabla
-scripts/imputacion_mgap/                    Código de aplicación de la imputación MGAP
-scripts/modelos_produccion_lechera/basicos/ Modelos base de producción lechera
-reports/modelos_basicos/                    Métricas y artefactos generados por los modelos
-registro_uso_IA.md                          Declaración de uso de inteligencia artificial
-```
+| Ruta | Contenido |
+|---|---|
+| [`data/`](data/) | Siete CSV con los códigos MGAP completados y dos columnas de confianza; [`data/metadatos_modelos_finales/`](data/metadatos_modelos_finales/) registra la aplicación por tabla. |
+| [`scripts/imputacion_mgap/`](scripts/imputacion_mgap/) | Preparación, comparación y aplicación de los clasificadores MGAP. |
+| [`scripts/modelos_produccion_lechera/`](scripts/modelos_produccion_lechera/) | Construcción del dataset, modelos básicos, selección de variables, búsquedas de hiperparámetros y evaluación final. |
+| [`reports/`](reports/) | Métricas, predicciones, artefactos entrenados y metadatos de los experimentos. |
+| [`diagnostico_datos/`](diagnostico_datos/) | Diagnósticos exploratorios de los datos. |
+| [`registro_uso_IA.md`](registro_uso_IA.md) | Declaración y registro del uso de IA. |
 
-## Datos
+Los CSV originales de `data/processed/SNIG` **no forman parte de este repositorio**. Los siete archivos de `data/` son las tablas finales; para repetir la imputación desde cero hacen falta los originales. Los archivos grandes del repositorio usan Git LFS.
 
-La carpeta `data` contiene siete tablas con información de producción, existencias animales, categorías animales, características generales del establecimiento, producción en establecimiento, tenencia y uso de la tierra:
+## Imputación MGAP
 
-- `DatosProduccionLeche.csv`
-- `DatosAnimales.csv`
-- `DatosAnimalesDetallados.csv`
-- `DatosGenerales.csv`
-- `DatosProduccionLecheEnEstablecimiento.csv`
-- `DatosTenenciasTierra.csv`
-- `DatosUsosTierra.csv`
+Para cada tabla y objetivo se compararon modelos individuales, ajustes de hiperparámetros y ensambles. La elección final se hizo por separado para `EspecializacionMGAPCodigo` y `TipoProduccionMGAPCodigo`, sobre una partición aleatoria común 80/20. Los modelos aplicados y sus métricas F1 macro se consultan en [`resumen_comparacion_final.csv`](scripts/imputacion_mgap/evaluacion_final_modelos/resultados_finales/resumen_comparacion_final.csv); los detalles de cada tabla están en [`data/metadatos_modelos_finales/`](data/metadatos_modelos_finales/). Esa comparación reutiliza datos históricos de desarrollo y no equivale a un test ciego independiente.
 
-Cada tabla incluye las columnas `EspecializacionMGAPCodigo` y `TipoProduccionMGAPCodigo`. Cuando ambos códigos estaban ausentes en un registro, fueron estimados mediante modelos de clasificación seleccionados para cada tabla y objetivo. Las columnas `EspecializacionMGAPConfianza` y `TipoProduccionMGAPConfianza` indican la probabilidad máxima asociada a la clase estimada; quedan vacías cuando el código MGAP era observado.
+El [aplicador final](scripts/imputacion_mgap/evaluacion_final_modelos/aplicar_modelos_finales_MGAP_snig.py) conservó los códigos observados y completó solo las celdas faltantes de cada objetivo. Agregó `EspecializacionMGAPConfianza` y `TipoProduccionMGAPConfianza`, vacías cuando el código era conocido. Son puntajes del modelo **sin calibración probabilística**; no deben interpretarse como una probabilidad garantizada de acierto.
 
-Los detalles de los conteos de filas y de la imputación se encuentran en [data/README.md](data/README.md). Los modelos de producción no utilizan las columnas de confianza.
+Las siete tablas finales suman **4.620.729 filas** (no perfiles únicos). Se completaron **2.565.161 valores de cada código MGAP**. Estas cifras provienen de los [metadatos de aplicación](data/metadatos_modelos_finales/).
 
-## Construcción del dataset de producción lechera
+## Dataset y modelos de producción lechera
 
-Los modelos básicos construyen un dataset analítico a partir de cuatro tablas:
+[`construir_dataset()`](scripts/modelos_produccion_lechera/basicos/datos_lecheria.py) lee `DatosProduccionLeche`, `DatosAnimales`, `DatosAnimalesDetallados` y `DatosGenerales`. Filtra los perfiles lecheros y, donde corresponde, los bovinos de leche; suma litros y existencias por ocho claves de perfil y ejercicio, transforma las siete categorías animales en columnas, une las cuatro tablas y calcula la carga ganadera. Conserva filas con `Litros > 0`. Las otras tres tablas MGAP no entran directamente en esta regresión. Los códigos MGAP se usan para **filtrar**, no como predictores; las confianzas tampoco son entradas del modelo.
 
-- producción de leche;
-- animales por especie;
-- animales por categoría;
-- variables generales del establecimiento.
+El resultado actual tiene **16.204 filas y 21 columnas** para 2016–2025: ocho claves, doce medidas numéricas y `Litros`. Los modelos completos usan 16 predictores (cuatro categóricos y doce numéricos). [`dividir_dataset()`](scripts/modelos_produccion_lechera/basicos/datos_lecheria.py) mezcla los registros mediante `train_test_split` y conserva **11.342** para entrenamiento, **2.431** para validación y **2.431** para test (70/15/15). La partición no separa años.
 
-Se conservan registros desde 2016 que corresponden a especialización lechera (`EspecializacionMGAPCodigo = 2`) y tipo de producción lechera (`TipoProduccionMGAPCodigo = 3`). Para las tablas que contienen especies se selecciona la especie bovina de leche (`EspecieCodigo = 11`).
+Se compararon en **validación** 13 variantes: mediana, Ridge, Random Forest y CatBoost en versiones básicas, con selección de variables o con búsqueda exhaustiva de hiperparámetros según el caso. Ridge usa codificación one-hot y normalización de numéricas; Random Forest usa one-hot pero no normalización; CatBoost maneja las categorías y faltantes numéricos sin esas transformaciones. Los CSV de resultados están en [`reports/modelos_basicos/`](reports/modelos_basicos/), [`reports/modelos_seleccion_variables/`](reports/modelos_seleccion_variables/), [`reports/hiperparametros_modelos_basicos/`](reports/hiperparametros_modelos_basicos/) y [`reports/modelos_catboost/`](reports/modelos_catboost/).
 
-Los litros se agregan por perfil productivo y ejercicio. Las tablas se unen mediante las variables de identificación territorial, administrativa y de estratificación disponibles: año, departamento, seccional policial, área de supervisión, área de enumeración, giro, naturaleza jurídica y estrato. El conjunto final incorpora existencias bovinas totales y por categoría, superficie, unidades ganaderas, superficie ganadera y carga ganadera. Se excluyen filas sin producción válida o con litros menores o iguales a cero.
+El equipo eligió **CatBoost básico con las 12 variables numéricas seleccionadas**, guardado en [`modelo_top_12.cbm`](reports/modelos_catboost/seleccion_variables/modelo_top_12.cbm). Sus entradas y orden están en [`variables_top_12.csv`](reports/modelos_catboost/seleccion_variables/variables_top_12.csv). Este modelo no es el CatBoost top 12 ajustado mediante grid search; tampoco necesita one-hot ni normalización. Aunque el Random Forest ajustado obtuvo menor MAE en validación, el CatBoost elegido redujo el RMSE y el tamaño del artefacto. Frente al CatBoost completo básico, aumentó ligeramente el MAE y redujo el RMSE.
 
-La división de datos es aleatoria y reproducible: 70 % para entrenamiento, 15 % para validación y 15 % para prueba final. El conjunto de prueba se reserva y no interviene en los resultados presentados a continuación.
+| Partición del CatBoost elegido | Filas | MAE (litros) | RMSE (litros) | R² | WAPE |
+|---|---:|---:|---:|---:|---:|
+| Validación | 2.431 | 250.079,99 | 575.768,85 | 0,97583 | 21,9606 % |
+| Test final | 2.431 | 310.103,50 | 2.103.442,54 | 0,83542 | 22,8453 % |
 
-## Modelos básicos
+Fuentes: [`metricas_top_12.csv`](reports/modelos_catboost/seleccion_variables/metricas_top_12.csv), [`metricas_test.csv`](reports/modelos_catboost/evaluacion_final_test/metricas_test.csv) y [`predicciones_test.csv`](reports/modelos_catboost/evaluacion_final_test/predicciones_test.csv). **Solo el modelo elegido fue evaluado en test**. Unos pocos errores extremos elevan mucho el RMSE de test; las métricas deben leerse conjuntamente.
 
-La carpeta `scripts/modelos_produccion_lechera/basicos` contiene tres modelos sin búsqueda de hiperparámetros:
+## Preparación y comprobación
 
-- **Mediana:** referencia mínima que asigna a todos los casos la mediana de litros observada en entrenamiento.
-- **Ridge:** regresión lineal regularizada, útil como referencia explicable y para revisar los coeficientes asociados a las variables transformadas.
-- **Random Forest:** conjunto de árboles de decisión que representa relaciones no lineales e interacciones entre las variables.
-
-Los tres scripts usan la misma construcción de datos, variables predictoras y división aleatoria. Los valores faltantes numéricos se imputan dentro del flujo de cada modelo usando únicamente el conjunto de entrenamiento.
-
-## Resultados iniciales de validación
-
-Las siguientes métricas corresponden a 2.418 registros de validación. Un menor MAE, RMSE y WAPE indica menor error; un R² más cercano a 1 indica mayor capacidad explicativa.
-
-| Modelo | MAE (litros) | RMSE (litros) | R² | WAPE |
-|---|---:|---:|---:|---:|
-| Mediana | 992.717 | 3.640.720 | -0,0348 | 81,88 % |
-| Ridge | 455.756 | 1.023.140 | 0,9183 | 37,59 % |
-| Random Forest | 231.318 | 473.957 | 0,9825 | 19,08 % |
-
-En esta etapa inicial, Random Forest obtuvo el menor error y el mayor R². Estos resultados son de validación; la evaluación definitiva deberá realizarse una única vez sobre el conjunto de prueba reservado después de definir los ajustes de hiperparámetros.
-
-## Ejecución
-
-Los comandos deben ejecutarse desde la raíz del repositorio. Se recomienda utilizar un entorno virtual independiente:
+Se requiere Python 3.11 y Git LFS, además de espacio para descargar los artefactos grandes. En PowerShell:
 
 ```powershell
-py -m venv .venv_modelos
-.\.venv_modelos\Scripts\Activate.ps1
-python -m pip install -r scripts/modelos_produccion_lechera/basicos/requirements.txt
+git clone https://github.com/martinbarreto0/Proyecto_Aprendizaje_Automatico.git
+Set-Location Proyecto_Aprendizaje_Automatico
+git lfs install
+git lfs pull
+py -3.11 -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r scripts/modelos_produccion_lechera/catboost/requirements.txt
+.\.venv\Scripts\python.exe scripts/modelos_produccion_lechera/evaluacion_final_test/evaluar_test_top_12.py
 ```
 
-Para entrenar y evaluar cada modelo básico:
+El último comando **no reentrena ni vuelve a abrir el test**: comprueba las huellas SHA-256 de seis insumos, reconstruye el dataset y reproduce las métricas de validación del artefacto publicado. Sin la bandera de test, el script muestra al final «Test no evaluado»; ese mensaje se refiere solo a **esta ejecución de control**, no al estado del proyecto. Las métricas y predicciones de test ya están en [`reports/modelos_catboost/evaluacion_final_test/`](reports/modelos_catboost/evaluacion_final_test/). El modo de evaluación de test se usó una sola vez; para consultar los resultados publicados no hace falta activarlo. Ejecutar scripts de entrenamiento puede sobrescribir sus salidas, por lo que la comprobación anterior es el punto de entrada recomendado para revisar el estado publicado.
 
-```powershell
-python scripts/modelos_produccion_lechera/basicos/modelo_mediana.py
-python scripts/modelos_produccion_lechera/basicos/modelo_ridge.py
-python scripts/modelos_produccion_lechera/basicos/modelo_random_forest.py
-```
-
-Cada ejecución muestra las métricas en la terminal y guarda en `reports/modelos_basicos` un CSV de métricas, un CSV con las predicciones de validación y un archivo `.joblib` con el modelo entrenado. Ridge también genera `coeficientes_ridge.csv` para facilitar la interpretación de sus variables.
-
-## Próximos pasos
-
-- realizar búsqueda de hiperparámetros sobre los modelos seleccionados;
-- incorporar y evaluar un modelo CatBoost;
-- comparar los candidatos con validación y conservar el conjunto de prueba para la evaluación final;
-- analizar errores por tipo de establecimiento, volumen de producción y territorio.
-
-## Uso de inteligencia artificial
-
-El uso de inteligencia artificial generativa en tareas de apoyo técnico y documental se detalla en [registro_uso_IA.md](registro_uso_IA.md). La validación de datos, ejecución de scripts, análisis de resultados y decisiones metodológicas son responsabilidad del equipo del proyecto.

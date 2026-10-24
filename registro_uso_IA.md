@@ -1,43 +1,32 @@
-# Uso de inteligencia artificial en el proyecto
+# Registro de uso de inteligencia artificial
 
-## Declaración de uso
+## Declaración
 
-En este proyecto se utilizó inteligencia artificial generativa como herramienta de apoyo para tareas de programación, documentación y organización técnica. Su uso tuvo carácter asistivo: las decisiones metodológicas, la selección de información a incorporar, la ejecución de los scripts y la revisión de los resultados permanecen bajo responsabilidad del equipo del proyecto.
+El equipo utilizó herramientas de IA generativa como apoyo para programar, ejecutar y revisar experimentos, interpretar salidas, organizar archivos y redactar documentación. Las personas integrantes definieron los objetivos, eligieron el modelo final y son responsables de comprobar los datos, resultados y afirmaciones del proyecto. Las herramientas pudieron editar archivos y ejecutar comandos bajo instrucciones del equipo; por eso sería incorrecto afirmar que la IA no modificó datos o no generó métricas durante el trabajo.
 
-## Actividades en las que se utilizó
+## Herramientas y actividades declaradas
 
-La IA se empleó para:
+Se conservan las declaraciones sobre el trabajo de las compañeras con Claude Code. Los nombres de los modelos y períodos de esas sesiones son los que ellas aportaron; este registro no incluye todavía las transcripciones completas de sus prompts y respuestas.
 
-- proponer, redactar y comentar scripts en Python para la preparación de datos, imputación de variables MGAP y entrenamiento de los modelos de producción lechera;
-- colaborar en la organización de la estructura de carpetas y en la adaptación de rutas cuando correspondía;
-- explicar métricas de evaluación, tales como MAE, RMSE, R², WAPE, MedAPE y sesgo;
-- apoyar la redacción inicial de documentación técnica e informes del proyecto;
-- orientar la búsqueda y síntesis de bibliografía relacionada con modelos de aprendizaje automático aplicados a la predicción de producción lechera;
-- programar y probar la interfaz del prototipo en el dashboard (simulador con perfiles de ejemplo, filtros y descarga CSV en las tablas, orden y estilo de las pestañas), ajustar la configuración de Docker del dashboard y actualizar el informe y los README para que coincidan con ese prototipo.
-
-## Herramienta, versión y período
-
-Coincide con la tabla de declaración de uso del informe del Entregable 3.
-
-| Herramienta | Modelos | Período | Uso |
+| Herramienta | Modelos declarados | Período declarado | Actividades |
 |---|---|---|---|
-| Claude Code (Anthropic) | Claude Opus 5.5 y Claude Sonnet 5.5 | Septiembre-octubre de 2026 | Las cinco actividades anteriores. |
-| Claude Code (Anthropic) | Claude Opus 5.5 y Claude Sonnet 5.5 | Octubre de 2026 | Adecuación del informe al formato institucional, scripts y figuras del informe (`PAA/informe`) y redacción de los apartados del Entregable 3. |
-| Claude Code (Anthropic) | Claude Sonnet 5.5 | 23 oct. 2026 | Programación y prueba de la interfaz del prototipo (simulador, filtros y descarga CSV en las tablas, orden de las pestañas), configuración Docker del dashboard, revisión del prototipo frente a la guía y actualización del informe y de la documentación. |
+| Claude Code (Anthropic) | Claude Opus 5.5 y Claude Sonnet 5.5 | Septiembre-octubre de 2026 | Apoyo en preparación de datos, scripts de imputación y modelado, organización de carpetas, explicación de métricas, documentación y bibliografía. |
+| Claude Code (Anthropic) | Claude Opus 5.5 y Claude Sonnet 5.5 | Octubre de 2026 | Adecuación del informe al formato institucional, scripts y figuras de `PAA/informe` y redacción del Entregable 3. |
+| Claude Code (Anthropic) | Claude Sonnet 5.5 | 23 oct. 2026 | Programación y prueba de la interfaz del prototipo (simulador, filtros y descarga CSV en tablas, orden de pestañas), configuración Docker del dashboard y actualización del informe y documentación. |
+| Codex (OpenAI) | Versión exacta de modelo no consolidada en este registro | Durante el desarrollo de 2026 | Asistencia interactiva en imputación MGAP, modelos de lechería, redacción técnica y preparación de archivos para GitHub y el servidor. |
 
-Pendiente de confirmar por el equipo: si se usó otra herramienta y los períodos exactos.
+## Solicitudes y respuestas relevantes de las sesiones de Codex
 
-## Actividades no delegadas a la IA
+Los fragmentos entre comillas son solicitudes del equipo registradas en la conversación. La columna «resultado» resume la respuesta y su aplicación, **no pretende ser una cita textual del asistente**. Las rutas se interpretan desde la raíz de `PAA`; los CSV/JSON y scripts indicados permiten comprobar el resultado técnico. Se consignan ejemplos que influyeron en código, datos, evaluación o decisiones, no cada intercambio de la conversación.
 
-La IA no sustituyó el análisis del equipo ni ejecutó decisiones de forma autónoma. En particular:
+| Solicitud del equipo (fragmento) | Resultado de la asistencia y uso | Comprobación |
+|---|---|---|
+| «divide el conjunto de datos con traintestsplit (que tambien los mezcla)» | Se modificó la evaluación de clasificadores MGAP para comparar candidatos con partición aleatoria; después se congelaron los candidatos y se los comparó en una partición común 80/20. | `scripts/imputacion_mgap/evaluacion_final_modelos/evaluar_modelos_finales.py`; `scripts/imputacion_mgap/evaluacion_final_modelos/resultados_finales/resumen_comparacion_final.csv`. |
+| «el .py que completa las tablas originales en las columnas MGAP con el modelo establecido para cada tabla-columna» | Se preparó y ejecutó la aplicación por tabla y objetivo. Los códigos observados quedaron preservados y las tablas finales incorporaron dos columnas de confianza. | `scripts/imputacion_mgap/evaluacion_final_modelos/aplicar_modelos_finales_MGAP_snig.py`; `data/metadatos_modelos_finales/`; `data/*.csv`. |
+| «la prueba con el test (no quiero que la hagas, solo explica como hacerlo ...)» | Primero se preparó el procedimiento sin ejecutar test. Una evaluación posterior, realizada por el equipo, produjo las métricas y predicciones finales del modelo elegido. | `scripts/modelos_produccion_lechera/evaluacion_final_test/evaluar_test_top_12.py`; `reports/modelos_catboost/evaluacion_final_test/`. |
 
-- no recolectó, modificó ni inventó datos de los registros utilizados;
-- no ejecutó los scripts ni generó métricas por sí misma: los resultados informados provienen de ejecuciones realizadas sobre el entorno y los datos del proyecto;
-- no definió por sí sola el problema de investigación, los objetivos, el alcance ni los criterios de evaluación;
-- no reemplaza la comprobación de las fuentes bibliográficas ni la interpretación técnica de los resultados.
+## Verificación, límites y pendientes del registro
 
-## Validación y responsabilidad
+Las cifras vigentes deben verificarse en los archivos de salida, no inferirse del texto de una respuesta de IA. En particular, las siete tablas finales suman 4.620.729 filas, con 2.565.161 imputaciones por código MGAP; el dataset lechero tiene 16.204 filas; y el CatBoost elegido fue evaluado sobre 2.431 filas de test. Las fuentes son `data/metadatos_modelos_finales/`, `scripts/modelos_produccion_lechera/basicos/datos_lecheria.py` y `reports/modelos_catboost/evaluacion_final_test/metricas_test.csv`.
 
-Todo código sugerido mediante IA debe ser revisado antes de utilizarse. Asimismo, las salidas de los modelos se verifican mediante los archivos de métricas y predicciones generados por los scripts, y las fuentes incluidas en los informes deben ser contrastadas con sus publicaciones originales.
-
-La responsabilidad final por la calidad del código, la validez de los datos, la interpretación de los resultados y el contenido del informe corresponde a los integrantes del proyecto.
+Las filas MGAP imputadas son estimaciones, no observaciones originales. Sus confianzas no están calibradas. La partición aleatoria de la regresión no equivale a pronosticar años futuros.
