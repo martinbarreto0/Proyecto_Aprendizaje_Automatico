@@ -12,7 +12,20 @@ La IA se empleó para:
 - colaborar en la organización de la estructura de carpetas y en la adaptación de rutas cuando correspondía;
 - explicar métricas de evaluación, tales como MAE, RMSE, R², WAPE, MedAPE y sesgo;
 - apoyar la redacción inicial de documentación técnica e informes del proyecto;
-- orientar la búsqueda y síntesis de bibliografía relacionada con modelos de aprendizaje automático aplicados a la predicción de producción lechera.
+- orientar la búsqueda y síntesis de bibliografía relacionada con modelos de aprendizaje automático aplicados a la predicción de producción lechera;
+- programar y probar la interfaz del prototipo en el dashboard (simulador con perfiles de ejemplo, filtros y descarga CSV en las tablas, orden y estilo de las pestañas), ajustar la configuración de Docker del dashboard y actualizar el informe y los README para que coincidan con ese prototipo.
+
+## Herramienta, versión y período
+
+Coincide con la tabla de declaración de uso del informe del Entregable 3.
+
+| Herramienta | Modelos | Período | Uso |
+|---|---|---|---|
+| Claude Code (Anthropic) | Claude Opus 5.5 y Claude Sonnet 5.5 | Septiembre-octubre de 2026 | Las cinco actividades anteriores. |
+| Claude Code (Anthropic) | Claude Opus 5.5 y Claude Sonnet 5.5 | Octubre de 2026 | Adecuación del informe al formato institucional, scripts y figuras del informe (`PAA/informe`) y redacción de los apartados del Entregable 3. |
+| Claude Code (Anthropic) | Claude Sonnet 5.5 | 23 oct. 2026 | Programación y prueba de la interfaz del prototipo (simulador, filtros y descarga CSV en las tablas, orden de las pestañas), configuración Docker del dashboard, revisión del prototipo frente a la guía y actualización del informe y de la documentación. |
+
+Pendiente de confirmar por el equipo: si se usó otra herramienta y los períodos exactos.
 
 ## Actividades no delegadas a la IA
 
