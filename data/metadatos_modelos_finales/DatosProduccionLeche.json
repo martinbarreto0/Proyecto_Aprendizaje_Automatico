@@ -1,0 +1,52 @@
+{
+  "tabla": "DatosProduccionLeche",
+  "origen": "C:\\Users\\Martin\\Desktop\\proyecto_bases_docker_modelo_final\\data\\processed\\SNIG\\DatosProduccionLeche.csv",
+  "salida": "C:\\Users\\Martin\\Desktop\\proyecto_bases_docker_modelo_final\\PAA\\data\\DatosProduccionLeche.csv",
+  "filas": 59127,
+  "filas_entrenamiento": 20936,
+  "filas_imputadas": {
+    "EspecializacionMGAPCodigo": 38191,
+    "TipoProduccionMGAPCodigo": 38191
+  },
+  "columnas_confianza": {
+    "EspecializacionMGAPCodigo": "EspecializacionMGAPConfianza",
+    "TipoProduccionMGAPCodigo": "TipoProduccionMGAPConfianza"
+  },
+  "modelos": {
+    "EspecializacionMGAPCodigo": {
+      "familia": "HistBoost",
+      "parametros": {
+        "exponente_pesos": 0.0,
+        "l2_regularization": 1.0,
+        "learning_rate": 0.1,
+        "max_iter": 250,
+        "max_leaf_nodes": 31,
+        "min_samples_leaf": 20
+      }
+    },
+    "TipoProduccionMGAPCodigo": {
+      "familia": "RF",
+      "parametros": {
+        "exponente_pesos": 0.25,
+        "max_depth": null,
+        "max_features": "sqrt",
+        "min_samples_leaf": 1,
+        "min_samples_split": 10,
+        "n_estimators": 200
+      }
+    }
+  },
+  "confianza": {
+    "EspecializacionMGAPCodigo": {
+      "media": 0.9842047605952434,
+      "minima": 0.35630744802907277,
+      "maxima": 0.9999290060319146
+    },
+    "TipoProduccionMGAPCodigo": {
+      "media": 0.9655926182637137,
+      "minima": 0.3589259202974165,
+      "maxima": 1.0
+    }
+  },
+  "nota_confianza": "Máxima probabilidad del método; en E1 equivale a la fracción de votos de la clase elegida. No son probabilidades calibradas."
+}

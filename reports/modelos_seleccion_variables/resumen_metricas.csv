@@ -1,0 +1,3 @@
+﻿modelo,particion,filas,mae_litros,rmse_litros,r2,wape_porcentaje
+Ridge_variables_seleccionadas,validacion,2431,429683.2988902443,1131801.5368571817,0.9066174874827185,37.73234871007723
+RandomForest_variables_seleccionadas,validacion,2431,287320.79517575563,906379.8030322978,0.9401112242721567,25.23088158936687

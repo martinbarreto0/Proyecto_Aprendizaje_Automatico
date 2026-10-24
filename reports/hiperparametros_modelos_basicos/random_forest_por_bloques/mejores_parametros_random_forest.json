@@ -1,0 +1,19 @@
+{
+  "modelo": "random_forest_hiperparametros_bloques",
+  "criterio_seleccion_cv": "menor MAE medio en cinco pliegues",
+  "configuraciones_consolidadas": 384,
+  "id_configuracion_ganadora": "7897cc149892b529",
+  "mejores_parametros": {
+    "modelo__bootstrap": false,
+    "modelo__criterion": "poisson",
+    "modelo__max_depth": 40,
+    "modelo__max_features": "sqrt",
+    "modelo__max_samples": null,
+    "modelo__min_samples_leaf": 1,
+    "modelo__min_samples_split": 2,
+    "modelo__n_estimators": 700
+  },
+  "mae_medio_cv": 266066.282981627,
+  "filas_test_reservado_sin_evaluar": 2431,
+  "test_evaluado": false
+}

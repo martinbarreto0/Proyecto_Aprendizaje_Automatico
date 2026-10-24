@@ -1,0 +1,64 @@
+{
+  "tabla": "DatosProduccionLecheEnEstablecimiento",
+  "origen": "C:\\Users\\Martin\\Desktop\\proyecto_bases_docker_modelo_final\\data\\processed\\SNIG\\DatosProduccionLecheEnEstablecimiento.csv",
+  "salida": "C:\\Users\\Martin\\Desktop\\proyecto_bases_docker_modelo_final\\PAA\\data\\DatosProduccionLecheEnEstablecimiento.csv",
+  "filas": 4789,
+  "filas_entrenamiento": 1699,
+  "filas_imputadas": {
+    "EspecializacionMGAPCodigo": 3090,
+    "TipoProduccionMGAPCodigo": 3090
+  },
+  "columnas_confianza": {
+    "EspecializacionMGAPCodigo": "EspecializacionMGAPConfianza",
+    "TipoProduccionMGAPCodigo": "TipoProduccionMGAPConfianza"
+  },
+  "modelos": {
+    "EspecializacionMGAPCodigo": {
+      "ensamble": {
+        "ensamble": "E1_voto_duro",
+        "miembros": [
+          "KNN",
+          "RF_suavizado",
+          "ExtraTrees_suavizado",
+          "HistBoost"
+        ],
+        "histboost": [
+          "HistBoost_leve",
+          0.25,
+          250
+        ],
+        "f1_macro_validacion": 1.0
+      }
+    },
+    "TipoProduccionMGAPCodigo": {
+      "ensamble": {
+        "ensamble": "E2_voto_blando",
+        "miembros": [
+          "KNN",
+          "RF_suavizado",
+          "ExtraTrees_suavizado",
+          "HistBoost"
+        ],
+        "histboost": [
+          "HistBoost_suavizado",
+          0.5,
+          250
+        ],
+        "f1_macro_validacion": 0.9523809523809524
+      }
+    }
+  },
+  "confianza": {
+    "EspecializacionMGAPCodigo": {
+      "media": 0.9807443365695793,
+      "minima": 0.5,
+      "maxima": 1.0
+    },
+    "TipoProduccionMGAPCodigo": {
+      "media": 0.9350307368584269,
+      "minima": 0.3227882860542624,
+      "maxima": 0.998841353143057
+    }
+  },
+  "nota_confianza": "Máxima probabilidad del método; en E1 equivale a la fracción de votos de la clase elegida. No son probabilidades calibradas."
+}

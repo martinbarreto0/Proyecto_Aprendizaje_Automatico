@@ -1,0 +1,12 @@
+{
+  "modelo": "ridge",
+  "criterio_seleccion_cv": "menor MAE medio en 5 pliegues de entrenamiento",
+  "mejores_parametros": {
+    "modelo__alpha": 30000,
+    "modelo__fit_intercept": true,
+    "modelo__solver": "auto",
+    "modelo__tol": 0.001
+  },
+  "filas_test_reservado_sin_evaluar": 2431,
+  "test_evaluado": false
+}

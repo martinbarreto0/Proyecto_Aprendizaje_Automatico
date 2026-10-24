@@ -1,0 +1,12 @@
+{
+  "bloque": 8,
+  "estado": "completo",
+  "terminado_utc": "2026-10-20T06:21:27.390630+00:00",
+  "duracion_segundos": 4527.864437299999,
+  "hilos": 6,
+  "configuraciones": 48,
+  "ajustes_cv": 240,
+  "mejor_id_local": "296b20decd3f16df",
+  "mejor_mae_cv_local": 271331.70266069256,
+  "test_evaluado": false
+}

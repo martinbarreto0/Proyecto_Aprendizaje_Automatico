@@ -1,0 +1,30 @@
+{
+  "variante": "top_12",
+  "variables": [
+    "vacas_secas",
+    "carga_ganadera",
+    "terneras_menos_1",
+    "vacas_ordene",
+    "total_bovinos_leche",
+    "UnidadesGanaderas",
+    "vaquillonas_1_2",
+    "toros",
+    "terneros_menos_1",
+    "vaquillonas_mas_2",
+    "Superficie",
+    "SuperficieGanadera"
+  ],
+  "criterio": "menor MAE medio en 5 pliegues de entrenamiento",
+  "mejores_parametros": {
+    "iterations": 1500,
+    "depth": 6,
+    "learning_rate": 0.03,
+    "l2_leaf_reg": 3,
+    "random_strength": 1
+  },
+  "mae_medio_cv": 281940.63560878375,
+  "id_configuracion": "4f0e83810cffe2d8",
+  "configuraciones": 108,
+  "test_evaluado": false,
+  "filas_test_reservado": 2431
+}

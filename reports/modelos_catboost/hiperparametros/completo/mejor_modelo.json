@@ -1,0 +1,34 @@
+{
+  "variante": "completo",
+  "variables": [
+    "DepartamentoCodigo",
+    "GiroCodigo",
+    "NaturalezaJuridicaCodigo",
+    "EstratoCodigo",
+    "total_bovinos_leche",
+    "toros",
+    "vacas_ordene",
+    "vacas_secas",
+    "vaquillonas_mas_2",
+    "vaquillonas_1_2",
+    "terneros_menos_1",
+    "terneras_menos_1",
+    "Superficie",
+    "UnidadesGanaderas",
+    "SuperficieGanadera",
+    "carga_ganadera"
+  ],
+  "criterio": "menor MAE medio en 5 pliegues de entrenamiento",
+  "mejores_parametros": {
+    "iterations": 1500,
+    "depth": 8,
+    "learning_rate": 0.08,
+    "l2_leaf_reg": 3,
+    "random_strength": 0
+  },
+  "mae_medio_cv": 270199.04268798407,
+  "id_configuracion": "cfd1cf97d505225f",
+  "configuraciones": 108,
+  "test_evaluado": false,
+  "filas_test_reservado": 2431
+}
