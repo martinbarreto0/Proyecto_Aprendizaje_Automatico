@@ -1,0 +1,48 @@
+{
+  "generado": "2026-10-22T08:30:49",
+  "modelo": "CatBoost con 12 variables seleccionadas (CatBoost top 12)",
+  "modelo_origen": "reports/modelos_catboost/seleccion_variables/modelo_top_12.cbm",
+  "variables_modelo": [
+    "vacas_secas",
+    "carga_ganadera",
+    "terneras_menos_1",
+    "vacas_ordene",
+    "total_bovinos_leche",
+    "UnidadesGanaderas",
+    "vaquillonas_1_2",
+    "toros",
+    "terneros_menos_1",
+    "vaquillonas_mas_2",
+    "Superficie",
+    "SuperficieGanadera"
+  ],
+  "prueba_incluida": false,
+  "filas_por_particion": {
+    "entrenamiento": 11342,
+    "validacion": 2431
+  },
+  "cortes_banda_litros": [
+    149329.0,
+    349928.0
+  ],
+  "umbral_desvio_p90": {
+    "baja": 0.9887448829873229,
+    "media": 0.7879176907620971,
+    "alta": 0.5498117212581701
+  },
+  "wape_validacion_por_banda": {
+    "baja": 60.750794959989385,
+    "media": 39.21455776298455,
+    "alta": 20.625495283620566
+  },
+  "filas_validacion_por_banda": {
+    "baja": 387,
+    "media": 508,
+    "alta": 1536
+  },
+  "predicciones_negativas_validacion": 4,
+  "mae_validacion_original": 250079.99068354667,
+  "mae_validacion": 250031.36857820794,
+  "wape_validacion": 21.956335775714244,
+  "max_diferencia_con_predicciones_originales": 1.862645149230957e-09
+}
